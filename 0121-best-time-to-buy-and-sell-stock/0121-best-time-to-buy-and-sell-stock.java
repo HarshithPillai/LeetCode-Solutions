@@ -6,8 +6,7 @@ class Solution {
         for(int i=1; i<prices.length; i++) {
             minYet=Math.min(minYet,prices[i]);
    
-            if(maxVal<prices[i]-minYet)
-                maxVal=prices[i]-minYet;
+            maxVal=Math.max(maxVal, prices[i]-minYet);
 
         }
         return maxVal;
