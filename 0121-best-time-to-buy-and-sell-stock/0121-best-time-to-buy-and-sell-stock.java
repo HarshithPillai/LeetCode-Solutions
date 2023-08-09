@@ -8,9 +8,9 @@ class Solution {
                 minYet=prices[i];
             } 
 
-            int curr = prices[i]-minYet;
-            if(maxVal<curr)
-                maxVal=curr;
+            
+            if(maxVal<prices[i]-minYet)
+                maxVal=prices[i]-minYet;
 
         }
         return maxVal;
