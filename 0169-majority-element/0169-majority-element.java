@@ -1,7 +1,7 @@
 class Solution {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
-        int max=0, maxVal=0;
+        int max=1, maxVal=nums[0];
         for(int i:nums) {
             if(map.containsKey(i)) {
                 int cur=map.get(i)+1;
@@ -11,10 +11,6 @@ class Solution {
                 }
                 map.put(i, cur);
             } else {
-                if(max==0) {
-                    max=1;
-                    maxVal=i;
-                }
                 map.put(i, 1);
             }
         }
