@@ -1,27 +1,37 @@
 class Solution {
-    public List<List<Integer>> fourSum(int[] nums, int target) {
-        Set<List<Integer>> setList = new HashSet<>();
-        int n=nums.length;
+    public List<List<Integer>> fourSum(int[] arr, int target) {
+        List<List<Integer>> list = new ArrayList<>();
+        int n=arr.length;
+        Arrays.sort(arr);
         for(int i=0; i<n-3; i++) {
-            for(int j=i+1; j<n-2; j++) {
-                Set<Long> set = new HashSet<>();
-                for(int k=j+1; k<n; k++) {
-                    //long fourth = (long)target-(long)nums[i]-(long)nums[j]-(long)nums[k];
-                    long fourth = target;
-                    fourth-=nums[i];
-                    fourth-=nums[j];
-                    fourth-=nums[k];
-                    if(set.contains(fourth)) {
+            if(i>0 && arr[i]==arr[i-1]) continue;
+            for(int j=i+1;j<n-2;j++) {
+                if(j>i+1 && arr[j]==arr[j-1]) continue;
+                int k=j+1;
+                int l=n-1;
+                while(k<l) {
+                    long total = arr[i];
+                    total+=arr[j];
+                    total+=arr[k];
+                    total+=arr[l];
+
+                    if(total==target) {
                         List<Integer> temp = new ArrayList<>();
-                        temp.add(nums[i]);temp.add(nums[j]);
-                        temp.add(nums[k]);temp.add((int)fourth);
-                        Collections.sort(temp);
-                        setList.add(temp);
+                        temp.add(arr[i]);temp.add(arr[j]);
+                        temp.add(arr[k]);temp.add(arr[l]);
+                        list.add(temp);
+                        k++;l--;
+                        //l--;
+                    } else if(target>total) {
+                        k++;
+                    } else {
+                        l--;
                     }
-                    set.add((long)nums[k]);
+                    while(k<l && k>j+1 && arr[k]==arr[k-1]) k++;
+                    while(l>0 && l<n-1 && arr[l]==arr[l+1]) l--;
                 }
             }
         }
-        return new ArrayList(setList);
+        return list;
     }
 }
