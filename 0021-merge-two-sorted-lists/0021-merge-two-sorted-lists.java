@@ -35,20 +35,17 @@ class Solution {
                 curr=curr.next;
             }
         }
-        if(curr!=null && curr1!=null) {
-            curr.next=curr1;
-            curr=curr.next;
-            curr1=curr1.next;
-        }
+        
         if(res==null && curr1!=null) res=curr1;
         
         if(curr!=null && curr2!=null) {
             curr.next=curr2;
-            curr=curr.next;
-            curr2=curr2.next;
         }
 
         if(res==null && curr2!=null) res=curr2;
+        if(curr!=null && curr1!=null) {
+            curr.next=curr1;
+        }
         
 
         return res;
