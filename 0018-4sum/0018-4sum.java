@@ -13,8 +13,8 @@ class Solution {
                     fourth-=nums[k];
                     if(set.contains(fourth)) {
                         List<Integer> temp = new ArrayList<>();
-                        temp.add((int)nums[i]);temp.add((int)nums[j]);
-                        temp.add((int)nums[k]);temp.add((int)fourth);
+                        temp.add(nums[i]);temp.add(nums[j]);
+                        temp.add(nums[k]);temp.add((int)fourth);
                         Collections.sort(temp);
                         setList.add(temp);
                     }
