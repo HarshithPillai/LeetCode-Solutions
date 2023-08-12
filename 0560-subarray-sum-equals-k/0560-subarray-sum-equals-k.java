@@ -10,9 +10,7 @@ class Solution {
             
             count+=(map.containsKey(sum-k))?map.get(sum-k):0;
 
-            if(map.containsKey(sum)) {
-                map.put(sum, map.get(sum)+1);
-            } else map.put(sum, 1);
+            map.put(sum, map.getOrDefault(sum, 0)+1);
         }
 
         for(Map.Entry<Integer, Integer> entry:map.entrySet()){
