@@ -41,7 +41,7 @@ class Solution {
         currRev=slow.next;
         fast=head;
         while(currRev!=null) {
-            System.out.println(currRev.val);
+            //System.out.println(currRev.val);
             if(fast.val!=currRev.val) return false;
             fast=fast.next;
             currRev=currRev.next;
