@@ -20,21 +20,31 @@ class Solution {
             slow=slow.next;
         }
 
+        // boolean evenFlag=false;
+        // if(fast.next!=null) evenFlag=true;
+
+        // if(evenFlag) {
+
+        // }
         ListNode currRev = slow.next;
+
         ListNode prev = null;
-        ListNode next = null;
+        ListNode next = currRev.next;
         while(currRev!=null) {
-            next=currRev.next;
             currRev.next=prev;
             prev=currRev;
             currRev=next;
+            if(next!=null)next=next.next;
+
         }
         slow.next=prev;
+        currRev=slow.next;
         fast=head;
-        while(prev!=null) {
-            if(fast.val!=prev.val) return false;
+        while(currRev!=null) {
+            System.out.println(currRev.val);
+            if(fast.val!=currRev.val) return false;
             fast=fast.next;
-            prev=prev.next;
+            currRev=currRev.next;
         }
         return true;
     }
