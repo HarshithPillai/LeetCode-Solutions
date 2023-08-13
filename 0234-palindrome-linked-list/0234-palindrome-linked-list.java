@@ -9,42 +9,36 @@
  * }
  */
 class Solution {
+    static ListNode reverse(ListNode ptr) {
+        ListNode pre=null;
+        ListNode nex=null;
+        while(ptr!=null) {
+            nex = ptr.next;
+            ptr.next = pre;
+            pre=ptr;
+            ptr=nex;
+        }
+        return pre;
+    }
     public boolean isPalindrome(ListNode head) {
+        if(head==null||head.next==null) return true;
+            
         ListNode slow = head;
         ListNode fast = head;
-
-        if(fast==null || fast.next==null) return true;
-
-        while(fast.next!=null && fast.next.next!=null) {
-            fast=fast.next.next;
-            slow=slow.next;
+            
+        while(fast.next!=null&&fast.next.next!=null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
-
-        // boolean evenFlag=false;
-        // if(fast.next!=null) evenFlag=true;
-
-        // if(evenFlag) {
-
-        // }
-        ListNode currRev = slow.next;
-        ListNode tail = slow;
-        ListNode prev = null;
-        ListNode next = currRev.next;
-        while(currRev!=null) {
-            currRev.next=prev;
-            prev=currRev;
-            currRev=next;
-            if(next!=null)next=next.next;
-
-        }
-        slow.next=prev;
-        currRev=slow.next;
-        fast=head;
-        while(currRev!=null) {
-            System.out.println(currRev.val);
-            if(fast.val!=currRev.val) return false;
-            fast=fast.next;
-            currRev=currRev.next;
+            
+        slow.next = reverse(slow.next);
+        slow = slow.next;
+        ListNode dummy = head;
+            
+        while(slow!=null) {
+            if(dummy.val != slow.val) return false;
+            dummy = dummy.next;
+            slow = slow.next;
         }
         return true;
     }
