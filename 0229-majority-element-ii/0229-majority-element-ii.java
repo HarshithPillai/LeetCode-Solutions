@@ -8,7 +8,7 @@ class Solution {
                 count1++;
             } else if(nums[i]==el2 && nums[i]!=el1) {
                 count2++;
-            } else if(count1==0 && nums[i]!=el2) {
+            } else if(count1==0) {
                 count1=1; el1=nums[i];
             } else if(count2==0 && nums[i]!=el1) {
                 count2=1; el2=nums[i];
