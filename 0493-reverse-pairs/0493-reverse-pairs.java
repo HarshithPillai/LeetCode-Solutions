@@ -30,7 +30,7 @@ class Solution {
         //countPairs(nums, s, m, e);
         j=m+1;
         for(i=s; i<=m; i++) {
-            while(j<=e && (long)nums[j]*2 < nums[i]) j++;
+            while(j<=e && (long)nums[j]*2 < (long)nums[i]) j++;
             this.res+=(j-(m+1));
         }
         
