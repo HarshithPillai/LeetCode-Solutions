@@ -2,14 +2,14 @@ class Solution {
 
     public  static int res;
 
-    public void countPairs(int[] nums, int s, int m, int e) {
-        int j=m+1;
-        for(int i=s; i<=m; i++) {
-            while(j<=e && (long)nums[j]*2 < nums[i]) j++;
-            this.res+=(j-(m+1));
-        }
+    // public void countPairs(int[] nums, int s, int m, int e) {
+    //     int j=m+1;
+    //     for(int i=s; i<=m; i++) {
+    //         while(j<=e && (long)nums[j]*2 < nums[i]) j++;
+    //         this.res+=(j-(m+1));
+    //     }
         
-    }
+    // }
 
     public void merge(int[] nums, int s, int m, int e) {
         int sizeA = m-s+1;
@@ -27,10 +27,15 @@ class Solution {
 
         
         int i=0, j=0, k=s;
-        countPairs(nums, s, m, e);
+        //countPairs(nums, s, m, e);
+        j=m+1;
+        for(i=s; i<=m; i++) {
+            while(j<=e && (long)nums[j]*2 < nums[i]) j++;
+            this.res+=(j-(m+1));
+        }
         
 
-        
+        i=0; j=0;
         while(i<sizeA && j<sizeB) {
             if(arrA[i]>arrB[j]) {
                 nums[k]=arrB[j];
