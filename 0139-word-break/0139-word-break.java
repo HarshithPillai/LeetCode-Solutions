@@ -12,7 +12,7 @@ class Solution {
             String b = curr.substring(len);
             if(a.equals(word)) {
                 if(recUtil(list, b, map)) {
-                    map.put(curr, true);
+                    //map.put(curr, true);
                     return true;
                 }
             }
