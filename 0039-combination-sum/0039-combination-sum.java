@@ -6,10 +6,15 @@ class Solution {
             return;
         }
 
-        recUtil(result, candidates, list, sum, target, ind+1);
-        list.add(candidates[ind]);
-        recUtil(result, candidates, list, sum+candidates[ind], target, ind);
-        list.remove(list.size()-1);
+        //recUtil(result, candidates, list, sum, target, ind+1);
+        for(int i=ind; i<candidates.length; i++) {
+            list.add(candidates[i]);
+            recUtil(result, candidates, list, sum+candidates[i], target, i);
+            list.remove(list.size()-1);
+        }
+        // list.add(candidates[ind]);
+        // recUtil(result, candidates, list, sum+candidates[ind], target, ind);
+        // list.remove(list.size()-1);
     }
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
