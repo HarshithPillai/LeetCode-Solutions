@@ -1,47 +1,40 @@
 class Solution {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-        int n1=nums1.length;
-        int n2=nums2.length;
-
-        PriorityQueue<List<Integer>> pq = new PriorityQueue<>((a,b)->Integer.compare(b.get(2),a.get(2)));
-        int l=0,r=0;
-        //List<Integer> temp = new ArrayList<>();
-        int sum=0;
-        // temp.add(l);temp.add(r);
-        // temp.add(sum);
-
-        // pq.add(temp);
-
         List<List<Integer>> result = new ArrayList<>();
-        for(int i=0; i<n1; i++) {
-            for(int j=0; j<n2; j++) {
-                sum=nums1[i]+nums2[j];
-                if(pq.size()<k) {
-                    List<Integer> t = new ArrayList<>();
-                    t.add(i);t.add(j);
-                    t.add(sum);
-                    pq.add(t);
-                } else if(sum<pq.peek().get(2)) {
-                    pq.poll();
-                    List<Integer> t = new ArrayList<>();
-                    t.add(i);t.add(j);
-                    t.add(sum);
-                    pq.add(t);
-                } else {
-                    break;
+        PriorityQueue<List<Integer>> pq = new PriorityQueue<>((p1, p2) -> {
+            return (nums1[p1.get(0)] + nums2[p1.get(1)]) - (nums1[p2.get(0)] + nums2[p2.get(1)]);
+        });
+        Set<List<Integer>> visited = new HashSet<>();
+        List<Integer> initial = createPair(0, 0);
+        pq.add(initial);
+        visited.add(initial);
+        while(!pq.isEmpty() && result.size() < k){
+            List<Integer> pair = pq.poll();
+            result.add(createPair(nums1[pair.get(0)], nums2[pair.get(1)]));
+            int currentFirst = pair.get(0);
+            int currentSecond = pair.get(1);
+            if(currentFirst + 1 < nums1.length){
+                List<Integer> next = createPair(currentFirst + 1, currentSecond);
+                if(visited.add(next)){
+                    pq.add(next);
+                }
+            }
+            if(currentSecond + 1 < nums2.length){
+                List<Integer> next = createPair(currentFirst, currentSecond + 1);
+                if(visited.add(next)){
+                    pq.add(next);
                 }
             }
         }
-        while(!pq.isEmpty()) {
-            k--;
-            List<Integer> t=new ArrayList<>();
-            List<Integer> top = pq.poll();
-            t.add(nums1[top.get(0)]);
-            t.add(nums2[top.get(1)]);
-            result.add(t);
-        }
 
         return result;
+    }
 
+    private List<Integer> createPair(int first, int second)
+    {
+        List<Integer> result = new ArrayList<>();
+        result.add(first);
+        result.add(second);
+        return result;
     }
 }
