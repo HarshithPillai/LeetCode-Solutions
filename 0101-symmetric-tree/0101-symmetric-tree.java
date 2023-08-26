@@ -14,27 +14,13 @@
  * }
  */
 class Solution {
-    List<Integer> preorder;
-    List<Integer> postorder;
-    public void recutil(TreeNode root) {
-        if(root==null) {
-            postorder.add(null);
-            preorder.add(null);
-            return;
-        }
-        preorder.add(root.val);
-        recutil(root.left);
-        recutil(root.right);
-        postorder.add(root.val);
+    public boolean isSymmetric(TreeNode root1,TreeNode root2) {
+        if(root1==null && root2==null) return true;
+        if(root1==null || root2==null) return false;
+        return (root1.val==root2.val) && isSymmetric(root1.left, root2.right) && isSymmetric(root1.right, root2.left);
     }
     public boolean isSymmetric(TreeNode root) {
-        preorder  = new ArrayList<>();
-        postorder = new ArrayList<>();
-        recutil(root);
-        int n=preorder.size();
-        for(int i=0; i<n; i++) {
-            if(preorder.get(i)!=postorder.get(n-i-1)) return false;
-        }
-        return true;
+        if(root==null) return false;
+        return isSymmetric(root.left, root.right);
     }
 }
