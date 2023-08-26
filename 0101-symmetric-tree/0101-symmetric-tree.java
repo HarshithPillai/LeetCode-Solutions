@@ -16,8 +16,8 @@
 class Solution {
     public void recutil(TreeNode root, List<Integer> preorder, List<Integer> postorder) {
         if(root==null) {
-            postorder.add(101);
-            preorder.add(101);
+            postorder.add(null);
+            preorder.add(null);
             return;
         }
         preorder.add(root.val);
