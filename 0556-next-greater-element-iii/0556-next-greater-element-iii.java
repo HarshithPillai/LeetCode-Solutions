@@ -32,9 +32,7 @@ class Solution {
         long ans=0;
         int exp=10;
         for(int num:list) {
-            //System.out.println(num);
-            ans*=exp;
-            ans+=num;
+            ans*=exp; ans+=num;
             if(ans>Integer.MAX_VALUE) return -1;
         }
         return (int)ans;
