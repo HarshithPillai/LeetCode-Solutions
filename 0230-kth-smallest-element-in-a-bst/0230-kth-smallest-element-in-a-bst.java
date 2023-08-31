@@ -14,17 +14,16 @@
  * }
  */
 class Solution {
-    int count=1;
+    int count=0;
     int ans=-1;
     public void recutil(TreeNode root, int k) {
         if(root==null) return;
         recutil(root.left, k);
+        count++;
         if(count==k) {
             ans=root.val;
-            count++;
             return;
         }
-        count++;
         recutil(root.right, k);
     }
     public int kthSmallest(TreeNode root, int k) {
