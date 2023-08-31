@@ -20,26 +20,26 @@ class Solution {
         int minyet;
         int maxyet;
         int sum;
-        Pair(boolean v, int mi, int mx, int s) {
-            valid=v; minyet=mi; maxyet=mx; sum=s;
+        Pair(int s) {
+            valid=true; minyet=s; maxyet=s; sum=s;
         }
     }
     public Pair recutil(TreeNode root) {
         Pair left=null; Pair right=null;
         if(root.left!=null) left  = recutil(root.left);
         if(root.right!=null) right = recutil(root.right);
-        Pair curr = new Pair(true,root.val,root.val,root.val);
+        Pair curr = new Pair(root.val);
         if(left!=null) {
-            curr.sum+=left.sum;
-            curr.maxyet=Math.max(root.val, left.maxyet);
-            curr.minyet=Math.min(root.val, left.minyet);
-            curr.valid=(left.valid && left.maxyet<root.val);
+            curr.sum   += left.sum;
+            curr.maxyet = Math.max(curr.maxyet, left.maxyet);
+            curr.minyet = Math.min(curr.minyet, left.minyet);
+            curr.valid  = (left.valid && left.maxyet<root.val);
         }
         if(right!=null) {
-            curr.sum+=right.sum;
-            curr.maxyet=Math.max(curr.maxyet, right.maxyet);
-            curr.minyet=Math.min(curr.minyet, right.minyet);
-            curr.valid = curr.valid && (right.valid && right.minyet>root.val);
+            curr.sum   += right.sum;
+            curr.maxyet = Math.max(curr.maxyet, right.maxyet);
+            curr.minyet = Math.min(curr.minyet, right.minyet);
+            curr.valid  = curr.valid && (right.valid && right.minyet>root.val);
         }
         if(curr.valid) {
             maxans=Math.max(curr.sum, maxans);
