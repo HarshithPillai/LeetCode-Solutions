@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    int maxans=Integer.MIN_VALUE;
+    int maxans=0;
     class Pair{
         boolean valid;
         int minyet;
@@ -28,33 +28,27 @@ class Solution {
         Pair left=null; Pair right=null;
         if(root.left!=null) left  = recutil(root.left);
         if(root.right!=null) right = recutil(root.right);
-        
-        if(left!=null && right!=null 
-                && left.valid && right.valid 
-                && root.val<right.minyet && root.val>left.maxyet) {
-
-            int curr=left.sum+right.sum+root.val;
-            maxans = Math.max(maxans, curr);
-            return new Pair(true, left.minyet, right.maxyet, curr);
+        Pair curr = new Pair(true,root.val,root.val,root.val);
+        if(left!=null) {
+            curr.sum+=left.sum;
+            curr.maxyet=Math.max(root.val, left.maxyet);
+            curr.minyet=Math.min(root.val, left.minyet);
+            curr.valid=(left.valid && left.maxyet<root.val);
         }
-        else if(left!=null && right==null && left.valid && root.val>left.maxyet) {
-            int curr=left.sum+root.val;
-            maxans = Math.max(maxans, curr);
-            return new Pair(true, left.minyet, root.val, curr);
+        if(right!=null) {
+            curr.sum+=right.sum;
+            curr.maxyet=Math.max(curr.maxyet, right.maxyet);
+            curr.minyet=Math.min(curr.minyet, right.minyet);
+            curr.valid = curr.valid && (right.valid && right.minyet>root.val);
         }
-        else if(right!=null && left==null && right.valid && root.val<right.minyet) {
-            int curr=right.sum+root.val;
-            maxans = Math.max(maxans, curr);
-            return new Pair(true, root.val, right.maxyet, curr);
-        } else if(left==null && right==null) {
-            maxans=Math.max(maxans, root.val);
-            return new Pair(true, root.val, root.val, root.val);
+        if(curr.valid) {
+            maxans=Math.max(curr.sum, maxans);
         }
-        return new Pair(false, Integer.MAX_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE);
+        return curr;
     }
     public int maxSumBST(TreeNode root) {
         if(root==null) return 0;
         recutil(root);
-        return Math.max(maxans,0);
+        return maxans;
     }
 }
