@@ -1,18 +1,15 @@
 class Solution {
     boolean helper(int[][] graph, int start, int[] colored) {
         Queue<Integer> q = new LinkedList<>();
-        int curr=0;
         q.add(start);
+        colored[start]=0;
         while(!q.isEmpty()) {
-            int top=q.poll();
-            if(colored[top]==0) curr=1;
-            else curr=0;
-            for(int i:graph[top]) {
+            int node = q.poll();
+            for(int i:graph[node]) {
                 if(colored[i]==-1) {
-                    colored[i]=curr;
                     q.add(i);
-                }
-                else if(colored[i]==colored[top]) return false;
+                    colored[i]=1-colored[node];
+                } else if(colored[i]==colored[node]) return false;
             }
         }
         return true;
