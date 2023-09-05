@@ -1,16 +1,10 @@
 class Solution {
-    boolean helper(int[][] graph, int start, int[] colored) {
-        Queue<Integer> q = new LinkedList<>();
-        q.add(start);
-        colored[start]=0;
-        while(!q.isEmpty()) {
-            int node = q.poll();
-            for(int i:graph[node]) {
-                if(colored[i]==-1) {
-                    q.add(i);
-                    colored[i]=1-colored[node];
-                } else if(colored[i]==colored[node]) return false;
-            }
+    boolean helper(int[][] graph, int start, int[] colored, int parentColor) {       
+        for(int i:graph[start]) {
+            if(colored[i]==-1) {
+                colored[i]=1-parentColor;
+                if(helper(graph, i, colored, colored[i])==false) return false;
+            } else if(colored[i]==parentColor) return false;
         }
         return true;
     }
@@ -21,7 +15,7 @@ class Solution {
         for(int i=0;i<n;i++) {
             if(colored[i]==-1) {
                 colored[i]=0;
-                if(helper(graph, i, colored)==false) return false;
+                if(helper(graph, i, colored, 0)==false) return false;
             }
         }
         return true;
