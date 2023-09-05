@@ -1,6 +1,5 @@
 class Solution {
     public boolean helper(int[][] graph, int node, int[] path, int[] visited, int[] check) {
-        
         path[node]=1;
         visited[node]=1;
         for(int num:graph[node]) {
@@ -11,7 +10,9 @@ class Solution {
             } else if(path[num]==1) return true;
         }
 
-        check[node]=1;
+        // This marks this node as safe node as all the paths 
+        // from this node have been checked for cycles and returned false
+        check[node]=1; 
         path[node]=0;
         return false;
     }
