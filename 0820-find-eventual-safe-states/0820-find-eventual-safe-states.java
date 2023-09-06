@@ -1,37 +1,28 @@
 class Solution {
+    public boolean helper(int[][] graph, int[] visited, int[] path, int node, int[] check) {
+        visited[node]=1;
+        path[node]=1;
+        for(int num:graph[node]) {
+            if(visited[num]==0) {
+                if(helper(graph, visited, path, num, check)) return true;
+            } else if(path[num]==1) return true;
+        }
+        path[node]=0;
+        check[node]=1;
+        return false;
+    }
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int n=graph.length;
-        Queue<Integer> q = new LinkedList<>();
-        List<List<Integer>> adjRev = new ArrayList<>();
-        for(int i=0; i<n; i++) {
-            adjRev.add(new ArrayList<>());
-        }
-        for(int i=0; i<n; i++) {
-            for(int num:graph[i]) {
-                adjRev.get(num).add(i);
-            }
-        }
+        int[] path = new int[n];
+        int[] check = new int[n];
+        int[] visited = new int[n];
         List<Integer> result = new ArrayList<>();
-        int[] indegree = new int[n];
         for(int i=0; i<n; i++) {
-            for(int num:adjRev.get(i)) {
-                indegree[num]++;
-            }
+            helper(graph, visited, path, i, check);
         }
-        for(int i=0;i<n;i++) {
-            if(indegree[i]==0) q.add(i);
+        for(int i=0; i<n; i++) {
+            if(check[i]==1) result.add(i);
         }
-        while(!q.isEmpty()) {
-            int top = q.poll();
-            result.add(top);
-            for(int num:adjRev.get(top)) {
-                indegree[num]--;
-                if(indegree[num]==0) {
-                    q.add(num);
-                }
-            }
-        }
-        Collections.sort(result);
         return result;
     }
 }
