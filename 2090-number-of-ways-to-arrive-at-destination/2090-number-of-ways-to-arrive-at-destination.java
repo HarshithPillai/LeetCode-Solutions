@@ -22,17 +22,17 @@ class Solution {
         while(!pq.isEmpty()) {
             Pair top=pq.poll();
             long dis = top.first;
-            long node= top.second;
-            for(Pair p:adj.get((int)node)) {
-                long newNode=p.first;
+            int node = (int)top.second;
+            for(Pair p:adj.get(node)) {
+                int newNode=(int) p.first;
                 long newNodeWeight=p.second;
                 long val=(dis+newNodeWeight);
-                if(val < dist[(int)newNode]) {
-                    ways[(int)newNode]=ways[(int)node];
-                    dist[(int)newNode]=val;
+                if(val < dist[newNode]) {
+                    ways[newNode]=ways[node];
+                    dist[newNode]=val;
                     pq.add(new Pair(val, newNode));
-                } else if(val == dist[(int)newNode]) {
-                    ways[(int)newNode]=(ways[(int)newNode]+ways[(int)node])%MOD;
+                } else if(val == dist[newNode]) {
+                    ways[newNode]=(ways[newNode]+ways[node])%MOD;
                     //pq.add(new Pair((dis+newNodeWeight), newNode));
                 }
             }
