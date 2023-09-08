@@ -4,8 +4,8 @@ class Solution {
         Pair(int d, int r, int c) { diff=d; row=r; col=c; }
     }
     public int minimumEffortPath(int[][] heights) {
-        //PriorityQueue<Pair> pq = new PriorityQueue<>((x,y)-> x.diff-y.diff);
-        Queue<Pair> pq = new LinkedList<>();
+        PriorityQueue<Pair> pq = new PriorityQueue<>((x,y)-> x.diff-y.diff);
+        //Queue<Pair> pq = new LinkedList<>();
         int r=heights.length;
         int c=heights[0].length;
         //used to store the minimum of the max effort of the paths to each cell
