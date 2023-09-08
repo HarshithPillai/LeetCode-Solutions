@@ -1,54 +1,44 @@
 class Solution {
-
-    class Tuple{
-        int distance;
-        int row;
-        int col;
-        public Tuple(int distance,int row, int col){
-            this.row = row;
-            this.distance = distance;
-            this.col = col; 
-        }
+    class Pair{
+        int diff, row, col;
+        Pair(int d, int r, int c) { diff=d; row=r; col=c; }
     }
-   
-    public int minimumEffortPath(int[][] grid) {
-        PriorityQueue<Tuple> pq = 
-        new PriorityQueue<Tuple>((x,y) -> x.distance - y.distance);
-        int r= grid.length;
-        int c= grid[0].length;
-        int[][] dist = new int[r][c];
-        for(int i=0;i<r;i++) {
+    public int minimumEffortPath(int[][] heights) {
+        //PriorityQueue<Pair> pq = new PriorityQueue<>((x,y)-> x.diff-y.diff);
+        Queue<Pair> pq = new LinkedList<>();
+        int r=heights.length;
+        int c=heights[0].length;
+        //used to store the minimum of the max effort of the paths to each cell
+        int diff[][] = new int[r][c];
+        for(int i=0;i<r; i++) {
             for(int j=0;j<c;j++) {
-                dist[i][j]=(int)(1e9);
+                diff[i][j]=(int)1e9;
             }
         }
-        dist[0][0]=0;
-        // Queue<Pair> pq = new LinkedList<>();
-        pq.add(new Tuple(0, 0, 0));
-        while(pq.size() != 0) {
-            Tuple top = pq.peek();
-            pq.remove();
-            int dis=top.distance;
-            int x=top.row;
-            int y=top.col;
-            //if(x == r-1 && y == c-1) return dis; 
-            // if(x==r-1 && y==c-1) return dis;
-            int[] dx={-1,0,1,0};
-            int[] dy={0,1,0,-1};
-            for(int i=0;i<4;i++) {
-                int row=x+dx[i];
-                int col=y+dy[i];
-                if(row>=0 && col>=0 && row<r && col<c) {
-                    int abs1=Math.max(dis,Math.abs(grid[x][y]-grid[row][col]));
-                   
-                    if(abs1<dist[row][col]) {
-                        dist[row][col]=abs1;
-                        pq.add(new Tuple(abs1,row,col));
+        diff[0][0]=0;
+        pq.add(new Pair(0,0,0));
+        int dx[] = {1,0,-1, 0};
+        int dy[] = {0,1, 0,-1};
+        while(!pq.isEmpty()) {
+            Pair top = pq.poll();
+            int dif = top.diff;
+            int row = top.row;
+            int col = top.col;
+            // try returning the first we get for target indices
+            //if(row==r-1 && col==c-1) return dif;
+            for(int i=0;i<4; i++) {
+                int newr = row+dx[i];
+                int newc = col+dy[i];
+                if(newr>=0 && newc>=0 && newr<r && newc<c) {
+                    int newEffort = Math.abs(heights[row][col]-heights[newr][newc]);
+                    newEffort = Math.max(newEffort, dif);
+                    if(newEffort < diff[newr][newc]) {
+                        diff[newr][newc] = newEffort;
+                        pq.add(new Pair(newEffort, newr, newc));
                     }
                 }
             }
         }
-        if(dist[r-1][c-1]==(int)(1e9)) return 0;
-        return dist[r-1][c-1];
+        return diff[r-1][c-1];
     }
 }
