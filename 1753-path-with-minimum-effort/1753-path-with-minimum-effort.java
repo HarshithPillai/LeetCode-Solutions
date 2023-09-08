@@ -25,7 +25,7 @@ class Solution {
             int row = top.row;
             int col = top.col;
             // try returning the first we get for target indices
-            //if(row==r-1 && col==c-1) return dif;
+            if(row==r-1 && col==c-1) return dif;
             for(int i=0;i<4; i++) {
                 int newr = row+dx[i];
                 int newc = col+dy[i];
