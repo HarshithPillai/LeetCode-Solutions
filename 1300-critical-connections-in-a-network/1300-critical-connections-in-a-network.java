@@ -7,17 +7,13 @@ class Solution {
         tim[node]=timer++;
         for(int nbr:adj.get(node)) {
             if(nbr==parent) continue;
-            //if(visited[nbr]==0) {
-                dfs(nbr, tim, low, visited, adj, result, node);
-                if(low[nbr]<low[node]) low[node]=low[nbr];
-                if(tim[node]<low[nbr]) {
-                    List<Integer> temp = new ArrayList<>();
-                    temp.add(node);temp.add(nbr);
-                    result.add(temp);
-                }
-            // } else {
-            //     if(low[nbr]<low[node]) low[node]=low[nbr];
-            // }
+            dfs(nbr, tim, low, visited, adj, result, node);
+            if(low[nbr]<low[node]) low[node]=low[nbr];
+            if(tim[node]<low[nbr]) {
+                List<Integer> temp = new ArrayList<>();
+                temp.add(node);temp.add(nbr);
+                result.add(temp);
+            }
         }
     }
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
@@ -28,7 +24,7 @@ class Solution {
         List<List<Integer>> result = new ArrayList<>();
         List<List<Integer>> adj = new ArrayList<>();
         for(int i=0;i<n;i++) {
-            //low[i] = (int)1e9;
+            low[i] = (int)1e9;
             adj.add(new ArrayList<>());
         }
         for(int i=0;i<connections.size();i++) {
