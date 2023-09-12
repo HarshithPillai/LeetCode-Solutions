@@ -1,41 +1,34 @@
 class Solution {
-    int timer=1;
-    public void dfs(int node, int[] t_in, int[] low, int[] visited, List<List<Integer>> adj, List<List<Integer>> result, int parent) {
-        visited[node]=1;
-        low[node]=timer;
-        t_in[node]=timer++;
+    int timer = 0;
+    public void dfs(int[] t_in, int[] low, int[] vis, List<List<Integer>> adj, int node, int parent, List<List<Integer>> result) {
+        vis[node]=1;
+        t_in[node]=timer;
+        low[node]=timer++;
         for(int nbr:adj.get(node)) {
-            if(nbr==parent) continue;
-            if(visited[nbr]==0) {    
-                dfs(nbr, t_in, low, visited, adj, result, node);
-                low[node] = Math.min(low[nbr], low[node]);
+            if(parent==nbr) continue;
+            if(vis[nbr]==0) {
+                dfs(t_in, low, vis, adj, nbr, node, result);
+                low[node]=Math.min(low[node], low[nbr]);
+                // check if this edge can be a critical bridge
                 if(t_in[node]<low[nbr]) {
                     List<Integer> temp = new ArrayList<>();
-                    temp.add(node);temp.add(nbr);
+                    temp.add(node); temp.add(nbr);
                     result.add(temp);
                 }
-            } else {
-                low[node] = Math.min(low[nbr], low[node]);
-            }
+            } else if(low[nbr]<low[node]) low[node]=low[nbr];
         }
     }
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
-        int t_in[] = new int[n];
-        int low[] = new int[n];
-        int visited[] = new int[n];
-
-        List<List<Integer>> result = new ArrayList<>();
+        int[] t_in = new int[n], low = new int[n], vis = new int[n];
         List<List<Integer>> adj = new ArrayList<>();
-        
         for(int i=0;i<n;i++) adj.add(new ArrayList<>());
-
         for(int i=0;i<connections.size();i++) {
-            adj.get(connections.get(i).get(0)).add(connections.get(i).get(1));
-            adj.get(connections.get(i).get(1)).add(connections.get(i).get(0));
+            int u=connections.get(i).get(0), v=connections.get(i).get(1);
+            adj.get(u).add(v); adj.get(v).add(u);
         }
+        List<List<Integer>> result = new ArrayList<>();
         
-        dfs(0, t_in, low, visited, adj, result, -1);//////////PARENT -1
-        
+        dfs(t_in, low, vis, adj, 0, -1, result);
         return result;
     }
 }
