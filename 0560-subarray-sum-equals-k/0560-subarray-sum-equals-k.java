@@ -13,10 +13,10 @@ class Solution {
             map.put(sum, map.getOrDefault(sum, 0)+1);
         }
 
-        for(Map.Entry<Integer, Integer> entry:map.entrySet()){
-            System.out.println(entry.getKey()+" "+entry.getValue());
+        // for(Map.Entry<Integer, Integer> entry:map.entrySet()){
+        //     System.out.println(entry.getKey()+" "+entry.getValue());
             
-        }
+        // }
 
         return count;
     }
