@@ -5,12 +5,11 @@ class Solution {
         dp[0]=1;
         for(int i=1;i<=n;i++) {
             for(int j=0;j<=amount;j++) {
-                int dont = dp[j];
                 int take = 0;
                 if(j-coins[i-1]>=0) {
-                    take = dp[j-coins[i-1]];
+                    dp[j] += dp[j-coins[i-1]];
                 }
-                dp[j]=take+dont;
+                //dp[j]=take+dont;
             }
         }
         return dp[amount];
