@@ -17,6 +17,7 @@ class Solution {
             s2 = (sum - target)/2
             now we only need to give the count of 
             how many times s2 is achieved in a partition/subset/subsequence
+            and (sum-target) needs to be even OTHERWISE (sum-target)/2 gives a decimal
         */
         if((sum-target)%2==1) return 0;
         sum = (sum-target)/2;
