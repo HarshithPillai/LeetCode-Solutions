@@ -20,9 +20,10 @@ class Solution {
             for(int j=1;j<=n2;j++) {
                 if(text1.charAt(i-1)==text2.charAt(j-1)) {
                     dp[i][j]=1+dp[i-1][j-1];
+                } else {
+                    int res = Math.max(dp[i-1][j], dp[i][j-1]);
+                    dp[i][j] = Math.max(res, dp[i][j]);
                 }
-                int res = Math.max(dp[i-1][j], dp[i][j-1]);
-                dp[i][j] = Math.max(res, dp[i][j]);
             }
         }
         return dp[n1][n2];
