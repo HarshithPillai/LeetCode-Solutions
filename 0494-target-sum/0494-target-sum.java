@@ -13,9 +13,7 @@ class Solution {
     }
     public int findTargetSumWays(int[] nums, int target) {
         int n = nums.length;
-        int sum=0;
-        for(int i:nums)sum+=i;
-        int[][] dp = new int[n+1][5000];
+        int[][] dp = new int[n+1][4001];
         for(int[] i:dp) Arrays.fill(i,-1);
         return helper(nums, target, nums.length-1,dp);
     }
