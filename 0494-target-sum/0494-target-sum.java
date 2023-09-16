@@ -14,6 +14,9 @@ class Solution {
             s2 = s1 - target      -(ii)
             add eqn. (i) and (ii):
             2*s2 = sum - target
+            s2 = (sum - target)/2
+            now we only need to give the count of 
+            how many times s2 is achieved in a partition/subset/subsequence
         */
         if((sum-target)%2==1) return 0;
         sum = (sum-target)/2;
