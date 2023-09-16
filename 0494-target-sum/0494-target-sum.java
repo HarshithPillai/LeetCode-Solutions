@@ -1,21 +1,24 @@
 class Solution {
-    int[][] dp;
-    public int helper(int[] nums, int target, int ind) {
-        if(ind==-1) {
-            if(target==0) return 1;
-            return 0;
-        }
-        //if(target<0) return 0;
-        if(dp[ind][target+2000]!=-1) return dp[ind][target+2000];
-        int add = helper(nums, target-nums[ind], ind-1);
-        int sub = helper(nums, target+nums[ind], ind-1);
-        dp[ind][target+2000] = add+sub;
-        return add+sub;
-    }
     public int findTargetSumWays(int[] nums, int target) {
         int n = nums.length;
-        dp = new int[n+1][4001];
-        for(int[] i:dp) Arrays.fill(i,-1);
-        return helper(nums, target, nums.length-1);
+        // count the number of partitions such that the difference between them is target
+        int sum = 0;
+        for(int i:nums) sum+=i;
+        if(sum<target) return 0;
+        if((sum-target)%2==1) return 0;
+        sum = (sum-target)/2;
+        int[][] dp = new int[n+1][sum+1];
+        dp[0][0]=1;
+        for(int i=1;i<=n;i++) {
+            for(int j=0;j<=sum;j++) {
+                int dont=dp[i-1][j];
+                int take=0;
+                if(j-nums[i-1]>=0) {
+                    take=dp[i-1][j-nums[i-1]];
+                }
+                dp[i][j]=take+dont;
+            }
+        }
+        return dp[n][sum];
     }
 }
