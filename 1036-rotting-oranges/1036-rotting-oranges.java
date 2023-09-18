@@ -5,8 +5,8 @@ class Solution {
     }
     public int orangesRotting(int[][] grid) {
         int rows=grid.length, cols=grid[0].length;
-        //PriorityQueue<Pair> q = new PriorityQueue<>((x,y)->x.level-y.level);
-        Queue<Pair> q = new LinkedList<>();
+        PriorityQueue<Pair> q = new PriorityQueue<>((x,y)->x.level-y.level);
+        //Queue<Pair> q = new LinkedList<>();
         int count=0;
         for(int i=0;i<rows;i++) {
             for(int j=0;j<cols;j++) {
