@@ -1,45 +1,39 @@
 class Solution {
-    class Pair {
-        int i, j, step;
-        Pair(int r, int c, int s) { i=r; j=c; step=s; }
+    class Pair{
+        int row,col,level;
+        Pair(int r, int c, int l) { row=r; col=c; level=l; }
     }
-
     public int orangesRotting(int[][] grid) {
-        int m=grid.length;
-        int n=grid[0].length;
-
+        int rows=grid.length, cols=grid[0].length;
+        //PriorityQueue<Pair> q = new PriorityQueue<>((x,y)->x.level-y.level);
         Queue<Pair> q = new LinkedList<>();
-        for(int i=0; i<m; i++) {
-            for(int j=0; j<n; j++) {
+        int count=0;
+        for(int i=0;i<rows;i++) {
+            for(int j=0;j<cols;j++) {
                 if(grid[i][j]==2) {
                     q.add(new Pair(i,j,0));
                 }
+                if(grid[i][j]==1) count++;
             }
         }
-        int maxtime=0;
+        int max=0;
         int[] dx={1,0,-1,0};
         int[] dy={0,1,0,-1};
         while(!q.isEmpty()) {
             Pair top = q.poll();
-            int i=top.i;
-            int j=top.j;
-            int step=top.step;
-            maxtime=step;
-            for(int k=0;k<4;k++) {
-                int r=i+dx[k], c=j+dy[k];
-                if(r>=0 && c>=0 && r<m && c<n && grid[r][c]==1) {
-                    grid[r][c]=2;
-                    q.add(new Pair(r,c,step+1));
+            int r=top.row;
+            int c=top.col;
+            int l=top.level;
+            if(l>max) max=l;
+            for(int i=0;i<4;i++) {
+                int newr=r+dx[i], newc=c+dy[i];
+                if(newr>=0 && newc>=0 && newr<rows && newc<cols && grid[newr][newc]==1) {
+                    grid[newr][newc]=2; count--;
+                    q.add(new Pair(newr,newc,l+1));
                 }
             }
         }
-
-        // check if any orange is still not rotten
-        for(int i=0; i<m; i++) {
-            for(int j=0; j<n; j++) {
-                if(grid[i][j]==1) return -1;
-            }
-        }
-        return maxtime;
+        if(count!=0) return -1;
+        return max;
     }
 }
