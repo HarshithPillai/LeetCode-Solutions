@@ -1,20 +1,20 @@
 class Solution {
     int n;
-    public int helper(int[] prices, int i, int canBuy, int cap, int[][][] dp) {
-        if(cap==0 || i==n) return 0;
-        if(dp[i][canBuy][cap]!=-1) return dp[i][canBuy][cap];
+    public int helper(int[] prices, int i, int cap, int[][] dp) {
+        if(cap==-1 || i==n) return 0;
+        if(dp[i][cap]!=-1) return dp[i][cap];
         int res=0;
-        if(canBuy==1) {
-            res=Math.max(helper(prices,i+1,1,cap,dp),-prices[i]+helper(prices,i+1,0,cap,dp));
+        if(cap%2==1) {
+            res=Math.max(helper(prices,i+1,cap,dp),-prices[i]+helper(prices,i+1,cap-1,dp));
         } else {
-            res=Math.max(helper(prices,i+1,0,cap,dp),helper(prices,i+1,1,cap-1,dp)+prices[i]);
+            res=Math.max(helper(prices,i+1,cap,dp),helper(prices,i+1,cap-1,dp)+prices[i]);
         }
-        return dp[i][canBuy][cap]=res;
+        return dp[i][cap]=res;
     }
     public int maxProfit(int[] prices) {
         n=prices.length;
-        int[][][] dp=new int[n+1][2][3];
-        for(int i=0;i<=n;i++) for(int[] j:dp[i]) Arrays.fill(j,-1);
-        return helper(prices,0,1,2,dp);
+        int[][] dp=new int[n+1][4];
+        for(int[] j:dp) Arrays.fill(j,-1);
+        return helper(prices,0,3,dp);
     }
 }
