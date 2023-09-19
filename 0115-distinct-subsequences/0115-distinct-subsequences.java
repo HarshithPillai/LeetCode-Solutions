@@ -1,33 +1,22 @@
 class Solution {
-    public int helper(char[] s, char[] t, int ind1, int ind2, int[][] dp) {
-        if(ind2<0) return 1;
-        if(ind1<0) return 0;
-        if(dp[ind1][ind2]!=-1) return dp[ind1][ind2];
-        int take=0,dont=0;
-        if(s[ind1]==t[ind2]) {
-            take=helper(s,t,ind1-1,ind2-1,dp);
+    public int helper(char[] sarr, char[] tarr, int i, int j,int[][] dp) {
+        if(j<0) return 1;
+        if(i<0) return 0;
+        if(dp[i][j]!=-1) return dp[i][j];
+        int take=0;
+        if(sarr[i]==tarr[j]) {
+            take = helper(sarr,tarr,i-1,j-1,dp);
         }
-        dont=helper(s,t,ind1-1,ind2,dp);
-        
-        return dp[ind1][ind2]=take+dont;
+        int dont = helper(sarr, tarr, i-1, j,dp);
+        int res = take+dont;
+        dp[i][j]=res;
+        return res;
     }
-    public int numDistinct(String s1, String t1) {
-        int n1=s1.length(),n2=t1.length();
-        char[] s=s1.toCharArray(),t=t1.toCharArray();
-        int[] dp=new int[n2+1];
-        //for(int[] i:dp) Arrays.fill(i,-1);
-        dp[0] = 1;
-        for(int i=1;i<=n1;i++) {
-            int[] dp1=new int[n2+1];
-            dp1[0]=1;
-            for(int j=1;j<=n2;j++) {
-                if(s[i-1]==t[j-1]){
-                    dp1[j]=dp[j-1];
-                }
-                dp1[j]+=dp[j];
-            }
-            dp=dp1;
-        }
-        return dp[n2];
+    public int numDistinct(String s, String t) {
+        int n1=s.length(),n2=t.length();
+        int[][] dp = new int[n1+1][n2+1];
+        for(int i[]:dp) Arrays.fill(i,-1);
+        char[] sarr=s.toCharArray(), tarr=t.toCharArray();
+        return helper(sarr,tarr,n1-1,n2-1,dp);
     }
 }
