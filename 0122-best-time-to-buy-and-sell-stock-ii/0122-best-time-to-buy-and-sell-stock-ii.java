@@ -14,8 +14,19 @@ class Solution {
     }
     public int maxProfit(int[] prices) {
         int n=prices.length;
-        int[][] dp = new int[n+1][2];
-        for(int[] i:dp) Arrays.fill(i,-1);
-        return helper(prices, 0, 1, n, dp);
+        //int[][] dp = new int[n+1][2];
+        int canbuyprev=0,canbuycurr=0,notbuyprev=0,notbuycurr=0;
+        for(int i=n-1;i>=0;i--) {
+            for(int j=0;j<2;j++) {
+                if(j==1){// can buy
+                    canbuycurr=Math.max(canbuyprev,notbuyprev-prices[i]);
+                } else {
+                    notbuycurr=Math.max(notbuyprev,prices[i]+canbuyprev);
+                }
+                canbuyprev=canbuycurr;
+                notbuyprev=notbuycurr;
+            }
+        }
+        return canbuycurr;
     }
 }
