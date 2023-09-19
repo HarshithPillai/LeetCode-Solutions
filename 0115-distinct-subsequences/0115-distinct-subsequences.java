@@ -14,17 +14,20 @@ class Solution {
     public int numDistinct(String s1, String t1) {
         int n1=s1.length(),n2=t1.length();
         char[] s=s1.toCharArray(),t=t1.toCharArray();
-        int[][] dp=new int[n1+1][n2+1];
+        int[] dp=new int[n2+1];
         //for(int[] i:dp) Arrays.fill(i,-1);
-        for (int j = 0; j <= n1; j++) dp[j][0] = 1;
+        dp[0] = 1;
         for(int i=1;i<=n1;i++) {
+            int[] dp1=new int[n2+1];
+            dp1[0]=1;
             for(int j=1;j<=n2;j++) {
                 if(s[i-1]==t[j-1]){
-                    dp[i][j]=dp[i-1][j-1];
+                    dp1[j]=dp[j-1];
                 }
-                dp[i][j]+=dp[i-1][j];
+                dp1[j]+=dp[j];
             }
+            dp=dp1;
         }
-        return dp[n1][n2];
+        return dp[n2];
     }
 }
