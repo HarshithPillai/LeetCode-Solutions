@@ -14,19 +14,16 @@ class Solution {
     }
     public int maxProfit(int[] prices) {
         int n=prices.length;
-        //int[][] dp = new int[n+1][2];
-        int canbuyprev=0,canbuycurr=0,notbuyprev=0,notbuycurr=0;
+        int[][] dp = new int[n+1][2];
         for(int i=n-1;i>=0;i--) {
             for(int j=0;j<2;j++) {
                 if(j==1){// can buy
-                    canbuycurr=Math.max(canbuyprev,notbuyprev-prices[i]);
+                    dp[i][j]=Math.max(dp[i+1][1],dp[i+1][0]-prices[i]);
                 } else {
-                    notbuycurr=Math.max(notbuyprev,prices[i]+canbuyprev);
+                    dp[i][j]=Math.max(dp[i+1][0],prices[i]+dp[i+1][1]);
                 }
-                canbuyprev=canbuycurr;
-                notbuyprev=notbuycurr;
             }
         }
-        return canbuycurr;
+        return dp[0][1];
     }
 }
