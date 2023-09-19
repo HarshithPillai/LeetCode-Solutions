@@ -15,7 +15,16 @@ class Solution {
         int n1=s1.length(),n2=t1.length();
         char[] s=s1.toCharArray(),t=t1.toCharArray();
         int[][] dp=new int[n1+1][n2+1];
-        for(int[] i:dp) Arrays.fill(i,-1);
-        return helper(s,t,n1-1,n2-1,dp);
+        //for(int[] i:dp) Arrays.fill(i,-1);
+        for (int j = 0; j <= n1; j++) dp[j][0] = 1;
+        for(int i=1;i<=n1;i++) {
+            for(int j=1;j<=n2;j++) {
+                if(s[i-1]==t[j-1]){
+                    dp[i][j]=dp[i-1][j-1];
+                }
+                dp[i][j]+=dp[i-1][j];
+            }
+        }
+        return dp[n1][n2];
     }
 }
