@@ -8,8 +8,8 @@ class Solution {
             take=helper(s,t,ind1-1,ind2-1,dp);
         }
         dont=helper(s,t,ind1-1,ind2,dp);
-        dp[ind1][ind2]=take+dont;
-        return take+dont;
+        
+        return dp[ind1][ind2]=take+dont;
     }
     public int numDistinct(String s1, String t1) {
         int n1=s1.length(),n2=t1.length();
