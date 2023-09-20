@@ -20,7 +20,7 @@ class Solution {
             }
         }
         int max=0;
-        for(int i=1;i<n-1;i++) {
+        for(int i=0;i<n;i++) {
             //System.out.println(lis[i]+" "+lds[i] +" "+ (lis[i]+lds[i]-1));
             if(lds[i]>1 && lis[i]>1)
                 max=Math.max(max,lis[i]+lds[i]-1);
