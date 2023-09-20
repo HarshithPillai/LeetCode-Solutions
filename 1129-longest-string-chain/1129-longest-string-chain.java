@@ -1,19 +1,21 @@
 class Solution {
     public boolean compare(String a, String b) {
         int diff=0;
-        int i=a.length()-1,j=b.length()-1;
-        if(j!=(i+1)) return false;
+        int n1=a.length(), n2=b.length();
+        int i=0, j=0;
+        if(n2!=(n1+1)) return false;
         char[] arr=a.toCharArray(), barr=b.toCharArray();
-        while(j>-1 && i>-1) {
+        while(i<n1 && j<n2) {
             if(arr[i]!=barr[j]) {
-                j--;diff++;
+                j++;diff++;
+                if(diff==2) return false;
             } else {
-                i--;j--;
+                i++;j++;
             }
         }
         
-        if(j==-1 && i==-1) return true;
-        if(i==-1 && j==0 && diff==0) return true;
+        if(j==n2 && i==n1) return true;
+        if(i==n1 && j==n2-1) return true;
         return false;
     }
     public int longestStrChain(String[] words) {
