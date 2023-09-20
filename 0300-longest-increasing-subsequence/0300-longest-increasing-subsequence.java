@@ -1,0 +1,20 @@
+class Solution {
+    public int helper(int[] nums, int i, int last, int n, int[][] dp) {
+        if(i==n) return 0;
+        if(last!=-1 && dp[i][last]!=-1) return dp[i][last];
+        int take=0;
+        if(last==-1 || nums[i]>nums[last]) {
+            take=1+helper(nums,i+1,i,n, dp);
+        }
+        int dont=helper(nums,i+1,last,n, dp);
+        int res = Math.max(take,dont);
+        if(last==-1) return res;
+        else return dp[i][last]=res;
+    }
+    public int lengthOfLIS(int[] nums) {
+        int n=nums.length;
+        int[][] dp = new int[n+1][n+1];
+        for(int[] i:dp) Arrays.fill(i,-1);
+        return helper(nums, 0, -1, n, dp);
+    }
+}
