@@ -15,16 +15,29 @@ class Solution {
         int n=nums.length;
         int[] dp = new int[n+1];
         //for(int[] i:dp) Arrays.fill(i,-1);
-        for(int i=n-1;i>=0;i--) {
-            int[] dp1 = new int[n+1];
-            for(int j=i-1;j>=-1;j--) {
-                if(j==-1||nums[i]>nums[j]) {
-                    dp1[j+1]=1+dp[i+1];
+        // for(int i=n-1;i>=0;i--) {
+        //     int[] dp1 = new int[n+1];
+        //     for(int j=i-1;j>=-1;j--) {
+        //         if(j==-1||nums[i]>nums[j]) {
+        //             dp1[j+1]=1+dp[i+1];
+        //         }
+        //         dp1[j+1]=Math.max(dp1[j+1],dp[j+1]);
+        //     }
+        //     dp=dp1;
+        // }
+        // return dp[0];
+        Arrays.fill(dp,1);
+        // each element in itself is an inceasing subsequence
+        int max=-1;
+        for(int i=0;i<n;i++) {
+            for(int j=0;j<i;j++) {
+                if(nums[i]>nums[j] && dp[i]<dp[j]+1) {
+                    dp[i]=dp[j]+1;
+                    max=Math.max(max,dp[i]);
                 }
-                dp1[j+1]=Math.max(dp1[j+1],dp[j+1]);
             }
-            dp=dp1;
         }
-        return dp[0];
+        if(max==-1) return 1;
+        return max;
     }
 }
