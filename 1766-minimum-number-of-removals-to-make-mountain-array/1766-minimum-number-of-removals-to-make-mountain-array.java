@@ -23,8 +23,7 @@ class Solution {
         for(int i=0;i<n;i++) {
             // because if 1 means the slope starts from there,
             // we need a point which already has 1 or more element before it
-            if(lds[i]>1 && lis[i]>1) 
-                max=Math.max(max,lis[i]+lds[i]-1);
+            if(lds[i]>1 && lis[i]>1) max=Math.max(max,lis[i]+lds[i]-1);
         }
         return n-max;
     }
