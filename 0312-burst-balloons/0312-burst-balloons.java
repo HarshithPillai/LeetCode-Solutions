@@ -15,10 +15,23 @@ class Solution {
     public int maxCoins(int[] nums) {
         int n=nums.length;
         dp=new int[n+2][n+2];
-        for(int[] i:dp) Arrays.fill(i,-1);
+        //for(int[] i:dp) Arrays.fill(i,-1);
         int[] newnums = new int[n+2];
         newnums[0]=1; newnums[n+1]=1;
         for(int i=1;i<=n;i++) newnums[i]=nums[i-1];
-        return helper(newnums, 1, n);
+
+        for(int s=n;s>=1;s--) {
+            for(int e=s;e<=n;e++) {
+                int res=0;
+                for(int k=s;k<=e;k++) {
+                    int current = newnums[s-1]*newnums[k]*newnums[e+1];
+                    int left    = dp[s][k-1];
+                    int right   = dp[k+1][e];
+                    res = Math.max(res, current + left + right);
+                }
+                dp[s][e] = res;
+            }
+        }
+        return dp[1][n];
     }
 }
