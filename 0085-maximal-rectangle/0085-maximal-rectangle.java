@@ -37,7 +37,6 @@ class Solution {
                 stack.push(j);
             }
         }
-        System.gc();
         return max;
     }
 }
