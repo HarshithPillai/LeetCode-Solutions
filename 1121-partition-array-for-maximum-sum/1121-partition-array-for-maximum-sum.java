@@ -25,6 +25,3 @@ class Solution {
         return dp[0];
     }
 }
-// TC: recursive: N^N
-// with memoization: N^2
-// SC: N for dp array + N for recursive stack space
