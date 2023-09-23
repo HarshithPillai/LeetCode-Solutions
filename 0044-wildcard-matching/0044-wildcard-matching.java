@@ -13,8 +13,7 @@ class Solution {
             return dp[i][j]=helper(arr,pat,i-1,j-1);
         } else if (pat[j]=='*') {
             return dp[i][j]=Math.max(helper(arr,pat,i,j-1),
-                            Math.max(helper(arr,pat,i-1,j),
-                                     helper(arr,pat,i-1,j-1)));
+                                    helper(arr,pat,i-1,j));
         }
         return dp[i][j]=0;
     }
