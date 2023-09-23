@@ -5,10 +5,11 @@ class Solution {
         if(total==0) return 0;
         if(dp[ind][canBuy][total]!=-1) return dp[ind][canBuy][total];
         int res=0;
+        int x=helper(prices,ind+1,0,total,n);
         if(canBuy==1) {
-            res=Math.max(helper(prices,ind+1,1,total,n),-prices[ind]+helper(prices,ind+1,0,total,n));
+            res=Math.max(helper(prices,ind+1,1,total,n),-prices[ind]+x);
         } else {
-            res=Math.max(helper(prices,ind+1,0,total,n), prices[ind]+helper(prices,ind+1,1,total-1,n));
+            res=Math.max(x, prices[ind]+helper(prices,ind+1,1,total-1,n));
         }
         return dp[ind][canBuy][total]=res;
     }
