@@ -1,19 +1,18 @@
 class Solution {
-    int n;
-    public int helper(int[] prices, int i, int canbuy, int[][] dp) {
-        if(i>=n) return 0;
-        if(dp[i][canbuy]!=-1) return dp[i][canbuy];
-        if(canbuy==1) {
-            return dp[i][canbuy] = Math.max(helper(prices,i+1,1,dp),helper(prices,i+1,0,dp)-prices[i]);
+    int[][] dp;
+    public int helper(int[] prices, int ind, int canBuy, int n) {
+        if(ind>=n) return 0;
+        if(dp[ind][canBuy]!=-1) return dp[ind][canBuy];
+        if(canBuy==1) {
+            return dp[ind][canBuy]=Math.max(helper(prices,ind+1,1,n),helper(prices,ind+1,0,n)-prices[ind]);
         } else {
-            return dp[i][canbuy] = Math.max(helper(prices,i+1,0,dp),helper(prices,i+2,1,dp)+prices[i]);
+            return dp[ind][canBuy]=Math.max(helper(prices,ind+1,0,n),prices[ind]+helper(prices,ind+2,1,n));
         }
     }
     public int maxProfit(int[] prices) {
-        // index,canbuy
-        n=prices.length;
-        int[][] dp = new int[n+1][2];
+        int n=prices.length;
+        dp=new int[n+1][2];
         for(int i[]:dp) Arrays.fill(i,-1);
-        return helper(prices,0,1,dp);
+        return helper(prices, 0, 1, n);
     }
 }
