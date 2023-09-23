@@ -4,14 +4,16 @@ class Solution {
         for(int i:nums) sum+=i;
         if(sum%2==1) return false;
         sum/=2;
-        boolean[][] dp = new boolean[n+1][sum+1];
-        dp[0][0]=true;
+        boolean[] dp = new boolean[sum+1];
+        dp[0]=true;
         for(int i=1;i<=n;i++) {
+            boolean[] dp1 = new boolean[sum+1];
             for(int j=0;j<=sum;j++) {
-                dp[i][j]=dp[i-1][j];
-                if(j-nums[i-1]>=0 && dp[i][j]==false)dp[i][j]=dp[i-1][j-nums[i-1]];
+                dp1[j]=dp[j];
+                if(j-nums[i-1]>=0 && dp1[j]==false)dp1[j]=dp[j-nums[i-1]];
             }
+            dp=dp1;
         }
-        return dp[n][sum];
+        return dp[sum];
     }
 }
