@@ -1,22 +1,21 @@
 class Solution {
-    public int helper(char[] sarr, char[] tarr, int i, int j,int[][] dp) {
-        if(j<0) return 1;
-        if(i<0) return 0;
+    int[][] dp;
+    public int helper(char[] a, char[] b, int i, int j) {
+        if(j==-1) return 1;
+        if(i==-1) return 0;
         if(dp[i][j]!=-1) return dp[i][j];
-        int take=0;
-        if(sarr[i]==tarr[j]) {
-            take = helper(sarr,tarr,i-1,j-1,dp);
+        int res=0;
+        if(a[i]==b[j]) {
+            res=helper(a,b,i-1,j-1);
         }
-        int dont = helper(sarr, tarr, i-1, j,dp);
-        int res = take+dont;
-        dp[i][j]=res;
-        return res;
+        res+=helper(a,b,i-1,j);
+        return dp[i][j]=res;
     }
     public int numDistinct(String s, String t) {
-        int n1=s.length(),n2=t.length();
-        int[][] dp = new int[n1+1][n2+1];
-        for(int i[]:dp) Arrays.fill(i,-1);
-        char[] sarr=s.toCharArray(), tarr=t.toCharArray();
-        return helper(sarr,tarr,n1-1,n2-1,dp);
+        char[] a=s.toCharArray(), b=t.toCharArray();
+        int n1=a.length,n2=b.length;
+        dp = new int[n1+1][n2+1];
+        for(int[] i:dp) Arrays.fill(i,-1);
+        return helper(a,b,n1-1,n2-1);
     }
 }
