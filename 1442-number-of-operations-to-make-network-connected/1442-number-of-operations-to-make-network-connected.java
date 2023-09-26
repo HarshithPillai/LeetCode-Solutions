@@ -41,7 +41,7 @@ class Solution {
         }
         int count_components = 0;
         for(int i=0;i<n;i++) {
-            if(ds.findUPar(i)==i) count_components++;
+            if(ds.parent.get(i)==i) count_components++;
         }
         if(count_components-1 > extraEdges) return -1;
         return count_components - 1;
