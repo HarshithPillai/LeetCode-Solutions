@@ -39,14 +39,13 @@ class Solution {
                 }
             }
         }
-        List<Set<String>> tem = new ArrayList<>();
-        for(int i=0;i<n;i++) tem.add(new TreeSet<>());
-        for(int i=0;i<n;i++) {
-            for(int j=1;j<accounts.get(i).size();j++) {
-                String curr = accounts.get(i).get(j);
-                int parent_node = ds.findUPar(map.get(curr));
-                tem.get(parent_node).add(curr);
-            }
+        List<List<String>> tem = new ArrayList<>();
+        for(int i=0;i<n;i++) tem.add(new ArrayList<>());
+        for(Map.Entry<String,Integer> entry:map.entrySet()) {
+            String email = entry.getKey();
+            int node = entry.getValue();
+            int parent_node = ds.findUPar(node);
+            tem.get(parent_node).add(email);
         }
         List<List<String>> res = new ArrayList<>();
         for(int i=0;i<n;i++) {
@@ -56,6 +55,7 @@ class Solution {
                 for(String str:tem.get(i)) {
                     t.add(str);
                 }
+                Collections.sort(t);
                 t.add(0,first);
                 res.add(t);
             }
