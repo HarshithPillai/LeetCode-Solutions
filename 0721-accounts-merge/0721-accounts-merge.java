@@ -1,69 +1,69 @@
 class Solution {
     class DisjointSet {
-        List<Integer> size=new ArrayList<>(), parent=new ArrayList<>();
+        List<Integer> parent = new ArrayList<>(), size = new ArrayList<>();
         DisjointSet(int n) {
             for(int i=0;i<=n;i++) {
-                size.add(1);
-                parent.add(i);
+                parent.add(i); size.add(1);
             }
         }
         public int findUPar(int u) {
             if(parent.get(u)==u) return u;
-            int ulp = findUPar(parent.get(u));
-            parent.set(u, ulp);
-            return ulp;
+            int ulp_u = findUPar(parent.get(u));
+            parent.set(u, ulp_u);
+            return ulp_u;
         }
         public void unionBySize(int u, int v) {
-            int ulp_u = findUPar(u);
-            int ulp_v = findUPar(v);
-            if(ulp_v == ulp_u) return;
-            if(size.get(ulp_u)<size.get(ulp_v)) {
-                size.set(ulp_v, size.get(ulp_u)+size.get(ulp_v));
-                parent.set(ulp_u, ulp_v);
-            } else {
+            int ulp_u = findUPar(u), ulp_v = findUPar(v);
+            if(ulp_u == ulp_v) return;
+            if(size.get(ulp_u)>size.get(ulp_v)) {
                 parent.set(ulp_v, ulp_u);
-                size.set(ulp_u, size.get(ulp_u)+size.get(ulp_v));
+                size.set(ulp_u, size.get(ulp_u) + size.get(ulp_v));
+            } else {
+                parent.set(ulp_u, ulp_v);
+                size.set(ulp_v, size.get(ulp_u) + size.get(ulp_v));
             }
         }
     }
-    public List<List<String>> accountsMerge(List<List<String>> adj) {
-        int n=adj.size();
-        DisjointSet ds = new DisjointSet(n);
-        // different rows with some common ids between them
-        // merge all the rows who have a single email id in common
-        // create a map<String, Int> key is email and value is the row it was in
-        // if an email is found that is not in map, add it with the row number
-        // else if found in map, then add then union the current row with the row in the map
-        
+    public List<List<String>> accountsMerge(List<List<String>> accounts) {
         Map<String, Integer> map = new HashMap<>();
+        int n=accounts.size();
+        DisjointSet ds = new DisjointSet(n);
         for(int i=0;i<n;i++) {
-            for(int j=1;j<adj.get(i).size();j++) {
-                String str=adj.get(i).get(j);
-                if(map.containsKey(str)) {
-                    ds.unionBySize(i, map.get(str));
+            for(int j=1;j<accounts.get(i).size();j++) {
+                String curr = accounts.get(i).get(j);
+                if(map.containsKey(curr)) {
+                    int parent_node = map.get(curr);
+                    ds.unionBySize(i, parent_node);
                 } else {
-                    map.put(str, i);
+                    map.put(curr,i);
                 }
             }
         }
-        List<List<String>> temp = new ArrayList<>();
-        for(int i=0;i<n;i++) temp.add(new ArrayList<>());
-        for(Map.Entry<String, Integer> entry:map.entrySet()) {
-            String str = entry.getKey();
-            int row = entry.getValue();
-            int ulp = ds.findUPar(row);
-            temp.get(ulp).add(str);
-        }
-        List<List<String>> result = new ArrayList<>();
+        List<Set<String>> tem = new ArrayList<>();
+        for(int i=0;i<n;i++) tem.add(new TreeSet<>());
         for(int i=0;i<n;i++) {
-            if(temp.get(i).size()>0) {
-                List<String> t = new ArrayList<>();
-                Collections.sort(temp.get(i));
-                t.add(adj.get(i).get(0));
-                for(String str:temp.get(i)) t.add(str);
-                result.add(t);
+            for(int j=1;j<accounts.get(i).size();j++) {
+                String curr = accounts.get(i).get(j);
+                int parent_node = ds.findUPar(map.get(curr));
+                tem.get(parent_node).add(curr);
             }
         }
-        return result;
+        List<List<String>> res = new ArrayList<>();
+        for(int i=0;i<n;i++) {
+            if(tem.get(i).size()>0) {
+                String first = accounts.get(i).get(0);
+                List<String> t = new ArrayList<>();
+                for(String str:tem.get(i)) {
+                    t.add(str);
+                }
+                t.add(0,first);
+                res.add(t);
+            }
+        }
+        return res;
+        /**
+            go through each email id and put them into their respective id's in map
+            <emailId, rowNo>
+        */
     }
 }
