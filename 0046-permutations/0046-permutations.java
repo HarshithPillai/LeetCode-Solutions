@@ -1,35 +1,24 @@
 class Solution {
-
-    public  void recPer(int[] nums, List<List<Integer>> ans, int ind) {
-        int size = nums.length;
-        if(ind==size-1) {
-            List<Integer> curr = new ArrayList<Integer>();
-            for(int i=0; i<size; i++) {
-                curr.add(nums[i]);
-            }
-            ans.add(curr);
+    public void helper(List<List<Integer>> res, List<Integer> curr, int ind) {
+        if(ind==-1) {
+            res.add(new ArrayList<>(curr));
             return;
         }
-        for(int i=ind; i<size; i++) {
-            int a=nums[ind];
-            nums[ind]=nums[i];
-            nums[i]=a;
-            
-            recPer(nums, ans, ind+1);
-
-            a=nums[ind];
-            nums[ind]=nums[i];
-            nums[i]=a;
+        for(int i=ind; i>=0; i--) {
+            int temp = curr.get(ind);
+            curr.set(ind, curr.get(i));
+            curr.set(i, temp);
+            helper(res,curr,ind-1);
+            temp = curr.get(ind);
+            curr.set(ind, curr.get(i));
+            curr.set(i, temp);
         }
     }
-
     public List<List<Integer>> permute(int[] nums) {
-
-        List<List<Integer>> ans = new ArrayList<>();
-
-        recPer(nums, ans, 0);
-
-        return ans;
-        
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> curr = new ArrayList<>();
+        for(int i:nums) curr.add(i);
+        helper(res, curr, nums.length-1);
+        return res;
     }
 }
