@@ -1,41 +1,31 @@
 class Solution {
-    public boolean isPalindrome(String s) {
-        int i=0; int j=s.length()-1;
-        while(i<=j) {
-            if(s.charAt(i)!=s.charAt(j)) return false;
-            i++;j--;
+    String st;
+    int n;
+    public boolean isPossible(int s, int e) {
+        while(s<e) {
+            if(st.charAt(s) != st.charAt(e)) return false;
+            s++; e--;
         }
         return true;
     }
-
-    public void recUtil(List<List<String>> result, List<String> list, String curr, String s) {
-        
-        if(0==curr.length()) {
-            //if(isPalindrome(str.peek()));
-            result.add(new ArrayList<>(list));
+    public void helper(List<List<String>> res, int s, int e, List<String> curr) {
+        if(s==n) {
+            res.add(new ArrayList(curr));
             return;
         }
-        for(int i=0;i<curr.length(); i++) {
-            String a=curr.substring(0,i+1);
-            String b=curr.substring(i+1);
-            if(isPalindrome(a)) {
-                list.add(a);
-                recUtil(result, list, b, s);
-                list.remove(list.size()-1);
-            }
+        if(e==n) return;
+        helper(res, s, e+1, curr);
+        if(isPossible(s,e)) {
+            curr.add(st.substring(s, e+1));
+            helper(res, e+1, e+1, curr);
+            curr.remove(curr.size()-1);
         }
-        
     }
-
-    public List<List<String>> partition(String s) {
-        int n=s.length();
-        
-        List<List<String>> result = new ArrayList<>();
-        List<String> list = new ArrayList<>();
-        
-        recUtil(result, list, s, s);
-
-        return result;
-
+    public List<List<String>> partition(String str) {
+        List<List<String>> res = new ArrayList<>();
+        st = str;
+        n = str.length();
+        helper(res, 0, 0, new ArrayList<>());
+        return res;
     }
 }
