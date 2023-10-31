@@ -14,35 +14,26 @@
  * }
  */
 class Solution {
-    class Pair{
-        int level;
-        TreeNode root;
-        Pair(int l, TreeNode r) {
-            level=l; root=r;
-        }
+    class Pair {
+        int first;
+        TreeNode second;
+        Pair(int f, TreeNode s) { first = f; second = s;}
     }
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> result = new ArrayList<>();
-        if(root==null) return result;
         Queue<Pair> q = new LinkedList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        if(root==null) return res;
         q.add(new Pair(1, root));
         while(!q.isEmpty()) {
-            Pair top = q.poll();
-            int level = top.level;
-            TreeNode curr = top.root;
-
-            if(result.size()<level) {
-                List<Integer> temp = new ArrayList<>();
-                temp.add(curr.val);
-                result.add(temp);
-            } else {
-                result.get(level-1).add(curr.val);
-            }
-
-            if(curr.left!=null) q.add(new Pair(level+1, curr.left));
-            if(curr.right!=null) q.add(new Pair(level+1, curr.right));
+           Pair top = q.poll();
+           int level = top.first;
+           TreeNode node = top.second;
+           if(res.size()<level) res.add(new ArrayList<>());
+           res.get(level-1).add(node.val);
+           
+           if(node.left !=null) q.add(new Pair(level+1, node.left));
+           if(node.right!=null) q.add(new Pair(level+1, node.right));
         }
-
-        return result;
+        return res;
     }
 }
