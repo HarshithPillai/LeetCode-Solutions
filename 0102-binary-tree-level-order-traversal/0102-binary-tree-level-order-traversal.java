@@ -17,22 +17,24 @@ class Solution {
     class Pair {
         int first;
         TreeNode second;
-        Pair(int f, TreeNode s) { first = f; second = s;}
+        Pair(int f, TreeNode s) { first = f; second = s; }
     }
     public List<List<Integer>> levelOrder(TreeNode root) {
-        Queue<Pair> q = new LinkedList<>();
+        Queue<TreeNode> q = new LinkedList<>();
         List<List<Integer>> res = new ArrayList<>();
         if(root==null) return res;
-        q.add(new Pair(1, root));
+        q.add(root);
+        int curr = 0;
         while(!q.isEmpty()) {
-           Pair top = q.poll();
-           int level = top.first;
-           TreeNode node = top.second;
-           if(res.size()<level) res.add(new ArrayList<>());
-           res.get(level-1).add(node.val);
-           
-           if(node.left !=null) q.add(new Pair(level+1, node.left));
-           if(node.right!=null) q.add(new Pair(level+1, node.right));
+            int size = q.size();
+            List<Integer> list = new ArrayList<>();
+            for(int i=0; i<size; i++) {
+                TreeNode node = q.poll();
+                list.add(node.val);
+                if(node.left !=null) q.add(node.left);
+                if(node.right!=null) q.add(node.right);
+            }
+            res.add(list);
         }
         return res;
     }
