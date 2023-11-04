@@ -14,58 +14,44 @@
  * }
  */
 class Solution {
-    class Pair{
-        int level;
-        int depth;
-        TreeNode root;
-        Pair(int l, int d, TreeNode r) {
-            level = l; depth = d; root = r;
+    void dfs(Map<Integer, Map<Integer, PriorityQueue<Integer>>> map, TreeNode root, int level, int dist) {
+        if(root==null) return;
+        
+        if(map.containsKey(level)) {
+            Map<Integer, PriorityQueue<Integer>> entry = map.get(level);
+            if(entry.containsKey(dist)) {
+                entry.get(dist).add(root.val);
+            } else {
+                PriorityQueue<Integer> pq = new PriorityQueue<>();
+                pq.add(root.val);
+                entry.put(dist, pq);
+            }
+        } else {
+            Map<Integer, PriorityQueue<Integer>> entry = new TreeMap<>();
+            PriorityQueue<Integer> pq = new PriorityQueue<>();
+            pq.add(root.val);
+            entry.put(dist, pq);
+            map.put(level, entry);
         }
+        dfs(map, root.left, level-1, dist+1);
+        dfs(map, root.right, level+1, dist+1);
     }
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         Map<Integer, Map<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
-        Queue<Pair> q = new LinkedList<Pair>();
-        List<List<Integer>> result = new ArrayList<>();
-
-        q.add(new Pair(0,0,root));
-        while(!q.isEmpty()) {
-            Pair top = q.poll();
-            int level = top.level;
-            int depth = top.depth;
-            TreeNode curr = top.root;
-            if(curr.left!=null) q.add(new Pair(level-1, depth+1,curr.left));
-            if(curr.right!=null) q.add(new Pair(level+1, depth+1,curr.right));
-
-            if(!map.containsKey(level)) {
-                Map<Integer, PriorityQueue<Integer>> tempMap = new TreeMap<>();
-                PriorityQueue<Integer> pq = new PriorityQueue<>();
-                pq.add(curr.val);
-                tempMap.put(depth, pq);
-                map.put(level, tempMap);
-            } else {
-                Map<Integer, PriorityQueue<Integer>> tempMap = map.get(level);
-                if(!tempMap.containsKey(depth)) {
-                    PriorityQueue<Integer> pq = new PriorityQueue<>();
-                    pq.add(curr.val);
-                    tempMap.put(depth, pq);
-                    map.put(level, tempMap);
-                } else {
-                    PriorityQueue<Integer> pq = tempMap.get(depth);
-                    pq.add(curr.val);
-                    tempMap.put(depth, pq);
-                    map.put(level, tempMap);
+        List<List<Integer>> res = new ArrayList<>();
+        
+        dfs(map, root, 0, 0);
+        
+        for(Map<Integer, PriorityQueue<Integer>> mapentry:map.values()) {
+            List<Integer> temp = new ArrayList<>();
+            for(PriorityQueue<Integer> pq: mapentry.values()) {
+                while(!pq.isEmpty()) {
+                    temp.add(pq.poll());
                 }
             }
-        }
 
-        for(Map<Integer, PriorityQueue<Integer>> entry:map.values()) {
-            List<Integer> list = new ArrayList<>();
-            for(PriorityQueue<Integer> priority:entry.values()) {
-                while(!priority.isEmpty()) list.add(priority.poll());
-            }
-            result.add(list);
+            res.add(temp);
         }
-
-        return result;
+        return res;
     }
 }
