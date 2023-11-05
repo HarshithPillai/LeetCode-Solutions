@@ -26,7 +26,7 @@ class Solution {
             Pair p = map.get(depth);
             if(index<p.min) p.min=index;
             else if(index>p.max) p.max=index;
-            map.put(depth, p);
+            //map.put(depth, p);
         }
         dfs(root.left, map, index*2, depth+1);
         dfs(root.right,map, index*2+1,depth+1);
