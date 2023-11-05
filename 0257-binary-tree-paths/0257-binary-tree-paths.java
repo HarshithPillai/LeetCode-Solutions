@@ -14,18 +14,26 @@
  * }
  */
 class Solution {
-    public void dfs(TreeNode node, String path, List<String> list) {
-        if(node.right==null && node.left==null) {
-            list.add(path);
-            return;
-        }
-        
-        if(node.left!=null) dfs(node.left, path+"->"+node.left.val, list);
-        if(node.right!=null) dfs(node.right, path+"->"+node.right.val, list);
-    }
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> res = new ArrayList<>();
-        if(root!=null) dfs(root, ""+root.val, res);
+        StringBuilder sb = new StringBuilder();
+        helper(res, root, sb);
         return res;
+    }
+    
+    private void helper(List<String> res, TreeNode root, StringBuilder sb) {
+        if(root == null) {
+            return;
+        }
+        int len = sb.length();
+        sb.append(root.val);
+        if(root.left == null && root.right == null) {
+            res.add(sb.toString());
+        } else {
+            sb.append("->");
+            helper(res, root.left, sb);
+            helper(res, root.right, sb);
+        }
+        sb.setLength(len);
     }
 }
