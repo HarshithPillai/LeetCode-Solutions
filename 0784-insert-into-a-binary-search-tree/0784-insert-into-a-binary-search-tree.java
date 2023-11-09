@@ -17,7 +17,7 @@ class Solution {
     public TreeNode insertIntoBST(TreeNode root, int val) {
         TreeNode leaf = root;
         if(root==null) return root=new TreeNode(val);
-        while(!(leaf.left==null && leaf.right==null)) {
+        while(true) {
             if(val>leaf.val) {
                 if(leaf.right!=null) leaf = leaf.right;
                 else break;
