@@ -14,12 +14,31 @@
  * }
  */
 class Solution {
-    public boolean rec(TreeNode root, long min, long max) {
-        if(root==null) return true;
-        if(root.val<=min || root.val>=max) return false;
-        return (rec(root.left, min, (long)root.val)) && (rec(root.right, (long)root.val, max));
+    boolean flag = true;
+    class Pair {
+        int min, max;
+        Pair(int i, int x) { min=i; max=x; }
+    }
+    public Pair helper(TreeNode node) {
+        if(node.left==null && node.right==null) {
+            return new Pair(node.val, node.val);
+        }
+        Pair left, right;
+        int min = node.val, max = node.val;
+        if(node.left != null) {
+            left = helper(node.left);
+            if(left.max >= node.val) flag = false;
+            min=Math.min(min, left.min);
+        }
+        if(node.right!=null) {
+            right = helper(node.right);
+            if(right.min <= node.val) flag = false;
+            max=Math.max(max, right.max);
+        }
+        return new Pair(min, max);
     }
     public boolean isValidBST(TreeNode root) {
-        return rec(root, Long.MIN_VALUE, Long.MAX_VALUE);
+        helper(root);
+        return flag;        
     }
 }
