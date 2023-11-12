@@ -14,41 +14,39 @@
  * }
  */
 class Solution {
-    int maxans=0;
-    class Pair{
-        boolean valid;
-        int minyet;
-        int maxyet;
-        int sum;
-        Pair(int s) {
-            valid=true; minyet=s; maxyet=s; sum=s;
-        }
+    int max=0;
+    class Return{
+        int correct,size, min, max;
+        Return(int c, int s, int i, int x) { correct=c; size=s; min=i; max=x; }
     }
-    public Pair recutil(TreeNode root) {
-        Pair left=null; Pair right=null;
-        if(root.left!=null) left  = recutil(root.left);
-        if(root.right!=null) right = recutil(root.right);
-        Pair curr = new Pair(root.val);
-        if(left!=null) {
-            curr.sum   += left.sum;
-            curr.maxyet = Math.max(curr.maxyet, left.maxyet);
-            curr.minyet = Math.min(curr.minyet, left.minyet);
-            curr.valid  = (left.valid && left.maxyet<root.val);
+    public Return dfs(TreeNode node) {
+        if(node.left==null && node.right==null) {
+            max = Math.max(node.val, max);
+            return new Return(1, node.val, node.val, node.val);
         }
-        if(right!=null) {
-            curr.sum   += right.sum;
-            curr.maxyet = Math.max(curr.maxyet, right.maxyet);
-            curr.minyet = Math.min(curr.minyet, right.minyet);
-            curr.valid  = curr.valid && (right.valid && right.minyet>root.val);
+        Return left=null;
+        Return right=null;
+        if(node.left !=null) left = dfs(node.left);
+        if(node.right!=null) right= dfs(node.right);
+        
+        if((left!=null && left.correct==0) || (right!=null && right.correct==0)) {
+            return new Return(0, 0, 0, 0);
+        } else {
+            if((left!=null && left.max >= node.val) || (right!=null && right.min <= node.val)) {
+                return new Return(0, 0, 0, 0);
+            } else {
+                int size = node.val;
+                if(left!=null) size+=left.size;
+                if(right!=null) size+=right.size;
+                max = Math.max(max, size);
+                if(left!=null && right!=null) return new Return(1, size, left.min, right.max);
+                else if(left!=null) return new Return(1, size, left.min, node.val);
+                else return new Return(1, size, node.val, right.max);
+            }
         }
-        if(curr.valid) {
-            maxans=Math.max(curr.sum, maxans);
-        }
-        return curr;
     }
     public int maxSumBST(TreeNode root) {
-        if(root==null) return 0;
-        recutil(root);
-        return maxans;
+        dfs(root);
+        return max;
     }
 }
