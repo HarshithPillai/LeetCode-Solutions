@@ -4,11 +4,8 @@ class Solution {
         n = s.length(); m = t.length();
         int i=0, j=0;
         while(i<n && j<m) {
-            if(s.charAt(i) == t.charAt(j)) {
-                i++; j++;
-            } else {
-                i++;
-            }
+            if(s.charAt(i) == t.charAt(j)) j++;
+            i++;
         }
         return m-j;
     }
