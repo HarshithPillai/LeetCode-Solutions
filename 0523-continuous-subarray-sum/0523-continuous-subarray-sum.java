@@ -6,8 +6,11 @@ class Solution {
         map.put(0, -1);
         for(int i=0; i<n; i++) {
             sum+=nums[i];
-            if(map.containsKey(sum%k) && map.get(sum%k)<i-1) return true;
-            if(!map.containsKey(sum%k)) map.put(sum%k, i);
+            if(map.containsKey(sum%k)) {
+                if(map.get(sum%k)<i-1) {
+                    return true;
+                }
+            } else map.put(sum%k, i);
         }
         return false;
     }
