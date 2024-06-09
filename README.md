@@ -21,11 +21,13 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 # Hash Table
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 # Trie
 |  |
 | ------- |
@@ -38,3 +40,4 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
