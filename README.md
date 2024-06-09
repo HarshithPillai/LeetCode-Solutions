@@ -22,6 +22,7 @@ Description available for every problem in its Readme file.
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1284-four-divisors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1284-four-divisors) |
 | [1694-make-sum-divisible-by-p](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 # Hash Table
 |  |
@@ -38,6 +39,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
+| [1284-four-divisors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1284-four-divisors) |
 # Prefix Sum
 |  |
 | ------- |
