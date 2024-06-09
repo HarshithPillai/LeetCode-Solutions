@@ -5,7 +5,7 @@ class Solution {
             if(num%i==0) {
                 val++;
                 sum+=i;
-                if(i*i!=num) {
+                if(i!=num/i) {
                     val++;
                     sum+=num/i;
                 }
