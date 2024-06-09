@@ -1,15 +1,17 @@
 class Solution {
     int fourDivisors(int num) {
-        if(num==1) return 0;
-        int val = 2, sum = 1+num;
-        for(int i=2; i<=num/2; i++) {
+        int val = 0, sum = 0;
+        for(int i=1; i*i<=num; i++) {
             if(num%i==0) {
                 val++;
                 sum+=i;
+                if(i*i!=num) {
+                    val++;
+                    sum+=num/i;
+                }
             }
             if(val>4) return 0;
         }
-        System.out.println(val);
         return (val==4)?sum:0;
     }
     public int sumFourDivisors(int[] nums) {
