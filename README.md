@@ -52,3 +52,19 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0075-sort-colors) |
+# Tree
+|  |
+| ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+# Depth-First Search
+|  |
+| ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+# Breadth-First Search
+|  |
+| ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
