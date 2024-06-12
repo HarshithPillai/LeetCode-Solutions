@@ -15,8 +15,6 @@ class Solution {
             } else {
                 j++;
             }
-            for(int num:nums) System.out.print(num+",");
-            System.out.println(": "+i+" "+j+" "+k+" ");
         }
     }
 }
