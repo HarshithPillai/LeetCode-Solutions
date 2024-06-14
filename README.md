@@ -23,6 +23,7 @@ Description available for every problem in its Readme file.
 | [0075-sort-colors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0075-sort-colors) |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
+| [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1284-four-divisors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1284-four-divisors) |
 | [1694-make-sum-divisible-by-p](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
@@ -60,6 +61,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -68,3 +70,11 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+# Graph
+|  |
+| ------- |
+| [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
+# Topological Sort
+|  |
+| ------- |
+| [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
