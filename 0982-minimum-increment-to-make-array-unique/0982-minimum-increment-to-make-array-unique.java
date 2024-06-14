@@ -5,7 +5,9 @@ class Solution {
             1 2 3 4 5 7
         */
         int ans = 0;
-        int freq[] = new int[100001];
+        int max = 0;
+        for(int num:nums) max = Math.max(max, num);
+        int freq[] = new int[nums.length+max+1];
         for(int num:nums) {
             freq[num]++;
         }
