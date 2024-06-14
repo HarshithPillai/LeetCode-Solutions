@@ -1,12 +1,5 @@
 class Solution {
     public int[] loudAndRich(int[][] richer, int[] quiet) {
-        /**
-            create adj list
-            topo sort
-            now we have a stack containing all people sorted by how rich they are
-            with top being the most rich person
-            keep popping each items
-        */
         int n = quiet.length;
         List<List<Integer>> adj = new ArrayList<>();
         for(int i=0; i<n; i++) adj.add(new ArrayList<>());
