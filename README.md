@@ -11,6 +11,7 @@ Description available for every problem in its Readme file.
 # String
 |  |
 | ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Greedy
@@ -39,6 +40,7 @@ Description available for every problem in its Readme file.
 # Trie
 |  |
 | ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
 # Math
 |  |
@@ -66,6 +68,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Breadth-First Search
 |  |
@@ -92,3 +95,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
+# Design
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
