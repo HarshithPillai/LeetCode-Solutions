@@ -60,10 +60,12 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
 # Depth-First Search
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Breadth-First Search
 |  |
@@ -73,6 +75,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
 # Graph
 |  |
 | ------- |
@@ -85,3 +88,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
+# Backtracking
+|  |
+| ------- |
+| [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
