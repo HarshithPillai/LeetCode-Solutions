@@ -17,12 +17,14 @@ Description available for every problem in its Readme file.
 # Greedy
 |  |
 | ------- |
+| [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Array
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0075-sort-colors) |
+| [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
@@ -57,6 +59,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0075-sort-colors) |
+| [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 # Tree
 |  |
@@ -99,3 +102,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+# Heap (Priority Queue)
+|  |
+| ------- |
+| [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
