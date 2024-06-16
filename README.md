@@ -26,6 +26,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0075-sort-colors) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0330-patching-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
@@ -78,12 +79,14 @@ Description available for every problem in its Readme file.
 | [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Breadth-First Search
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 # Binary Tree
 |  |
 | ------- |
@@ -93,11 +96,13 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Topological Sort
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Counting
 |  |
@@ -116,3 +121,15 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+# Memoization
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+# Matrix
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
