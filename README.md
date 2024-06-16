@@ -17,6 +17,7 @@ Description available for every problem in its Readme file.
 # Greedy
 |  |
 | ------- |
+| [0330-patching-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
@@ -24,6 +25,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0075-sort-colors) |
+| [0330-patching-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
