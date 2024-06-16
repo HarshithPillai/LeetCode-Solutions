@@ -21,6 +21,7 @@ Description available for every problem in its Readme file.
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
 # Array
 |  |
 | ------- |
@@ -34,6 +35,7 @@ Description available for every problem in its Readme file.
 | [1016-subarray-sums-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1284-four-divisors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1284-four-divisors) |
 | [1694-make-sum-divisible-by-p](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
+| [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
 # Hash Table
 |  |
 | ------- |
@@ -63,6 +65,7 @@ Description available for every problem in its Readme file.
 | [0075-sort-colors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0075-sort-colors) |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
 # Tree
 |  |
 | ------- |
@@ -112,3 +115,4 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
+| [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
