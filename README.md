@@ -74,11 +74,13 @@ Description available for every problem in its Readme file.
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Breadth-First Search
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 # Binary Tree
 |  |
 | ------- |
@@ -87,10 +89,12 @@ Description available for every problem in its Readme file.
 # Graph
 |  |
 | ------- |
+| [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Topological Sort
 |  |
 | ------- |
+| [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 # Counting
 |  |
