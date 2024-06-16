@@ -23,33 +23,6 @@ class Solution {
                 res = Math.max(res, helper(matrix, i, j, matrix[i][j])+1);
             }
         }
-        // int dp[][] = new int[r][c];
-        // for(int[] arr:dp) Arrays.fill(arr, 1);
-        // for(int i=1; i<r; i++) {
-        //     for(int j=1; j<c; j++) {
-        //         if(matrix[i][j-1] < matrix[i][j]) {
-        //             dp[i][j] = Math.max(dp[i][j], dp[i][j-1]+1);
-        //         }
-        //         if(matrix[i-1][j] < matrix[i][j]) {
-        //             dp[i][j] = Math.max(dp[i][j], dp[i-1][j]+1);
-        //         }
-        //     }
-        // }
-        // for(int i=r-2; i>=0; i--) {
-        //     for(int j=c-2; j>=0; j--) {
-        //         if(matrix[i][j+1] < matrix[i][j]) {
-        //             dp[i][j] = Math.max(dp[i][j], dp[i][j+1]+1);
-        //         }
-        //         if(matrix[i+1][j] < matrix[i][j]) {
-        //             dp[i][j] = Math.max(dp[i][j], dp[i+1][j]+1);
-        //         }
-        //     }
-        // }
-        // for(int i=0; i<r; i++) {
-        //     for(int j=0; j<c; j++) {
-        //         res = Math.max(res, dp[i][j]);
-        //     }
-        // }
         return res;
     }
 }
