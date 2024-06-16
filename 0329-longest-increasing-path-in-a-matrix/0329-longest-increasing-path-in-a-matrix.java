@@ -17,9 +17,9 @@ class Solution {
         r = matrix.length;
         c = matrix[0].length;
         
+        dp = new Integer[r][c];
         for(int i=0; i<r; i++) {
             for(int j=0; j<c; j++) {
-                dp = new Integer[r][c];
                 res = Math.max(res, helper(matrix, i, j, matrix[i][j])+1);
             }
         }
