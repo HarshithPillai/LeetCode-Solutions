@@ -35,6 +35,7 @@ Description available for every problem in its Readme file.
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1284-four-divisors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1284-four-divisors) |
+| [1370-count-number-of-nice-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1694-make-sum-divisible-by-p](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
 # Hash Table
@@ -43,6 +44,7 @@ Description available for every problem in its Readme file.
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0648-replace-words) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1370-count-number-of-nice-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1694-make-sum-divisible-by-p](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 # Trie
 |  |
@@ -54,6 +56,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [1284-four-divisors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1284-four-divisors) |
+| [1370-count-number-of-nice-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 # Prefix Sum
 |  |
 | ------- |
@@ -133,3 +136,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+# Sliding Window
+|  |
+| ------- |
+| [1370-count-number-of-nice-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
