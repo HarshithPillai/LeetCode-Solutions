@@ -1,11 +1,5 @@
 class Solution {
     public int longestSubarray(int[] nums, int limit) {
-        /**
-            keep a frequency map in form of treemap
-            keep track of first and last entries in the map
-            while the entries's difference is more than limit,
-            keep on reducing the window and once an entry's frequency reaches 0 remove it
-        */
         Deque<int[]> min = new LinkedList<>(), max = new LinkedList<>();
         int l=0, r=0, ans=0, n=nums.length;
         while(r<n) {
