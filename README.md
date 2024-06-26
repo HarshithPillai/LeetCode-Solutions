@@ -20,6 +20,7 @@ Description available for every problem in its Readme file.
 | [0330-patching-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
 # Array
@@ -76,6 +77,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
+| [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Depth-First Search
 |  |
 | ------- |
@@ -85,6 +87,7 @@ Description available for every problem in its Readme file.
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
+| [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -96,6 +99,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0113-path-sum-ii) |
+| [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Graph
 |  |
 | ------- |
@@ -155,3 +159,11 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
