@@ -16,28 +16,13 @@
 class Solution {
     List<Integer> list = new ArrayList<>();
     TreeNode newRoot;
-    public void insert(TreeNode tree, TreeNode node) {
-        int val = node.val;
-        if(val>tree.val) {
-            if(tree.right != null) insert(tree.right, node);
-            else {
-                tree.right = node;
-                return;
-            }
-        } else {
-            if(tree.left != null) insert(tree.left, node);
-            else {
-                tree.left = node;
-                return;
-            }
-        }
-    }
-    public void insertDfs(int s, int e) {
-        if(s>e) return;
+    public TreeNode insertDfs(int s, int e) {
+        if(s>e) return null;
         int mid = (e+s)/2;
-        insert(newRoot, new TreeNode(list.get(mid)));
-        insertDfs(s, mid-1);
-        insertDfs(mid+1, e);
+        TreeNode curr = new TreeNode(list.get(mid));
+        curr.left = insertDfs(s, mid-1);
+        curr.right = insertDfs(mid+1, e);
+        return curr;
     }
     public void dfs(TreeNode node) {
         if(node==null) return;
@@ -49,8 +34,8 @@ class Solution {
         dfs(root);
         int mid = list.size()/2;
         newRoot = new TreeNode(list.get(mid));
-        insertDfs(0, mid-1);
-        insertDfs(mid+1, list.size()-1);
+        newRoot.left = insertDfs(0, mid-1);
+        newRoot.right = insertDfs(mid+1, list.size()-1);
         return newRoot;
     }
 }
