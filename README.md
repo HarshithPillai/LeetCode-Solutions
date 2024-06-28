@@ -21,6 +21,7 @@ Description available for every problem in its Readme file.
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
+| [2379-maximum-total-importance-of-roads](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
 # Array
@@ -71,6 +72,7 @@ Description available for every problem in its Readme file.
 | [0075-sort-colors](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0075-sort-colors) |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [2379-maximum-total-importance-of-roads](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
 # Tree
 |  |
@@ -106,6 +108,7 @@ Description available for every problem in its Readme file.
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
+| [2379-maximum-total-importance-of-roads](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Topological Sort
 |  |
 | ------- |
@@ -129,6 +132,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2379-maximum-total-importance-of-roads](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
 # Dynamic Programming
 |  |
