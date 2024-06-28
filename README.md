@@ -88,6 +88,7 @@ Description available for every problem in its Readme file.
 | [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0744-network-delay-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 | [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Breadth-First Search
@@ -96,6 +97,7 @@ Description available for every problem in its Readme file.
 | [0111-minimum-depth-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0744-network-delay-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 # Binary Tree
 |  |
 | ------- |
@@ -107,6 +109,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0310-minimum-height-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0744-network-delay-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [0881-loud-and-rich](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0881-loud-and-rich) |
 | [2379-maximum-total-importance-of-roads](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Topological Sort
@@ -131,6 +134,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0502-ipo](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0502-ipo) |
+| [0744-network-delay-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0744-network-delay-time) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2379-maximum-total-importance-of-roads](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2636-maximum-subsequence-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2636-maximum-subsequence-score) |
@@ -171,3 +175,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [1285-balance-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
+# Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0744-network-delay-time) |
