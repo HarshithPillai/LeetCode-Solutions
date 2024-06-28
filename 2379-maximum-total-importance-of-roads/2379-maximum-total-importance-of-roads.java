@@ -5,13 +5,13 @@ class Solution {
             indegree[edge[0]]++;
             indegree[edge[1]]++;
         }
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->Integer.compare(b[0], a[0]));
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->Integer.compare(b, a));
         for(int i=0; i<n; i++) {
-            pq.add(new int[]{indegree[i], i});
+            pq.add(indegree[i]);
         }
         long val = n, ans = 0;
         for(; val>0; val--) {
-            ans+=val*pq.poll()[0];
+            ans+=val*pq.poll();
         }
         return ans;
     }
