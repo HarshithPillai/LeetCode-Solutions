@@ -5,13 +5,17 @@ class Solution {
             indegree[edge[0]]++;
             indegree[edge[1]]++;
         }
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->Integer.compare(b, a));
-        for(int i=0; i<n; i++) {
-            pq.add(indegree[i]);
-        }
+        int countsort[] = new int[n];
         long val = n, ans = 0;
-        for(; val>0; val--) {
-            ans+=val*pq.poll();
+        for(int i=0; i<n; i++) {
+            countsort[indegree[i]]++;
+        }
+        for(int i=n-1; i>=0; i--) {
+            while(countsort[i]>0) {
+                ans+=val*i;
+                val--;
+                countsort[i]--;
+            }
         }
         return ans;
     }
