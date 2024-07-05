@@ -179,3 +179,10 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0744-network-delay-time) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
+<!---LeetCode Topics End-->
