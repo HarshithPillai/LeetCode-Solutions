@@ -185,4 +185,12 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
+## Math
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
+## Simulation
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
