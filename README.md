@@ -188,9 +188,11 @@ Description available for every problem in its Readme file.
 ## Math
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 ## Simulation
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
