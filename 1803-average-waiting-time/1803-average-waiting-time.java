@@ -1,6 +1,5 @@
 class Solution {
     public double averageWaitingTime(int[][] customers) {
-        // Queue<int[]> q = new LinkedList<>();
         long time = 0, waittime = 0, n = customers.length;
         int i = 0;
         while(i<n) {
