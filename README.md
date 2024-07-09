@@ -195,11 +195,13 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1642-water-bottles) |
+| [1803-average-waiting-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 ## Array
 |  |
 | ------- |
+| [1803-average-waiting-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Recursion
 |  |
