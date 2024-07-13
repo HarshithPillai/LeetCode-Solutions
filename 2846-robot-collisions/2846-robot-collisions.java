@@ -1,7 +1,7 @@
 class Solution {
     public List<Integer> survivedRobotsHealths(int[] positions, int[] healths, String directions) {
         int n = positions.length;
-        Integer[][] robots = new Integer[n][4];
+        int[][] robots = new int[n][4];
         for(int i=0; i<n; i++) {
             robots[i][0] = positions[i];
             robots[i][1] = healths[i];
@@ -15,7 +15,7 @@ class Solution {
         //     }
         //     System.out.println("");
         // }
-        Stack<Integer[]> st = new Stack<>();
+        Stack<int[]> st = new Stack<>();
         /**
             stack empty:
                 left:
@@ -52,7 +52,7 @@ class Solution {
                         int flag = 0;
                         while(!st.isEmpty() && st.peek()[2] == 1) {
                                 // if(robots[i][3] == 17) System.out.print(" lol "+ robots[i][1]);
-                            if(st.peek()[1].equals(robots[i][1])) {
+                            if(st.peek()[1] == robots[i][1]) {
                                 st.pop();
                                 flag = 1;
                                 break;
@@ -79,11 +79,11 @@ class Solution {
             // else System.out.println(st.peek()[3] + " "+ st.peek()[1]);
         }
 
-        List<Integer[]> temp = new ArrayList<>();
+        List<int[]> temp = new ArrayList<>();
         List<Integer> ans = new ArrayList<>();
         while(!st.isEmpty()) temp.add(st.pop());
         temp.sort((a,b) -> Integer.compare(a[3],b[3]));
-        for(Integer[] arr:temp) ans.add(arr[1]);
+        for(int[] arr:temp) ans.add(arr[1]);
         return ans;
     }
 }
