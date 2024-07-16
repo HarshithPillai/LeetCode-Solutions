@@ -45,12 +45,10 @@ class Solution {
     }
     public void dfs(TreeNode root, TreeNode par, List<TreeNode> parent) {
         if(root == null) return;
-        // if(par.val != 0) {
         while(parent.size() < root.val+1) {
             parent.add(null);
         }
         parent.set(root.val, par);
-        // }
         map.put(root.val, root);
         dfs(root.left, root, parent);
         dfs(root.right, root, parent);
@@ -62,7 +60,6 @@ class Solution {
         dfs(root, p, parent);
         int n = parent.size();
         int[] vis = new int[n];
-        // for(TreeNode pa : parent) System.out.print( pa.val + " ");
         dfs2(map.get(startValue), map.get(destValue), parent, new StringBuilder(), vis);
         return ans;
     }
