@@ -23,10 +23,10 @@ class Solution {
         }
         vis = new int[n];
         for(int i=0; i<n; i++) {
-            for(int nbr:adj.get(i)) {
-                System.out.print(nbr + " ");
-            }
-            System.out.println("");
+            // for(int nbr:adj.get(i)) {
+            //     System.out.print(nbr + " ");
+            // }
+            // System.out.println("");
             if(vis[i] == 0) {
                 curr = adj.get(i).size();
                 set = new HashSet<>(adj.get(i));
