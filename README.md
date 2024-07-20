@@ -205,6 +205,7 @@ Description available for every problem in its Readme file.
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
@@ -288,6 +289,7 @@ Description available for every problem in its Readme file.
 | [0210-course-schedule-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
+| [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 ## Union Find
 |  |
@@ -311,4 +313,12 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0207-course-schedule](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
+## Shortest Path
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
