@@ -1,33 +1,37 @@
 class Solution {
     public int[] findOrder(int n, int[][] prerequisites) {
-        // similar to detecting cylcle in a directed graph
-        // using Kahn's algorithm
+        int indegree[] = new int[n];
         List<List<Integer>> adj = new ArrayList<>();
-        for(int i=0; i<n; i++) adj.add(new ArrayList<>());
-        int[] indegree = new int[n];
-        for(int i=0; i<prerequisites.length; i++) {
-            int x = prerequisites[i][1];
-            int y = prerequisites[i][0];
-            adj.get(x).add(y);
-            indegree[y]++;
+        for(int i=0;i<n; i++) adj.add(new ArrayList<>());
+        for(int edge[]:prerequisites) {
+            int u = edge[1], v = edge[0];
+            indegree[v]++;
+            adj.get(u).add(v);
         }
-        int count=0;
+        int count = 0;
         Queue<Integer> q = new LinkedList<>();
-        for(int i=0;i<n;i++) {
-            if(indegree[i]==0) q.add(i);
+        for(int i=0;i<n; i++) {
+            if(indegree[i] == 0) {
+                count++;
+                q.add(i);
+            }
         }
-        int[] ans = new int[n];
+        List<Integer> lt = new ArrayList<>();
         while(!q.isEmpty()) {
-            int node=q.poll();
-            ans[count++]=node;
-            for(int num:adj.get(node)) {
-                indegree[num]--;
-                if(indegree[num]==0) {
-                    q.add(num);
+            int node = q.poll();
+            lt.add(node);
+            for(int nbr:adj.get(node)) {
+                indegree[nbr]--;
+                if(indegree[nbr] == 0) {
+                    q.add(nbr);
+                    count++;
                 }
             }
         }
-        if(count!=n) return new int[0];
-        return ans;
+        if (count == n) {
+            int[] ans = new int[lt.size()];
+            for(int i=0; i<lt.size(); i++) ans[i] = lt.get(i);
+            return ans;
+        } else return new int[]{};
     }
 }
