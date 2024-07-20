@@ -1,33 +1,28 @@
 class Solution {
-    public boolean helper(int[][] graph, int[] visited, int node) {
-        Queue<Integer> q = new LinkedList<>();
-        int parentColor=0, currentColor=1;
-        q.add(node);
+    public boolean bfs(int[][] graph, int[] colours, int src) {
+        Queue<int[]> q = new LinkedList<>();
+        q.add(new int[]{src, 0});
         while(!q.isEmpty()) {
-            int top = q.poll();
-            parentColor  = visited[top];
-            currentColor = 1-parentColor;
-            for(int num:graph[top]) {
-                if(visited[num]==-1) {
-                    visited[num]=currentColor;
-                    q.add(num);
-                } else if(visited[num]==parentColor) return false;
+            int front[] = q.poll();
+            int node = front[0];
+            int colour = front[1];
+            int next = colour^1;
+            for(int nbr:graph[node]) {
+                if(colours[nbr] == next) continue;
+                if(colours[nbr] == -1) {
+                    colours[nbr] = next;
+                    q.add(new int[]{nbr, next});
+                } else return false;
             }
         }
         return true;
     }
     public boolean isBipartite(int[][] graph) {
-        int n=graph.length;
-        int[] visited = new int[n];
+        int n = graph.length, colours[] = new int[n];
+        Arrays.fill(colours, -1);
         for(int i=0; i<n; i++) {
-            visited[i]=-1;
-        }
-        for(int i=0; i<n; i++) {
-            for(int num:graph[i]) {
-                if(visited[num]==-1) {
-                    visited[num]=0;
-                    if(helper(graph, visited, num)==false) return false;
-                }
+            if(colours[i] == -1) {
+                if(!bfs(graph, colours, i)) return false;
             }
         }
         return true;
