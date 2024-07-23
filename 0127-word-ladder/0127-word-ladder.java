@@ -1,34 +1,28 @@
 class Solution {
-    class Pair {
-        String str;
-        int count;
-        Pair(String s, int c) { str=s; count=c; }
-    }
-    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Set<String> dict = new HashSet<>(wordList);
-        Queue<Pair> q = new LinkedList<>();
-
-        ///
-        int n=beginWord.length();
-        int count=0;
-        q.add(new Pair(beginWord, 1));
+    public int ladderLength(String s, String e, List<String> wordList) {
+        Set<String> set = new HashSet<>(wordList);
+        int time = 1;
+        Queue<String> q = new LinkedList<>();
+        q.add(s);
         while(!q.isEmpty()) {
-            Pair top=q.poll();
-            if(top.str.equals(endWord)) return top.count;
-            for(int i=0; i<n; i++) {
-                char[] arr = top.str.toCharArray();
-                for(int j=0; j<26; j++) {
-                    arr[i]=(char)('a'+j);
-                    String curr=new String(arr);
-                    
-                    if(dict.contains(curr)) {
-                        dict.remove(curr);
-                        q.add(new Pair(curr,top.count+1));
+            int size = q.size();
+            for(int z=0; z<size; z++) {
+                String top = q.poll();
+                if(top.equals(e)) return time;
+                for(int i=0; i<top.length(); i++) {
+                    char[] t = top.toCharArray();
+                    for(char ch = 'a'; ch<='z'; ch++) {
+                        t[i] = ch;
+                        String temp = new String(t);
+                        if(set.contains(temp)) {
+                            set.remove(temp);
+                            q.add(temp);
+                        }
                     }
                 }
             }
+            time++;
         }
-        
         return 0;
     }
 }
