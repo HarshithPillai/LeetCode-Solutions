@@ -1,54 +1,51 @@
 class Solution {
-    class Pair {
-        int first, second;
-        Pair(int f, int s) { first=f; second=s; }
-    }
-    public void dijkstra(List<List<Pair>> adj, int[] dist, int start) {
-        dist[start]=0;
-        PriorityQueue<Pair> pq = new PriorityQueue<>((x,y)->x.first-y.first);
-        pq.add(new Pair(0,start)); // dis, node
-        while(!pq.isEmpty()) {
-            Pair top = pq.poll();
-            int dis = top.first;
-            int node = top.second;
-            for(Pair nbr:adj.get(node)) {
-                int next = nbr.first;
-                int wt   = nbr.second;
-                if(dist[next] > dis + wt) {
-                    dist[next] = dis + wt;
-                    pq.add(new Pair(dis + wt, next));
+    int thr;
+    public int bfs(List<List<int[]>> adj, int src, int n) {
+        int dist[] = new int[n];
+        Arrays.fill(dist, (int)1e9);
+        dist[src] = 0;
+        Queue<int[]> q = new LinkedList<>();
+        q.add(new int[]{src, 0});
+        int count = 0;
+        while(!q.isEmpty()) {
+            int[] top = q.poll();
+            int node = top[0];
+            int dis = top[1];
+            for(int[] next:adj.get(node)) {
+                int nbr = next[0], distance = next[1];
+                if(distance+dis < dist[nbr]) {
+                    dist[nbr] = distance+dis;
+                    q.add(new int[]{nbr, distance+dis});
                 }
             }
         }
+        for(int i=0; i<n; i++) {
+            if(i==src) continue;
+            if(dist[i]<=thr) count++;
+            System.out.print(dist[i]+", ");
+        }
+        System.out.print("\n" + count + "\n");
+        return count;
     }
-    public int findTheCity(int n, int[][] edges, int tar) {
-        int m = edges.length;
-        List<List<Pair>> adj = new ArrayList<>();
-        for(int i=0;i<n;i++) adj.add(new ArrayList<>());
-        for(int i=0; i<m; i++) {
-            int u=edges[i][0];
-            int v=edges[i][1];
-            int w=edges[i][2];
-            adj.get(u).add(new Pair(v,w));
-            adj.get(v).add(new Pair(u,w));
+    public int findTheCity(int n, int[][] edges, int distanceThreshold) {
+        thr = distanceThreshold;
+        List<List<int[]>> adj = new ArrayList<>();
+        for(int i=0; i<n; i++) {
+            adj.add(new ArrayList<>());
         }
-
-        int max=Integer.MAX_VALUE, res=-1;
-        for(int i=0;i<n;i++) {
-            int count=0;
-            int[] dist = new int[n];
-            Arrays.fill(dist,(int)(1e9));
-            dijkstra(adj, dist, i);
-            for(int j=0;j<n;j++) {
-                if(dist[j]<=tar) {
-                    count++;
-                }
-            }
-            if(count<=max) {
-                max=count;
-                res=i;
+        for(int[] ed:edges) {
+            int u = ed[0], v = ed[1], w = ed[2];
+            adj.get(u).add(new int[]{v, w});
+            adj.get(v).add(new int[]{u, w});
+        }
+        int ans = 0, minYet = (int)1e9;
+        for(int i=0; i<n; i++) {
+            int val = bfs(adj, i, n);
+            if(val <= minYet) {
+                minYet = val;
+                ans = i;
             }
         }
-        return res;
+        return ans;
     }
 }
