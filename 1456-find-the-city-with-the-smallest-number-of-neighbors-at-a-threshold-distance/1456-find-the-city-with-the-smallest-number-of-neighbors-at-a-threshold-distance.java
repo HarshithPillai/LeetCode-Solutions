@@ -22,9 +22,7 @@ class Solution {
         for(int i=0; i<n; i++) {
             if(i==src) continue;
             if(dist[i]<=thr) count++;
-            System.out.print(dist[i]+", ");
         }
-        System.out.print("\n" + count + "\n");
         return count;
     }
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
