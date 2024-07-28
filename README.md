@@ -297,6 +297,7 @@ Description available for every problem in its Readme file.
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 ## Graph
 |  |
@@ -307,6 +308,7 @@ Description available for every problem in its Readme file.
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -346,6 +348,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Divide and Conquer
 |  |
