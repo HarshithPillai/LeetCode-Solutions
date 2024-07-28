@@ -1,45 +1,41 @@
 class Solution {
-    class Pair {
-        long first, second;
-        Pair(long f, long s) { first=f; second=s; }
-    }
     public int countPaths(int n, int[][] roads) {
-        List<List<Pair>> adj = new ArrayList<>();
-        for(int i=0; i<n; i++) {
-            adj.add(new ArrayList<>());
+        /**
+            create adj list
+        */
+        int MOD = (int)1e9 + 7;
+        List<List<int[]>> adj = new ArrayList<>();
+        for(int i=0; i<n; i++) adj.add(new ArrayList<>());
+        for(int[] ed:roads) {
+            int u = ed[0], v = ed[1], w = ed[2];
+            adj.get(u).add(new int[]{v, w});
+            adj.get(v).add(new int[]{u, w});
         }
-        for(int i=0; i<roads.length; i++) {
-            adj.get(roads[i][0]).add(new Pair(roads[i][1],roads[i][2]));
-            adj.get(roads[i][1]).add(new Pair(roads[i][0],roads[i][2]));
-        }
-        long MOD = (long)(1e9+7);
-        long ways[] = new long[n];
-        ways[0]=1;
-        long dist[] = new long[n];
-        for(int i=0;i<n;i++) {
-            dist[i]=(long)1e18;
-        }
-        dist[0]=0;
-        PriorityQueue<Pair> pq = new PriorityQueue<>((x,y)-> (int)(x.first-y.first));
-        pq.add(new Pair(0,0));
-        while(!pq.isEmpty()) {
-            Pair top = pq.poll();
-            long dis = top.first;
-            int node = (int)top.second;
-            for(Pair nbr:adj.get(node)) {
-                int newNode=(int)nbr.first;
-                long newWeight=nbr.second;
-                long val=dis+newWeight;
-                if(val < dist[newNode]) {
-                    dist[newNode] = val;
-                    ways[newNode] = ways[node];
-                    pq.add(new Pair(val, newNode));
-                } else if(val == dist[newNode]) {
-                    ways[newNode] = (ways[newNode]+ways[node])%MOD;
-                    //pq.add(new Pair(val, newNode));
+        long[] dis = new long[n];
+        long[] ways = new long[n];
+        Arrays.fill(dis, (long)1e18);
+
+        dis[0] = 0;
+        ways[0] = 1;
+        PriorityQueue<long[]> q = new PriorityQueue<>((a,b)->Long.compare(a[1], b[1]));
+        q.add(new long[]{0, 0});
+        while(!q.isEmpty()) {
+            long[] front = q.poll();
+            int node = (int)front[0];
+            long w = front[1];
+            for(int next[]:adj.get(node)) {
+                int nbr = next[0];
+                long dist = next[1];
+                long sum = (w+dist);
+                if(dis[nbr] == sum) {
+                    ways[nbr] = (ways[nbr] + ways[node])%MOD;
+                } else if(dis[nbr] > sum) {
+                    dis[nbr] = sum;
+                    ways[nbr] = ways[node];
+                    q.add(new long[]{nbr, sum});
                 }
             }
         }
-        return (int)(ways[n-1]%MOD);
+        return (int)ways[n-1];
     }
 }
