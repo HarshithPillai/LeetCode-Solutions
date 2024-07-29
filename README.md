@@ -212,6 +212,7 @@ Description available for every problem in its Readme file.
 | [1329-minimum-cost-to-move-chips-to-the-same-position](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1329-minimum-cost-to-move-chips-to-the-same-position) |
 | [1333-sort-the-jumbled-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -383,5 +384,10 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 <!---LeetCode Topics End-->
