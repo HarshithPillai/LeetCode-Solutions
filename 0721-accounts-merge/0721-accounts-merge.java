@@ -23,10 +23,10 @@ class Solution {
             int sizeU = size.get(parU), sizeV = size.get(parV);
             if(sizeU < sizeV) {
                 parent.set(parU, parV);
-                size.set(parU, sizeU + sizeV);
+                size.set(parV, sizeU + sizeV);
             } else {
                 parent.set(parV, parU);
-                size.set(parV, sizeU + sizeV);
+                size.set(parU, sizeU + sizeV);
             }
             return true;
         }
