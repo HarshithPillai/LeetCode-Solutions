@@ -209,6 +209,7 @@ Description available for every problem in its Readme file.
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
+| [1196-filling-bookcase-shelves](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1329-minimum-cost-to-move-chips-to-the-same-position](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1329-minimum-cost-to-move-chips-to-the-same-position) |
@@ -397,6 +398,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1196-filling-bookcase-shelves](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
