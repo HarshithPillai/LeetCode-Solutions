@@ -1,51 +1,52 @@
 class Solution {
-    class DisjointSet {
-        List<Integer> parent = new ArrayList<>(), size = new ArrayList<>();
+    public class DisjointSet {
+        List<Integer> parent, size;
         DisjointSet(int n) {
-            for(int i=0;i<n;i++) {
-                parent.add(i); size.add(1);
+            parent = new ArrayList<>();
+            size = new ArrayList<>();
+            for(int i=0; i<n; i++) {
+                parent.add(i);
+                size.add(1);
             }
         }
-        public int findUPar(int u) {
-            if(parent.get(u)==u) return u;
-            int ulp = findUPar(parent.get(u));
-            parent.set(u, ulp);
-            return ulp;
+        int findUPar(int node) {
+            int par = parent.get(node);
+            if(par != node) {
+                par = findUPar(par);
+                parent.set(node, par);
+            }
+            return par;
         }
-        public void unionBySize(int u, int v) {
-            int ulp_u = findUPar(u);
-            int ulp_v = findUPar(v);
-            if(ulp_u == ulp_v) return;
-            if(size.get(ulp_u) > size.get(ulp_v)) {
-                parent.set(ulp_v, ulp_u);
-                size.set(ulp_u, size.get(ulp_u) + size.get(ulp_v));
+        boolean unionBySize(int u, int v) {
+            int parU = findUPar(u), parV = findUPar(v), sizeU = size.get(parU), sizeV = size.get(parV);
+            if(parU == parV) return false;
+            if(sizeU >= sizeV) {
+                parent.set(parV, parU);
+                size.set(parU, sizeU+sizeV);
             } else {
-                parent.set(ulp_u, ulp_v);
-                size.set(ulp_v, size.get(ulp_u) + size.get(ulp_v));
+                parent.set(parU, parV);
+                size.set(parV, sizeU+sizeV);
             }
+            return true;
         }
     }
-    public int removeStones(int[][] stones) {
-        int m = stones.length, count=0;
-        int rows=0, cols=0;
-        for(int i=0;i<m;i++) {
-            rows=Math.max(rows,stones[i][0]);
-            cols=Math.max(cols,stones[i][1]);
+    public int removeStones(int[][] grid) {
+        int n = 0, m = 0;
+        for(int i[]:grid) {
+            n = Math.max(i[0], n);
+            m = Math.max(i[1], m);
         }
-        rows++; cols++;
-        DisjointSet ds = new DisjointSet(rows+cols);
-        
-        for(int i=0;i<m;i++) {
-            count++;
-            ds.unionBySize(stones[i][0], stones[i][1]+rows);
+        n++; m++;
+        DisjointSet ds = new DisjointSet(n+m);
+        for(int[] coord:grid) {
+            int u = coord[0], v = coord[1] + n;
+            ds.unionBySize(u, v);
         }
-
-        int components = 0;
-        for(int i=0;i<rows+cols;i++) {
-            if(ds.findUPar(i)==i && ds.size.get(i)>1) {
-                components++;
-            }
+        int count = grid.length, components = 0;
+        for(int i=0;i<n+m; i++) {
+            int par = ds.findUPar(i), sz = ds.size.get(par);
+            if(par == i && sz>1) components++;
         }
-        return count-components;
+        return count - components;
     }
 }
