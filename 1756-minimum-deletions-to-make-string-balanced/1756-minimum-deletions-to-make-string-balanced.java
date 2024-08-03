@@ -10,7 +10,7 @@ class Solution {
         int min = n;
         for(int i=0; i<n; i++) {
             min = Math.min(count + countA[i], min);
-            if(s[i]== 'b') count++;
+            if(s[i] == 'b') count++;
         }
         return min;
     }
