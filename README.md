@@ -217,6 +217,7 @@ Description available for every problem in its Readme file.
 | [1496-lucky-numbers-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -305,6 +306,7 @@ Description available for every problem in its Readme file.
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 ## Breadth-First Search
@@ -320,6 +322,7 @@ Description available for every problem in its Readme file.
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 ## Graph
@@ -354,6 +357,7 @@ Description available for every problem in its Readme file.
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Greedy
@@ -433,4 +437,8 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
+## Strongly Connected Component
+|  |
+| ------- |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 <!---LeetCode Topics End-->
