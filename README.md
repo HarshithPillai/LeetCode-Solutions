@@ -269,6 +269,7 @@ Description available for every problem in its Readme file.
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2846-robot-collisions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2846-robot-collisions) |
@@ -343,6 +344,7 @@ Description available for every problem in its Readme file.
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
@@ -357,6 +359,7 @@ Description available for every problem in its Readme file.
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 ## Matrix
 |  |
 | ------- |
@@ -448,6 +451,7 @@ Description available for every problem in its Readme file.
 ## Strongly Connected Component
 |  |
 | ------- |
+| [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 ## Two Pointers
 |  |
@@ -457,4 +461,8 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 <!---LeetCode Topics End-->
