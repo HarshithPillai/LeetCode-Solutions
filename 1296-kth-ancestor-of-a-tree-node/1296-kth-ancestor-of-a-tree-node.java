@@ -44,13 +44,13 @@ class TreeAncestor {
                     go to that power parent -> currNode's Math.pow(2,power) parent
                     currNode = anc[curr][power]
         */
-        System.out.println(node+" ---- "+ k + " " + log);
+        // System.out.println(node+" ---- "+ k + " " + log);
         if(depth[node] < k) return -1;
         for(int j=log; j>=0; j--) {
             if(((1<<j) & k) > 0) {
-                System.out.println(node+" "+j);
+                // System.out.println(node+" "+j);
                 node = up[node][j];
-                System.out.println(node+" "+j);
+                // System.out.println(node+" "+j);
             }
         }
         return node;
