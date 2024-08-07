@@ -36,7 +36,7 @@ class Solution {
     public int findLca(int a, int b) {
         if(depth[a] < depth[b]) return findLca(b, a);
         int k = depth[a] - depth[b];
-        for(int j=log; j>=0; j--) {
+        for(int j=0; j<=log; j++) {
             if(((1<<j) & k) != 0) {
                 a = up[a][j];
             }
