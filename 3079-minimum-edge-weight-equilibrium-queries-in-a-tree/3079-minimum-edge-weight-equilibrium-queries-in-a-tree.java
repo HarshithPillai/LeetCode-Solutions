@@ -1,4 +1,10 @@
 class Solution {
+    /**
+        Pre-requisites:
+            1. Binary lifting
+            2. Kth Ancestor
+            3. LCA using binary lifting
+    */
     int[][] weights, up;
     int log = 15;
     int[] depth;
