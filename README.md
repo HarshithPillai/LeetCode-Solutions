@@ -215,6 +215,7 @@ Description available for every problem in its Readme file.
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
+| [0999-regions-cut-by-slashes](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1196-filling-bookcase-shelves](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -293,6 +294,7 @@ Description available for every problem in its Readme file.
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [0999-regions-cut-by-slashes](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
@@ -329,6 +331,7 @@ Description available for every problem in its Readme file.
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [0999-regions-cut-by-slashes](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -346,6 +349,7 @@ Description available for every problem in its Readme file.
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
+| [0999-regions-cut-by-slashes](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -378,6 +382,7 @@ Description available for every problem in its Readme file.
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [0999-regions-cut-by-slashes](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 ## Matrix
 |  |
@@ -386,6 +391,7 @@ Description available for every problem in its Readme file.
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
+| [0999-regions-cut-by-slashes](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
