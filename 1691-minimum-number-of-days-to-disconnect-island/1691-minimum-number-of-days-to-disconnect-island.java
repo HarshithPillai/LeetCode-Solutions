@@ -9,32 +9,30 @@ class Solution {
             }
         }
     }
-    public int numOfIslands(int[][] grid) {
-        int count=0;
+    public int countIslands(int[][] grid) {
         int[][] vis = new int[n][m];
+        int count = 0;
         for(int i=0; i<n; i++) {
             for(int j=0; j<m; j++) {
                 if(grid[i][j] == 1 && vis[i][j] == 0) {
-                    count++;
                     dfs(grid, i, j, vis);
+                    count++;
                 }
             }
         }
         return count;
     }
     public int minDays(int[][] grid) {
-        /**
-            the only thing to realize here is 
-            that the answer can ONLY be 0, 1 or 2
-        */
-        n = grid.length; m = grid[0].length;
-        if(numOfIslands(grid) != 1) return 0;
+        int count = 0;
+        n = grid.length;
+        m = grid[0].length;
+        count = countIslands(grid);
+        if(count != 1) return 0;
         for(int i=0; i<n; i++) {
             for(int j=0; j<m; j++) {
                 if(grid[i][j] == 1) {
                     grid[i][j] = 0;
-                    int count = numOfIslands(grid);
-                    if(count != 1) return 1;
+                    if(countIslands(grid) != 1) return 1;
                     grid[i][j] = 1;
                 }
             }
