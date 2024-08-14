@@ -225,6 +225,7 @@ Description available for every problem in its Readme file.
 | [1333-sort-the-jumbled-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -471,6 +472,7 @@ Description available for every problem in its Readme file.
 ## Sliding Window
 |  |
 | ------- |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Bit Manipulation
 |  |
@@ -518,4 +520,8 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+## Prefix Sum
+|  |
+| ------- |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
