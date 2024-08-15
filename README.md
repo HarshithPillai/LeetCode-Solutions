@@ -215,6 +215,7 @@ Description available for every problem in its Readme file.
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
+| [0890-lemonade-change](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0921-spiral-matrix-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [0940-fruit-into-baskets](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
@@ -421,6 +422,7 @@ Description available for every problem in its Readme file.
 ## Greedy
 |  |
 | ------- |
+| [0890-lemonade-change](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1329-minimum-cost-to-move-chips-to-the-same-position](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1329-minimum-cost-to-move-chips-to-the-same-position) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
