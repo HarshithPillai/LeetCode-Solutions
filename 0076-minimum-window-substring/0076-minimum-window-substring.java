@@ -1,10 +1,4 @@
 class Solution {
-    public boolean isValid(Map<Character, Integer> sfreq, Map<Character, Integer> tfreq) {
-        for(Map.Entry<Character, Integer> entry:tfreq.entrySet()) {
-            if(!sfreq.containsKey(entry.getKey()) || entry.getValue() > sfreq.get(entry.getKey())) return false;
-        }
-        return true;
-    }
     public String minWindow(String s, String t) {
         Map<Character, Integer> sfreq = new HashMap<>();
         Map<Character, Integer> tfreq = new HashMap<>();
