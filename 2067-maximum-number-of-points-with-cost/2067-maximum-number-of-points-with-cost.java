@@ -17,11 +17,11 @@ class Solution {
             right[m-1] = prev[m-1];
             for(int j=1; j<m; j++) {
                 left[j] = Math.max(left[j-1]-1, prev[j]);
-                right[m-j-1] = Math.max(right[m-j]-1, prev[m-j-1]);
+                // right[m-j-1] = Math.max(right[m-j]-1, prev[m-j-1]);
             }
-            // for(int j=m-2; j>=0; j--) {
-            //     right[j] = Math.max(right[j+1]-1, prev[j]);
-            // }
+            for(int j=m-2; j>=0; j--) {
+                right[j] = Math.max(right[j+1]-1, prev[j]);
+            }
             for(int j=0; j<m; j++) {
                 curr[j] = Math.max(left[j], right[j]) + points[i][j];
             }
