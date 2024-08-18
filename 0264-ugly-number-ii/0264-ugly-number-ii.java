@@ -1,26 +1,20 @@
 class Solution {
     public int nthUglyNumber(int n) {
-        PriorityQueue<Long> pq = new PriorityQueue<>();
-        pq.add(1l);
-        Set<Long> set = new HashSet<>();
-        set.add(1l);
-        while(!pq.isEmpty()) {
-            long top = pq.poll();
-            n--;
-            if(n==0) return (int)top;
-            if(!set.contains(top*2)) {
-                set.add(top*2);
-                pq.add(top*2);
+        List<Integer> arr = new ArrayList<>();
+        arr.add(1);
+        int[] indices = {0,0,0};
+        int[] primes = {2,3,5};
+        for(int i=1; i<n; i++) {
+            int[] nextUglies = new int[3];
+            for(int j=0; j<3; j++) {
+                nextUglies[j] = arr.get(indices[j]) * primes[j];
             }
-            if(!set.contains(top*3)) {
-                set.add(top*3);
-                pq.add(top*3);
-            }
-            if(!set.contains(top*5)) {
-                set.add(top*5);
-                pq.add(top*5);
+            int minValue = Math.min(nextUglies[0], Math.min(nextUglies[1], nextUglies[2]));
+            arr.add(minValue);
+            for(int j=0; j<3; j++) {
+                if(nextUglies[j] == minValue) indices[j]++;
             }
         }
-        return -1;
+        return arr.get(n-1);
     }
 }
