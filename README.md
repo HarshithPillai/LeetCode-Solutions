@@ -188,6 +188,7 @@ Description available for every problem in its Readme file.
 ## Math
 |  |
 | ------- |
+| [0263-ugly-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0263-ugly-number) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1303-minimum-moves-to-reach-target-score) |
