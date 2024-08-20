@@ -27,7 +27,9 @@ class Solution {
             M - we can chose X amounts of stones where 1 <= X <= 2*M
 
             for alice's case, we take return the total score of alice if alice picks up X amounts of piles
+                here we need Alice to have the maximum score Alice can get out of all choices
             for bob's case, we let him pick up whatever amount of stones and return Alice's score
+                here we need Alice to get the MINIMUM SCORE that alice can get after BOB picks up X amounts of stones
 
             BOTH NEED TO PLAY OPTIMALLY
         */
