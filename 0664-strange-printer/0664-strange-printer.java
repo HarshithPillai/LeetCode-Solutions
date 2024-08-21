@@ -5,6 +5,7 @@ class Solution {
         if(dp[i][j] != null) return dp[i][j];
         int res = (int)1e9;
         for(int k=i; k<j; k++) {
+            // In case the first character of both subarrays are same, then reduce by 1
             int minus = (arr[i] == arr[k+1])?1:0;
             res = Math.min(res, helper(arr, i, k) + helper(arr, k+1, j) - minus);
         }
