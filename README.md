@@ -525,6 +525,7 @@ Description available for every problem in its Readme file.
 ## Bit Manipulation
 |  |
 | ------- |
+| [0476-number-complement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0476-number-complement) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## Rolling Hash
 |  |
