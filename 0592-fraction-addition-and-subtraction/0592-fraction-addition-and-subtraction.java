@@ -28,7 +28,11 @@ class Solution {
             // System.out.println(num+" "+den);
             ind = curr[2];
         }
-        for(int i=2; i<=Math.max(Math.abs(num), Math.abs(den)); i++) {
+        if(num%den == 0) {
+            num/=den;
+            den = 1;
+        }
+        for(int i=2; i<=Math.min(Math.abs(num), Math.abs(den)); i++) {
             // System.out.println("inside divider "+num+" "+den);
             while(num%i==0 && den%i==0) {
                 num/=i; den/=i;
