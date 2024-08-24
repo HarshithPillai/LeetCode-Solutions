@@ -4,7 +4,7 @@ class Solution {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
         for(; i<n-2; i++) {
-            while(i>0 && nums[i] == nums[i-1]) i++;
+            while(i>0 && i<n && nums[i] == nums[i-1]) i++;
             j=i+1;
             k=n-1;
             while(j<k) {
@@ -17,8 +17,8 @@ class Solution {
                 } else {
                     j++;
                 }
-                while(j<k-1 && j-1>i && nums[j] == nums[j-1]) j++;
-                while(j<k-1 && k<n-1 && nums[k] == nums[k+1]) k--;
+                while(j<n && j-1>i && nums[j] == nums[j-1]) j++;
+                while(k+1<n && k>j && nums[k] == nums[k+1]) k--;
             }
         }
         return res;
