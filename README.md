@@ -217,6 +217,7 @@ Description available for every problem in its Readme file.
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0624-maximum-distance-in-arrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -302,6 +303,7 @@ Description available for every problem in its Readme file.
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
@@ -549,6 +551,7 @@ Description available for every problem in its Readme file.
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Binary Search
