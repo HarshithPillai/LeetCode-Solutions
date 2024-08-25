@@ -233,6 +233,7 @@ Description available for every problem in its Readme file.
 | [1034-subarrays-with-k-different-integers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1117-as-far-from-land-as-possible](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1117-as-far-from-land-as-possible) |
 | [1196-filling-bookcase-shelves](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1240-stone-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
@@ -398,6 +399,7 @@ Description available for every problem in its Readme file.
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0999-regions-cut-by-slashes](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
+| [1117-as-far-from-land-as-possible](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1117-as-far-from-land-as-possible) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
@@ -443,6 +445,7 @@ Description available for every problem in its Readme file.
 | [0921-spiral-matrix-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
+| [1117-as-far-from-land-as-possible](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1117-as-far-from-land-as-possible) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -511,6 +514,7 @@ Description available for every problem in its Readme file.
 | [0650-2-keys-keyboard](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0664-strange-printer) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1117-as-far-from-land-as-possible](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1117-as-far-from-land-as-possible) |
 | [1196-filling-bookcase-shelves](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
