@@ -14,16 +14,15 @@
  * }
  */
 class Solution {
-    public void recUtil(TreeNode root, List<Integer> result) {
-        if(root==null) return;
-
-        recUtil(root.left, result);
-        recUtil(root.right, result);
-        result.add(root.val);
+    public void dfs(List<Integer> res, TreeNode node) {
+        if(node == null) return;
+        dfs(res, node.left);
+        dfs(res, node.right);
+        res.add(node.val);
     }
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        recUtil(root, result);
-        return result;
+        List<Integer> res = new ArrayList<>();
+        dfs(res, root);
+        return res;
     }
 }
