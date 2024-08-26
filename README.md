@@ -298,6 +298,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -347,6 +348,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
@@ -373,6 +375,7 @@ Description available for every problem in its Readme file.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
