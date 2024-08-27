@@ -4,7 +4,7 @@ class Solution {
             Jamun
         */
         
-        PriorityQueue<double[]> pq = new PriorityQueue<>((a,b)->Double.compare(b[0], a[0]));
+        Queue<double[]> pq = new LinkedList<>();
 
         pq.add(new double[]{st, 1});
         List<List<double[]>> adj = new ArrayList<>();
