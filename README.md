@@ -429,6 +429,7 @@ Description available for every problem in its Readme file.
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
+| [2803-modify-graph-edge-weights](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
 | [3079-minimum-edge-weight-equilibrium-queries-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3079-minimum-edge-weight-equilibrium-queries-in-a-tree) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Union Find
@@ -483,6 +484,7 @@ Description available for every problem in its Readme file.
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
+| [2803-modify-graph-edge-weights](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
 ## Shortest Path
 |  |
 | ------- |
@@ -491,6 +493,7 @@ Description available for every problem in its Readme file.
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2803-modify-graph-edge-weights](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Divide and Conquer
 |  |
