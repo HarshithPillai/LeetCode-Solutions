@@ -1,36 +1,27 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        int n1=nums1.length;
-        int n2=nums2.length;
-        int[] ans = new int[n1];
-        int[] temp = new int[n2];
-        //keep a stack and hashmap
-        //iterate through each int in nums2 from end to start
-        //for each element see what is at top of stack
-        // if empty add -1 to that number in map
-        // if top<nums2[i], keep on popping till you get a number 
-        // greater than this. or till stack is empty
-        // then add that number to map <nums2[i], number> and to stack.
-
-        Stack<Integer> stack = new Stack<>();
-        for(int i=n2-1; i>=0; i--) {
-            temp[i]=-1;
-            while(!stack.isEmpty() && stack.peek()<=nums2[i]) {
-                stack.pop();
-            }
-            if(!stack.isEmpty()) {
-                temp[i] = stack.peek();
-            }
-            stack.push(nums2[i]);
+        Stack<Integer> st = new Stack<>();
+        int n = nums1.length, m = nums2.length;
+        int[] nge = new int[m];
+        int[] ans = new int[n];
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i=0; i<m; i++) {
+            map.put(nums2[i], i);
         }
-        for(int ind=0; ind<n1; ind++) {
-            for(int i=0; i<n2; i++) {
-                if(nums1[ind]==nums2[i]) {
-                    ans[ind]=temp[i];
-                }
-            }
+        for(int i=m-1; i>=0; i--) {
+            while(!st.isEmpty() && nums2[st.peek()] <= nums2[i]) st.pop();
+            if(st.isEmpty()) nge[i] = -1;
+            else nge[i] = st.peek();
+            st.push(i);
         }
-        
+        for(int i=0; i<m; i++) {
+            System.out.print(nge[i] + " ");
+        }
+        for(int i=0; i<n; i++) {
+            int index = map.get(nums1[i]);
+            if(nge[index] == -1) ans[i] = -1;
+            else ans[i] = nums2[nge[index]];
+        }
         return ans;
     }
 }
