@@ -13,7 +13,6 @@ class Solution {
         for(char ch:arr) {
             ans+=getSum(ch-'a'+1);
         }
-        // ans = getSum(ans);
         while(--k>0) ans = getSum(ans);
         return ans;
     }
