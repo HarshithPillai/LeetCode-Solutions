@@ -304,6 +304,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
+| [0155-min-stack](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -599,6 +600,7 @@ Description available for every problem in its Readme file.
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Binary Search Tree
