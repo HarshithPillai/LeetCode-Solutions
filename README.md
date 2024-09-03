@@ -222,6 +222,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0015-3sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
+| [0496-next-greater-element-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0624-maximum-distance-in-arrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
@@ -305,6 +306,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0155-min-stack) |
+| [0496-next-greater-element-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -334,6 +336,7 @@ Description available for every problem in its Readme file.
 | [0127-word-ladder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0127-word-ladder) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0496-next-greater-element-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -627,4 +630,8 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
