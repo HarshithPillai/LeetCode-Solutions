@@ -9,22 +9,17 @@ class Solution {
             else {
                 pse[i] = st.peek();
             }
-            // System.out.print(pse[i]+" ");
             st.push(i);
         }
-        // System.out.print("\n");
         st = new Stack<>();
         for(int i=n-1; i>=0; i--) {
             while(!st.isEmpty() && arr[st.peek()] >= arr[i]) st.pop();
-            if(st.isEmpty()) nse[i] = n;
-            else {
-                nse[i] = st.peek();
+            if(st.isEmpty())  {
+                ans = Math.max(ans, arr[i]*(n - pse[i] - 1));
+            } else {
+                ans = Math.max(ans, arr[i]*(st.peek() - pse[i] - 1));
             }
-            // System.out.print(nse[i]+" ");
             st.push(i);
-        }
-        for(int i=0; i<n; i++) {
-            ans = Math.max(ans, arr[i]*(nse[i] - pse[i] - 1));
         }
         return ans;
     }
