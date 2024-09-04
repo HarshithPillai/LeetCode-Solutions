@@ -1,42 +1,40 @@
 class Solution {
+    public int largestRectangleArea(int[] arr) {
+        int n = arr.length, ans = 0;
+        int[] nse = new int[n], pse = new int[n];
+        Stack<Integer> st = new Stack<>();
+        for(int i=0; i<n; i++) {
+            while(!st.isEmpty() && arr[st.peek()] >= arr[i]) st.pop();
+            if(st.isEmpty()) pse[i] = -1;
+            else {
+                pse[i] = st.peek();
+            }
+            st.push(i);
+        }
+        st = new Stack<>();
+        for(int i=n-1; i>=0; i--) {
+            while(!st.isEmpty() && arr[st.peek()] >= arr[i]) st.pop();
+            if(st.isEmpty())  {
+                ans = Math.max(ans, arr[i]*(n - pse[i] - 1));
+            } else {
+                ans = Math.max(ans, arr[i]*(st.peek() - pse[i] - 1));
+            }
+            st.push(i);
+        }
+        return ans;
+    }
     public int maximalRectangle(char[][] matrix) {
-        int r = matrix.length, c = matrix[0].length;
-        int[] histogram = new int[c];
-        int max=0;
-        for(int i=0; i<r; i++) {
-            Stack<Integer> stack = new Stack<>();
-            int[] prev_smaller = new int[c];
-            int[] next_smaller = new int[c];
-            for(int j=0;j<c;j++) {
-                if(matrix[i][j]=='1') {
-                    histogram[j]++;
+        int n = matrix.length, m = matrix[0].length, max = 0;
+        int[] arr = new int[m];
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<m; j++) {
+                if(matrix[i][j] == '1') {
+                    arr[j]++;
                 } else {
-                    histogram[j]=0;
+                    arr[j] = 0;
                 }
-                while(!stack.isEmpty() && histogram[stack.peek()]>=histogram[j]) {
-                    stack.pop();
-                }
-                if(stack.isEmpty()) {
-                    prev_smaller[j] = -1;
-                } else {
-                    prev_smaller[j] = stack.peek();
-                }
-                stack.push(j);
             }
-            stack = new Stack<>();
-            for(int j=c-1;j>=0;j--) {
-                while(!stack.isEmpty() && histogram[stack.peek()]>=histogram[j]) {
-                    stack.pop();
-                }
-                if(stack.isEmpty()) {
-                    next_smaller[j] = c;
-                } else {
-                    next_smaller[j] = stack.peek();
-                }
-                stack.push(j);
-
-                max=Math.max(max, histogram[j]*(next_smaller[j]-prev_smaller[j]-1));
-            }
+            max = Math.max(max, largestRectangleArea(arr));
         }
         return max;
     }
