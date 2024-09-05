@@ -8,8 +8,6 @@ class Solution {
         List<Integer> res = new ArrayList<>();
         
         int[] ans = new int[n];
-        // if((sumN + 1)/n > 6) return new int[0];
-        // if(sumN < 0) return new int[0];
 
         for(int i=0; i<n; i++) {
             ans[i] = Math.min(6, sumN - (n-i-1));
