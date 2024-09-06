@@ -185,6 +185,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Math
 |  |
 | ------- |
@@ -280,6 +281,7 @@ Description available for every problem in its Readme file.
 | [2846-robot-collisions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [3079-minimum-edge-weight-equilibrium-queries-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3079-minimum-edge-weight-equilibrium-queries-in-a-tree) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Recursion
 |  |
@@ -375,6 +377,7 @@ Description available for every problem in its Readme file.
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Tree
 |  |
 | ------- |
