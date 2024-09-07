@@ -229,6 +229,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0015-3sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0084-largest-rectangle-in-histogram](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
@@ -515,6 +516,7 @@ Description available for every problem in its Readme file.
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0455-assign-cookies) |
@@ -580,6 +582,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
