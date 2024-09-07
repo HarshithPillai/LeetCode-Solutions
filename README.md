@@ -233,6 +233,7 @@ Description available for every problem in its Readme file.
 | [0085-maximal-rectangle](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0239-sliding-window-maximum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0455-assign-cookies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0624-maximum-distance-in-arrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
@@ -346,6 +347,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0015-3sum) |
+| [0455-assign-cookies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
@@ -511,6 +513,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
+| [0455-assign-cookies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0624-maximum-distance-in-arrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1303-minimum-moves-to-reach-target-score) |
@@ -630,6 +633,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0015-3sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0455-assign-cookies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Binary Search
