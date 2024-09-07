@@ -282,6 +282,7 @@ Description available for every problem in its Readme file.
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2846-robot-collisions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [3079-minimum-edge-weight-equilibrium-queries-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3079-minimum-edge-weight-equilibrium-queries-in-a-tree) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -357,6 +358,7 @@ Description available for every problem in its Readme file.
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2846-robot-collisions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Hash Table
@@ -519,6 +521,7 @@ Description available for every problem in its Readme file.
 | [1303-minimum-moves-to-reach-target-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1329-minimum-cost-to-move-chips-to-the-same-position](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1329-minimum-cost-to-move-chips-to-the-same-position) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Topological Sort
@@ -636,6 +639,7 @@ Description available for every problem in its Readme file.
 | [0455-assign-cookies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Binary Search
 |  |
 | ------- |
