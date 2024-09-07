@@ -184,6 +184,7 @@ Description available for every problem in its Readme file.
 ## Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [1484-linked-list-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -362,6 +363,7 @@ Description available for every problem in its Readme file.
 | [0003-longest-substring-without-repeating-characters](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0127-word-ladder) |
+| [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
@@ -645,6 +647,7 @@ Description available for every problem in its Readme file.
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0937-online-stock-span) |
@@ -690,4 +693,8 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
