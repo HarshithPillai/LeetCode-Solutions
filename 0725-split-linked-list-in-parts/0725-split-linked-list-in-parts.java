@@ -21,7 +21,6 @@ class Solution {
             numInOne = 1;
             extras = 0;
         }
-        System.out.println(numInOne + " " + extras);
         curr = head;
         ListNode[] ans = new ListNode[k];
         while(curr!=null) {
