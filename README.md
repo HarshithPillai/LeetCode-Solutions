@@ -199,6 +199,7 @@ Description available for every problem in its Readme file.
 | [0564-find-the-closest-palindrome](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
+| [0795-k-th-symbol-in-grammar](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1303-minimum-moves-to-reach-target-score) |
@@ -298,6 +299,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
+| [0795-k-th-symbol-in-grammar](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -627,6 +629,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0476-number-complement) |
+| [0795-k-th-symbol-in-grammar](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## Rolling Hash
 |  |
