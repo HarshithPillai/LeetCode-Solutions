@@ -278,6 +278,7 @@ Description available for every problem in its Readme file.
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -327,6 +328,7 @@ Description available for every problem in its Readme file.
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1720-crawler-log-folder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -396,6 +398,7 @@ Description available for every problem in its Readme file.
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -585,6 +588,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1034-subarrays-with-k-different-integers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Dynamic Programming
@@ -633,6 +637,7 @@ Description available for every problem in its Readme file.
 | [0476-number-complement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0476-number-complement) |
 | [0795-k-th-symbol-in-grammar](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Rolling Hash
 |  |
