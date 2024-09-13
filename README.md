@@ -269,6 +269,7 @@ Description available for every problem in its Readme file.
 | [1329-minimum-cost-to-move-chips-to-the-same-position](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1329-minimum-cost-to-move-chips-to-the-same-position) |
 | [1333-sort-the-jumbled-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1435-xor-queries-of-a-subarray](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -636,6 +637,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0476-number-complement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0476-number-complement) |
 | [0795-k-th-symbol-in-grammar](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
+| [1435-xor-queries-of-a-subarray](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
@@ -697,6 +699,7 @@ Description available for every problem in its Readme file.
 | [0966-binary-subarrays-with-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
+| [1435-xor-queries-of-a-subarray](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Biconnected Component
