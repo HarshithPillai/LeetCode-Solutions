@@ -294,6 +294,7 @@ Description available for every problem in its Readme file.
 | [2411-spiral-matrix-iv](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2846-robot-collisions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [3079-minimum-edge-weight-equilibrium-queries-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3079-minimum-edge-weight-equilibrium-queries-in-a-tree) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -641,6 +642,7 @@ Description available for every problem in its Readme file.
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -734,4 +736,8 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
