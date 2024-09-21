@@ -1,10 +1,16 @@
 class Solution {
+    public void dfs(List<Integer> arr, int n, int val) {
+        if(val>n) return;
+        arr.add(val);
+        for(int i=0; i<=9; i++) {
+            dfs(arr, n, val*10+i);
+        }
+    }
     public List<Integer> lexicalOrder(int n) {
         List<Integer> arr = new ArrayList<>();
-        for(int i=1; i<=n; i++) {
-            arr.add(i);
+        for(int i=1; i<=9; i++) {
+            dfs(arr, n, i);
         }
-        Collections.sort(arr, (a,b)->(a+"").compareTo(b+""));
         return arr;
     }
 }
