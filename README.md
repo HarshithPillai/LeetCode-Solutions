@@ -194,6 +194,7 @@ Description available for every problem in its Readme file.
 ## Math
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
@@ -307,6 +308,7 @@ Description available for every problem in its Readme file.
 ## Recursion
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0795-k-th-symbol-in-grammar](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -322,6 +324,7 @@ Description available for every problem in its Readme file.
 | [0076-minimum-window-substring](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0127-word-ladder) |
 | [0179-largest-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0179-largest-number) |
+| [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0402-remove-k-digits](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -618,6 +621,7 @@ Description available for every problem in its Readme file.
 | [0045-jump-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
+| [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0664-strange-printer) |
@@ -768,4 +772,8 @@ Description available for every problem in its Readme file.
 | [0386-lexicographical-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+## Memoization
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 <!---LeetCode Topics End-->
