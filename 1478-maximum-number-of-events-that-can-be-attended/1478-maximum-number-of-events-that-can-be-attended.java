@@ -12,10 +12,14 @@ class Solution {
                 pq.add(events[i][1]);
                 i++;
             }
-            pq.poll();
-            count++;
-            currDay++;
-            while(!pq.isEmpty() && pq.peek() < currDay) pq.poll();
+            while(!pq.isEmpty() && pq.peek() < currDay) {
+                pq.poll();
+            }
+            if(!pq.isEmpty()) {
+                pq.poll();
+                count++;
+                currDay++;
+            }
         }
         return count;
     }
