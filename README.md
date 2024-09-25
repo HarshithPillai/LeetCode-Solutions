@@ -305,6 +305,7 @@ Description available for every problem in its Readme file.
 | [3079-minimum-edge-weight-equilibrium-queries-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3079-minimum-edge-weight-equilibrium-queries-in-a-tree) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Recursion
@@ -676,6 +677,7 @@ Description available for every problem in its Readme file.
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 ## Rolling Hash
 |  |
 | ------- |
