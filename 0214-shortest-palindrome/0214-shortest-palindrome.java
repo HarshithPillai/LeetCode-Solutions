@@ -20,6 +20,6 @@ class Solution {
                 return reversed.substring(0, i) + s;
             }
         }
-        return reversed + s;
+        return "";
     }
 }
