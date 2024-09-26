@@ -249,6 +249,7 @@ Description available for every problem in its Readme file.
 | [0624-maximum-distance-in-arrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
+| [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -707,6 +708,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [1046-max-consecutive-ones-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -721,6 +723,7 @@ Description available for every problem in its Readme file.
 | [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0937-online-stock-span) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
@@ -796,4 +799,12 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0214-shortest-palindrome](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
+## Ordered Set
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
