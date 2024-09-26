@@ -42,9 +42,8 @@ class Solution {
             for(int i=30; i>=0; i--) {
                 int mask = val & (1<<i);
 
-                if(mask!=0) mask = 1;
-
-                mask = (mask==1) ? 0 : 1;
+                if(mask!=0) mask = 0;
+                else mask = 1;
 
                 if(curr.get(mask) == null) {
                     mask = (mask==1) ? 0 : 1;
