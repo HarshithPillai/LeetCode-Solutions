@@ -286,6 +286,7 @@ Description available for every problem in its Readme file.
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
@@ -679,6 +680,7 @@ Description available for every problem in its Readme file.
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
@@ -792,6 +794,7 @@ Description available for every problem in its Readme file.
 | [0386-lexicographical-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 ## Memoization
