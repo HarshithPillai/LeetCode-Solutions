@@ -49,7 +49,7 @@ class Solution {
                     mask = (mask==1) ? 0 : 1;
                 }
                 curr = curr.get(mask);
-                ans += (mask<<i);
+                if(mask == 1) ans += (1<<i);
             }
             return ans^val;
         }
