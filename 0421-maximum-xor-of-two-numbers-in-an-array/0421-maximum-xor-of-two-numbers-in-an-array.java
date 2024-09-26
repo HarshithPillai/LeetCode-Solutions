@@ -40,7 +40,8 @@ class Solution {
             Node curr = root;
             int ans = 0;
             for(int i=30; i>=0; i--) {
-                int mask = val & (1<<i);
+                int shift = 1<<i;
+                int mask = val & (shift);
 
                 if(mask!=0) mask = 0;
                 else mask = 1;
@@ -49,7 +50,7 @@ class Solution {
                     mask = (mask==1) ? 0 : 1;
                 }
                 curr = curr.get(mask);
-                if(mask == 1) ans += (1<<i);
+                if(mask == 1) ans += shift;
             }
             return ans^val;
         }
