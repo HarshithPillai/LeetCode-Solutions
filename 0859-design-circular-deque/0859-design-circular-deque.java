@@ -4,7 +4,7 @@ class MyCircularDeque {
     int capacity, size = 0;
 
     public MyCircularDeque(int k) {
-        dq = new ArrayDeque<>();
+        dq = new LinkedList<>();
         capacity = k;
     }
     
