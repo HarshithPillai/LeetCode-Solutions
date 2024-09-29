@@ -76,7 +76,7 @@ class AllOne {
         map.remove(key);
         int freq = curr.freq;
         if(curr.set.isEmpty()) {
-            System.out.println("node empty "+freq+" "+key);
+            // System.out.println("node empty "+freq+" "+key);
             Node previous = curr.prev;
             Node nextOne = curr.next;
             nextOne.prev = previous;
