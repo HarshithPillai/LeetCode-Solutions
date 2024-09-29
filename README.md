@@ -185,6 +185,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
@@ -413,6 +414,7 @@ Description available for every problem in its Readme file.
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0432-all-oone-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0496-next-greater-element-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
@@ -733,6 +735,7 @@ Description available for every problem in its Readme file.
 | [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0432-all-oone-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -787,6 +790,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 ## Number Theory
 |  |
 | ------- |
