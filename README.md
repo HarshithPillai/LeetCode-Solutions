@@ -345,6 +345,7 @@ Description available for every problem in its Readme file.
 | [0127-word-ladder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0127-word-ladder) |
 | [0179-largest-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0214-shortest-palindrome](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
@@ -491,6 +492,7 @@ Description available for every problem in its Readme file.
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
@@ -762,6 +764,7 @@ Description available for every problem in its Readme file.
 | [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0432-all-oone-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
@@ -832,6 +835,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0386-lexicographical-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0440-k-th-smallest-in-lexicographical-order) |
