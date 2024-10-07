@@ -1,29 +1,31 @@
-class Node {
-    Node arr[];
-    boolean flag = false;
-
-    Node() {
-        arr = new Node[26];
-    }
-
-    Node get(char ch) {
-        return arr[ch - 'a'];
-    }
-
-    void put(char ch, Node node) {
-        arr[ch - 'a'] = node;
-    }
-
-    void setEnd(boolean flag) {
-        this.flag = flag;
-    }
-
-    boolean isEnd() {
-        return flag;
-    }
-}
 class Trie {
-    
+
+    class Node {
+        Node[] arr;
+        boolean flag;
+
+        Node() {
+            arr = new Node[26];
+            flag = false;
+        }
+
+        public void put(char ch, Node node) {
+            arr[ch - 'a'] = node;
+        }
+
+        public Node get(char ch) {
+            return arr[ch - 'a'];
+        }
+
+        public boolean isEnd() {
+            return this.flag;
+        }
+
+        public void setFlag(boolean flag) {
+            this.flag = flag;
+        }
+    }
+
     Node root;
     
     public Trie() {
@@ -39,12 +41,12 @@ class Trie {
             }
             curr = curr.get(ch);
         }
-        curr.setEnd(true);
+        curr.setFlag(true);
     }
-    
+        
     public boolean search(String word) {
-        char[] charr = word.toCharArray();
         Node curr = root;
+        char[] charr = word.toCharArray();
         for(char ch:charr) {
             if(curr.get(ch) == null) return false;
             curr = curr.get(ch);
@@ -52,9 +54,9 @@ class Trie {
         return curr.isEnd();
     }
     
-    public boolean startsWith(String word) {
-        char[] charr = word.toCharArray();
+    public boolean startsWith(String prefix) {
         Node curr = root;
+        char[] charr = prefix.toCharArray();
         for(char ch:charr) {
             if(curr.get(ch) == null) return false;
             curr = curr.get(ch);
