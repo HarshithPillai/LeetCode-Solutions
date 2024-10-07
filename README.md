@@ -247,6 +247,7 @@ Description available for every problem in its Readme file.
 | [0119-pascals-triangle-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0119-pascals-triangle-ii) |
 | [0179-largest-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0212-word-search-ii) |
 | [0239-sliding-window-maximum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0455-assign-cookies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0455-assign-cookies) |
@@ -346,6 +347,7 @@ Description available for every problem in its Readme file.
 | [0179-largest-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0212-word-search-ii) |
 | [0214-shortest-palindrome](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
@@ -572,6 +574,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0085-maximal-rectangle](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0212-word-search-ii) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
@@ -836,6 +839,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0212-word-search-ii) |
 | [0386-lexicographical-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0440-k-th-smallest-in-lexicographical-order) |
@@ -861,4 +865,8 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
+## Backtracking
+|  |
+| ------- |
+| [0212-word-search-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
