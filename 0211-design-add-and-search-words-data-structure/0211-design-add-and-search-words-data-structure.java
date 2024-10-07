@@ -1,30 +1,79 @@
 class WordDictionary {
 
-    public Set<String> set;
+    class Node {
+        Node[] arr;
+        boolean flag;
+
+        Node() {
+            arr = new Node[26];
+            flag = false;
+        }
+
+        public void put(char ch, Node node) {
+            arr[ch - 'a'] = node;
+        }
+
+        public Node get(char ch) {
+            return arr[ch-'a'];
+        }
+
+        public boolean isEnd() {
+            return this.flag;
+        }
+
+        public void setEnd(boolean flag) {
+            this.flag = flag;
+        }
+    }
+
+    class Trie {
+        Node root;
+
+        Trie() {
+            root = new Node();
+        }
+
+        public void insert(String word) {
+            char[] arr = word.toCharArray();
+            Node curr = root;
+            for(char ch:arr) {
+                if(curr.get(ch) == null) {
+                    curr.put(ch, new Node());
+                }
+                curr = curr.get(ch);
+            }
+            curr.setEnd(true);
+        }
+
+        public boolean contains(char[] arr, int ind, Node curr) {
+            if(curr == null) return false;
+            if(ind == arr.length) return curr.isEnd();
+            char ch = arr[ind];
+            if(ch == '.') {
+                boolean res = false;
+                for(int i=0; i<26; i++) {
+                    res |= contains(arr, ind+1, curr.get((char)(i+'a')));
+                }
+                return res;
+            } else {
+                if(curr.get(ch) == null) return false;
+                return contains(arr, ind+1, curr.get(ch));
+            }
+        }
+    }
+
+    Trie trie;
+
     public WordDictionary() {
-        set = new HashSet<>();
+        trie = new Trie();
     }
     
     public void addWord(String word) {
-        // char[] arr = word.toCharArray();
-        // set.add(arr);
-        set.add(word);
+        trie.insert(word);
     }
     
     public boolean search(String word) {
-        return helper(word.toCharArray(), 0);
-    }
-
-    private boolean helper(char[] word, int ind) {
-        if(ind == word.length) return set.contains(new String(word));
-        if(word[ind]=='.') {
-            for(char a = 'a'; a<='z'; a++) {
-                word[ind] = a;
-                if(helper(word, ind+1)) return true;
-                word[ind] = '.';
-            }
-            return false;
-        } else return helper(word, ind+1);
+        return trie.contains(word.toCharArray(), 0, trie.root);
     }
 }
 
