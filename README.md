@@ -731,6 +731,7 @@ Description available for every problem in its Readme file.
 | [0476-number-complement](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0476-number-complement) |
 | [0795-k-th-symbol-in-grammar](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1435-xor-queries-of-a-subarray](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1435-xor-queries-of-a-subarray) |
+| [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
