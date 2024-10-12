@@ -12,7 +12,7 @@ class Solution {
         }
         long ans=0;
         while(k>0) {
-            System.out.println(pq1.peek() + " " + pq2.peek());
+            // System.out.println(pq1.peek() + " " + pq2.peek());
             if(!pq1.isEmpty() && !pq2.isEmpty()) {
                 if(pq1.peek() <= pq2.peek()) {
                     ans += pq1.poll();
