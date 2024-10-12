@@ -308,6 +308,7 @@ Description available for every problem in its Readme file.
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2155-find-missing-observations) |
@@ -555,6 +556,7 @@ Description available for every problem in its Readme file.
 | [1484-linked-list-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
@@ -607,6 +609,7 @@ Description available for every problem in its Readme file.
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2035-count-sub-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
