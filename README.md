@@ -259,6 +259,7 @@ Description available for every problem in its Readme file.
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0735-asteroid-collision](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -393,6 +394,7 @@ Description available for every problem in its Readme file.
 | [0503-next-greater-element-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0937-online-stock-span](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
@@ -822,6 +824,7 @@ Description available for every problem in its Readme file.
 | [0402-remove-k-digits](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [2227-sum-of-subarray-ranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2227-sum-of-subarray-ranges) |
