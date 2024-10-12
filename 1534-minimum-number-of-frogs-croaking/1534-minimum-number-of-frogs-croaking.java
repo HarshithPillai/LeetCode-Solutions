@@ -6,7 +6,6 @@ class Solution {
         map.put('o', 2);
         map.put('a', 3);
         map.put('k', 4);
-        char[] arr = new char[]{'c','r','o','a','k'};
         int count = 0, max = 0;
         int[] total = new int[]{0,0,0,0,0};
         char[] charr = word.toCharArray();
