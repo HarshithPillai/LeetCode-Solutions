@@ -481,6 +481,7 @@ Description available for every problem in its Readme file.
 | [1798-max-number-of-k-sum-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2413-smallest-number-in-infinite-set](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2413-smallest-number-in-infinite-set) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -661,6 +662,7 @@ Description available for every problem in its Readme file.
 | [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1397-search-suggestions-system](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [2413-smallest-number-in-infinite-set](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2413-smallest-number-in-infinite-set) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -832,6 +834,7 @@ Description available for every problem in its Readme file.
 | [0969-number-of-recent-calls](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0969-number-of-recent-calls) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2413-smallest-number-in-infinite-set](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2413-smallest-number-in-infinite-set) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -925,6 +928,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
+| [2413-smallest-number-in-infinite-set](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2413-smallest-number-in-infinite-set) |
 ## Backtracking
 |  |
 | ------- |
