@@ -500,6 +500,7 @@ Description available for every problem in its Readme file.
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
@@ -516,6 +517,7 @@ Description available for every problem in its Readme file.
 | [1207-delete-nodes-and-return-forest](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
@@ -544,6 +546,7 @@ Description available for every problem in its Readme file.
 | [1300-critical-connections-in-a-network](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1300-critical-connections-in-a-network) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
@@ -568,6 +571,7 @@ Description available for every problem in its Readme file.
 | [1117-as-far-from-land-as-possible](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1117-as-far-from-land-as-possible) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1484-linked-list-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
