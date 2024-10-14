@@ -805,6 +805,7 @@ Description available for every problem in its Readme file.
 ## Binary Search
 |  |
 | ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0374-guess-number-higher-or-lower) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
@@ -933,4 +934,8 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0212-word-search-ii) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
