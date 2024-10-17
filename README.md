@@ -377,6 +377,7 @@ Description available for every problem in its Readme file.
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1304-longest-happy-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1304-longest-happy-string) |
 | [1397-search-suggestions-system](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -652,6 +653,7 @@ Description available for every problem in its Readme file.
 | [0670-maximum-swap](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0670-maximum-swap) |
 | [0890-lemonade-change](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1303-minimum-moves-to-reach-target-score) |
+| [1304-longest-happy-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1304-longest-happy-string) |
 | [1329-minimum-cost-to-move-chips-to-the-same-position](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1329-minimum-cost-to-move-chips-to-the-same-position) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -676,6 +678,7 @@ Description available for every problem in its Readme file.
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
+| [1304-longest-happy-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1304-longest-happy-string) |
 | [1325-path-with-maximum-probability](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1397-search-suggestions-system](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
