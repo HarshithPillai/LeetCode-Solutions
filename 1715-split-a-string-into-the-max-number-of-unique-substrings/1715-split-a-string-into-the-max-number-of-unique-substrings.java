@@ -6,9 +6,12 @@ class Solution {
             return;
         }
         for(int i=ind; i<n; i++) {
-            Set<String> temp = new HashSet<>(set);
-            temp.add(s.substring(ind, i+1));
-            helper(s, i+1, n, temp);
+            String curr = s.substring(ind, i+1);
+            if(!set.contains(curr)) {
+                Set<String> temp = new HashSet<>(set);
+                temp.add(curr);
+                helper(s, i+1, n, temp);
+            }
         }
     }
     public int maxUniqueSplit(String s) {
