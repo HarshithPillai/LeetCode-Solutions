@@ -1,8 +1,10 @@
 class Solution {
     int max = 0;
     public void helper(String s, int ind, int n, Set<String> set) {
-        max = Math.max(max, set.size());
-        if(ind==n) return;
+        if(ind==n) {
+            max = Math.max(max, set.size());
+            return;
+        }
         for(int i=ind; i<n; i++) {
             Set<String> temp = new HashSet<>(set);
             temp.add(s.substring(ind, i+1));
