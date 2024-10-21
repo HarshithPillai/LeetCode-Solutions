@@ -8,9 +8,9 @@ class Solution {
         for(int i=ind; i<n; i++) {
             String curr = s.substring(ind, i+1);
             if(!set.contains(curr)) {
-                Set<String> temp = new HashSet<>(set);
-                temp.add(curr);
-                helper(s, i+1, n, temp);
+                set.add(curr);
+                helper(s, i+1, n, set);
+                set.remove(curr);
             }
         }
     }
