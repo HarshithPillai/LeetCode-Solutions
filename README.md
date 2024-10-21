@@ -344,6 +344,7 @@ Description available for every problem in its Readme file.
 ## Recursion
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0010-regular-expression-matching) |
 | [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0394-decode-string) |
@@ -363,6 +364,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0010-regular-expression-matching](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0010-regular-expression-matching) |
 | [0076-minimum-window-substring](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0127-word-ladder) |
 | [0179-largest-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0179-largest-number) |
@@ -743,6 +745,7 @@ Description available for every problem in its Readme file.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0010-regular-expression-matching) |
 | [0042-trapping-rain-water](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0055-jump-game) |
