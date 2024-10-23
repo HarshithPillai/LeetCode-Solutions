@@ -18,9 +18,7 @@ class Solution {
         if(root == null) return null;
         TreeNode left = trimBST(root.left, low, high);
         TreeNode right = trimBST(root.right, low, high);
-        if(root.val < low) {
-            return right;
-        }
+        if(root.val < low) return right;
         if(root.val > high) return left;
         root.left = left;
         root.right = right;
