@@ -19,7 +19,7 @@ class Solution {
         for(int s = n; s>=1; s--) {
             for(int e = 1; e<=n; e++) {
                 if(e-s < 2) continue;
-                int curr = ((e>1)?dp[s][e-1]:0) + ((s<n)?dp[s+1][e]:0);
+                int curr = dp[s][e-1] + dp[s+1][e];
                 for(int i=s+1; i<e; i++) {
                     curr += dp[s][i-1] * dp[i+1][e];
                 }
