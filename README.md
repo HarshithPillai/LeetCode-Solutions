@@ -528,6 +528,7 @@ Description available for every problem in its Readme file.
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0669-trim-a-binary-search-tree) |
+| [0687-longest-univalue-path](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0690-employee-importance) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -556,6 +557,7 @@ Description available for every problem in its Readme file.
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0669-trim-a-binary-search-tree) |
+| [0687-longest-univalue-path](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0687-longest-univalue-path) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0904-leaf-similar-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0904-leaf-similar-trees) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -580,6 +582,7 @@ Description available for every problem in its Readme file.
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
 | [0669-trim-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0669-trim-a-binary-search-tree) |
+| [0687-longest-univalue-path](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0690-employee-importance) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0775-n-ary-tree-preorder-traversal) |
