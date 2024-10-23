@@ -428,6 +428,7 @@ Description available for every problem in its Readme file.
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
+| [0775-n-ary-tree-preorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0937-online-stock-span](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
@@ -524,6 +525,7 @@ Description available for every problem in its Readme file.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
+| [0775-n-ary-tree-preorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0904-leaf-similar-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0904-leaf-similar-trees) |
@@ -573,6 +575,7 @@ Description available for every problem in its Readme file.
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
+| [0775-n-ary-tree-preorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
