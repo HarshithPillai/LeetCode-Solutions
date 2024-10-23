@@ -198,6 +198,7 @@ Description available for every problem in its Readme file.
 ## Math
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0096-unique-binary-search-trees) |
 | [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
@@ -514,6 +515,7 @@ Description available for every problem in its Readme file.
 ## Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0096-unique-binary-search-trees) |
 | [0145-binary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
@@ -535,6 +537,7 @@ Description available for every problem in its Readme file.
 ## Binary Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0096-unique-binary-search-trees) |
 | [0145-binary-tree-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
@@ -759,6 +762,7 @@ Description available for every problem in its Readme file.
 | [0045-jump-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
+| [0096-unique-binary-search-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0096-unique-binary-search-trees) |
 | [0119-pascals-triangle-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0119-pascals-triangle-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
@@ -889,6 +893,7 @@ Description available for every problem in its Readme file.
 ## Binary Search Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0096-unique-binary-search-trees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
