@@ -527,6 +527,7 @@ Description available for every problem in its Readme file.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0669-trim-a-binary-search-tree) |
 | [0687-longest-univalue-path](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0690-employee-importance) |
@@ -556,6 +557,7 @@ Description available for every problem in its Readme file.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0669-trim-a-binary-search-tree) |
 | [0687-longest-univalue-path](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0687-longest-univalue-path) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -580,6 +582,7 @@ Description available for every problem in its Readme file.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0437-path-sum-iii) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
 | [0669-trim-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0669-trim-a-binary-search-tree) |
 | [0687-longest-univalue-path](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0687-longest-univalue-path) |
@@ -919,6 +922,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0096-unique-binary-search-trees) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0669-trim-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
