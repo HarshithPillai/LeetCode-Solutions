@@ -5,7 +5,7 @@ class Solution {
         int n = s.length(), l = 0, r = 0, max = 0, curr = 0;
         while(r<n) {
             if(vowel.contains(arr[r])) curr++;
-            if(r-l+1 > k) {
+            if(r >= k) {
                 if(vowel.contains(arr[l])) curr--;
                 l++;
             }
