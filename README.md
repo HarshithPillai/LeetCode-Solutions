@@ -315,6 +315,7 @@ Description available for every problem in its Readme file.
 | [1798-max-number-of-k-sum-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [1833-find-the-highest-altitude](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1833-find-the-highest-altitude) |
 | [1923-sentence-similarity-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -960,6 +961,7 @@ Description available for every problem in its Readme file.
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1694-make-sum-divisible-by-p](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
+| [1833-find-the-highest-altitude](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1833-find-the-highest-altitude) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2102-find-the-middle-index-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2102-find-the-middle-index-in-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
