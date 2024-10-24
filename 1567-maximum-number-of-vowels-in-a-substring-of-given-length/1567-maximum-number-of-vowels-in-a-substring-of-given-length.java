@@ -1,12 +1,18 @@
 class Solution {
     public int maxVowels(String s, int k) {
-        Set<Character> vowel = Set.of('a', 'e', 'i', 'o', 'u');
+        boolean[] vowel = new boolean[26];
+        Arrays.fill(vowel, false);
+        vowel[0] = true;
+        vowel[4] = true;
+        vowel[8] = true;
+        vowel[14] = true;
+        vowel[20] = true;
         char[] arr = s.toCharArray();
         int n = s.length(), l = 0, r = 0, max = 0, curr = 0;
         while(r<n) {
-            if(vowel.contains(arr[r])) curr++;
+            if(vowel[arr[r]-'a']) curr++;
             if(r >= k) {
-                if(vowel.contains(arr[l])) curr--;
+                if(vowel[arr[l]-'a']) curr--;
                 l++;
             }
             if(r-l+1 == k) max = Math.max(max, curr);
