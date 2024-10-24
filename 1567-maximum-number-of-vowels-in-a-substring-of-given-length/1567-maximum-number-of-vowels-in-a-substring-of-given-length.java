@@ -1,7 +1,6 @@
 class Solution {
     public int maxVowels(String s, int k) {
         boolean[] vowel = new boolean[26];
-        Arrays.fill(vowel, false);
         vowel[0] = true;
         vowel[4] = true;
         vowel[8] = true;
