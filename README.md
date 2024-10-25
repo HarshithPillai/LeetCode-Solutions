@@ -247,6 +247,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0015-3sum) |
+| [0041-first-missing-positive](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0055-jump-game) |
@@ -490,6 +491,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0041-first-missing-positive](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
