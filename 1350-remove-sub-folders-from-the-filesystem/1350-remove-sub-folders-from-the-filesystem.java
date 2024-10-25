@@ -38,7 +38,7 @@ class Solution {
         }
     }
     public List<String> removeSubfolders(String[] folder) {
-        Arrays.sort(folder);
+        Arrays.sort(folder, (a,b)->Integer.compare(a.length(), b.length()));
         Trie trie = new Trie();
         List<String> res = new ArrayList<>();
         for(String f:folder) {
