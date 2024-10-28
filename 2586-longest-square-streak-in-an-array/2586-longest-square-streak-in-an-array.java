@@ -19,7 +19,7 @@ class Solution {
         int square = nums[ind]*nums[ind];
         int res = 0, next = lowerbound(nums, square, ind);
         if(next == n) return 0;
-        if(next < n && nums[next] == square) res = Math.max(res, 1+helper(nums, next));
+        if(next < n && nums[next] == square) res = 1+helper(nums, next);
         return dp[ind] = res;
     }
     public int longestSquareStreak(int[] nums) {
@@ -28,7 +28,7 @@ class Solution {
         dp = new Integer[n+1];
         int res = 0;
         for(int i=0; i<n-1; i++) {
-            res = Math.max(res, 1 + helper(nums, i));
+            if(i==0 || (nums[i] != nums[i-1])) res = Math.max(res, 1 + helper(nums, i));
         }
         if(res < 2) return -1;
         return res;
