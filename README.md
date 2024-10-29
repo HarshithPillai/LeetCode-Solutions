@@ -350,6 +350,7 @@ Description available for every problem in its Readme file.
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2846-robot-collisions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [3079-minimum-edge-weight-equilibrium-queries-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3079-minimum-edge-weight-equilibrium-queries-in-a-tree) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -731,6 +732,7 @@ Description available for every problem in its Readme file.
 | [2411-spiral-matrix-iv](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2428-equal-row-and-column-pairs) |
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Greedy
 |  |
 | ------- |
@@ -850,6 +852,7 @@ Description available for every problem in its Readme file.
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Binary Indexed Tree
 |  |
 | ------- |
