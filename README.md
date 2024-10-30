@@ -316,6 +316,7 @@ Description available for every problem in its Readme file.
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
@@ -751,6 +752,7 @@ Description available for every problem in its Readme file.
 | [1329-minimum-cost-to-move-chips-to-the-same-position](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1329-minimum-cost-to-move-chips-to-the-same-position) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -848,6 +850,7 @@ Description available for every problem in its Readme file.
 | [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
@@ -939,6 +942,7 @@ Description available for every problem in its Readme file.
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1397-search-suggestions-system](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
