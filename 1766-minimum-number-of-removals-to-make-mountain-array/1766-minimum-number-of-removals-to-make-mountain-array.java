@@ -1,30 +1,27 @@
 class Solution {
-    public int minimumMountainRemovals(int[] arr) {
-        int n=arr.length;
-        int[] lis = new int[n];
-        int[] lds = new int[n];
-        for(int i=0;i<n;i++) {
-            lis[i]=1;
-            for(int j=0;j<i;j++) {
-                if(arr[i]>arr[j] && lis[i]<1+lis[j]) {
-                    lis[i] = 1+lis[j];
+    public int minimumMountainRemovals(int[] nums) {
+        int n = nums.length, left[] = new int[n], right[] = new int[n], res = 0;
+        for(int i=0; i<n; i++) {
+            left[i] = 1;
+            for(int j=0; j<i; j++) {
+                if(nums[j] < nums[i]) {
+                    left[i] = Math.max(left[i], left[j] + 1);
                 }
             }
         }
-        for(int i=n-1;i>=0;i--) {
-            lds[i]=1;
-            for(int j=n-1;j>i;j--) {
-                if(arr[i]>arr[j] && lds[i]<1+lds[j]) {
-                    lds[i] = 1 + lds[j];
+        for(int i = n-1; i>=0; i--) {
+            right[i] = 1;
+            for(int j = n-1; j>i; j--) {
+                if(nums[j] < nums[i]) {
+                    right[i] = Math.max(right[i], right[j] + 1);
                 }
             }
         }
-        int max=0;
-        for(int i=0;i<n;i++) {
-            // because if 1 means the slope starts from there,
-            // we need a point which already has 1 or more element before it
-            if(lds[i]>1 && lis[i]>1) max=Math.max(max,lis[i]+lds[i]-1);
+        for(int i=1; i<n-1; i++) {
+            if(left[i] > 1 && right[i] > 1) {
+                res = Math.max(res, left[i] + right[i] - 1);
+            }
         }
-        return n-max;
+        return n - res;
     }
 }
