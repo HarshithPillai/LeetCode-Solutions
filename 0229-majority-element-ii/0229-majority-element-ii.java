@@ -2,17 +2,20 @@ class Solution {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> res = new ArrayList<Integer>();
         int n=nums.length;
+
+        
+
         int el1=Integer.MIN_VALUE, el2=Integer.MIN_VALUE, count1=0, count2=0;
         for(int i=0; i<n; i++) {
-            if(nums[i]==el1 && nums[i]!=el2) {
-                count1++;
-            } else if(nums[i]==el2 && nums[i]!=el1) {
-                count2++;
-            } else if(count1==0) {
+            if(count1==0 && nums[i]!=el2) {
                 count1=1; el1=nums[i];
             } else if(count2==0 && nums[i]!=el1) {
                 count2=1; el2=nums[i];
-            }  else {
+            } else if(nums[i]==el1) {
+                count1++;
+            } else if(nums[i]==el2) {
+                count2++;
+            } else {
                 count1--; count2--;
             }
         }
