@@ -434,6 +434,7 @@ Description available for every problem in its Readme file.
 | [2292-counting-words-with-a-given-prefix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2470-removing-stars-from-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2580-circular-sentence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2580-circular-sentence) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
