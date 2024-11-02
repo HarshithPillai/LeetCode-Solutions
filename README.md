@@ -255,6 +255,7 @@ Description available for every problem in its Readme file.
 | [0084-largest-rectangle-in-histogram](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0119-pascals-triangle-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0119-pascals-triangle-ii) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0179-largest-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0212-word-search-ii) |
@@ -947,6 +948,7 @@ Description available for every problem in its Readme file.
 ## Binary Search
 |  |
 | ------- |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0374-guess-number-higher-or-lower](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0374-guess-number-higher-or-lower) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
