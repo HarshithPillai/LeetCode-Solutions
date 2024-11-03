@@ -410,6 +410,7 @@ Description available for every problem in its Readme file.
 | [0664-strange-printer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0664-strange-printer) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
+| [0812-rotate-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1197-parsing-a-boolean-expression](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -1072,6 +1073,7 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
+| [0812-rotate-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0812-rotate-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 ## Segment Tree
 |  |
