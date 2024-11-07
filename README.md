@@ -340,6 +340,7 @@ Description available for every problem in its Readme file.
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2411-spiral-matrix-iv](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2428-equal-row-and-column-pairs) |
@@ -554,6 +555,7 @@ Description available for every problem in its Readme file.
 | [1798-max-number-of-k-sum-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2413-smallest-number-in-infinite-set](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2428-equal-row-and-column-pairs) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -837,6 +839,7 @@ Description available for every problem in its Readme file.
 | [1777-determine-if-two-strings-are-close](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1777-determine-if-two-strings-are-close) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Dynamic Programming
@@ -914,6 +917,7 @@ Description available for every problem in its Readme file.
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3291-find-if-array-can-be-sorted](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
