@@ -326,6 +326,7 @@ Description available for every problem in its Readme file.
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [1833-find-the-highest-altitude](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1833-find-the-highest-altitude) |
 | [1923-sentence-similarity-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
+| [1940-maximum-xor-for-each-query](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
@@ -915,6 +916,7 @@ Description available for every problem in its Readme file.
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [1940-maximum-xor-for-each-query](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -1019,6 +1021,7 @@ Description available for every problem in its Readme file.
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1694-make-sum-divisible-by-p](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1833-find-the-highest-altitude](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1833-find-the-highest-altitude) |
+| [1940-maximum-xor-for-each-query](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2102-find-the-middle-index-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2102-find-the-middle-index-in-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
