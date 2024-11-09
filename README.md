@@ -923,6 +923,7 @@ Description available for every problem in its Readme file.
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3291-find-if-array-can-be-sorted](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
+| [3394-minimum-array-end](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3394-minimum-array-end) |
 ## Rolling Hash
 |  |
 | ------- |
