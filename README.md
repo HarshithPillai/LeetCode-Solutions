@@ -355,6 +355,7 @@ Description available for every problem in its Readme file.
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2554-minimum-total-distance-traveled](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2554-minimum-total-distance-traveled) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -571,6 +572,7 @@ Description available for every problem in its Readme file.
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2413-smallest-number-in-infinite-set](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2428-equal-row-and-column-pairs) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -917,6 +919,7 @@ Description available for every problem in its Readme file.
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
