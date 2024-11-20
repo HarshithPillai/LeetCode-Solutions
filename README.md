@@ -451,6 +451,7 @@ Description available for every problem in its Readme file.
 | [2470-removing-stars-from-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2580-circular-sentence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2580-circular-sentence) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
@@ -575,6 +576,7 @@ Description available for every problem in its Readme file.
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -920,6 +922,7 @@ Description available for every problem in its Readme file.
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
