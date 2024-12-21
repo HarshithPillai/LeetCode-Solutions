@@ -629,6 +629,7 @@ Description available for every problem in its Readme file.
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
+| [3058-maximum-number-of-k-divisible-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3079-minimum-edge-weight-equilibrium-queries-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3079-minimum-edge-weight-equilibrium-queries-in-a-tree) |
 ## Binary Tree
 |  |
@@ -700,6 +701,7 @@ Description available for every problem in its Readme file.
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
+| [3058-maximum-number-of-k-divisible-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
 ## Breadth-First Search
 |  |
 | ------- |
