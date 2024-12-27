@@ -294,6 +294,7 @@ Description available for every problem in its Readme file.
 | [1034-subarrays-with-k-different-integers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1063-best-sightseeing-pair](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1063-best-sightseeing-pair) |
 | [1117-as-far-from-land-as-possible](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1117-as-far-from-land-as-possible) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1196-filling-bookcase-shelves](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
@@ -914,6 +915,7 @@ Description available for every problem in its Readme file.
 | [0664-strange-printer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0664-strange-printer) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
+| [1063-best-sightseeing-pair](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1063-best-sightseeing-pair) |
 | [1117-as-far-from-land-as-possible](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1117-as-far-from-land-as-possible) |
 | [1196-filling-bookcase-shelves](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
