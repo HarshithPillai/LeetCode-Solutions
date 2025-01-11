@@ -10,7 +10,7 @@ public:
             mp[s[i]-'a']++;
         }
         for(int i=0; i<26; i++) {
-            if(mp[i] % 2 == 1) {
+            if(mp[i] & 1 == 1) {
                 count++;
             }
 
