@@ -5,12 +5,12 @@ public:
         if(n == k) return true;
         if(n < k) return false;
 
-        map<char, int> mp;
+        int mp[26] = {0};
         for(int i=0; i<n; i++) {
-            mp[s[i]]++;
+            mp[s[i]-'a']++;
         }
-        for(auto x:mp) {
-            if(x.second % 2 == 1) {
+        for(int i=0; i<26; i++) {
+            if(mp[i] % 2 == 1) {
                 count++;
             }
 
