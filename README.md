@@ -444,6 +444,7 @@ Description available for every problem in its Readme file.
 | [1397-search-suggestions-system](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1502-construct-k-palindrome-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1534-minimum-number-of-frogs-croaking](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1534-minimum-number-of-frogs-croaking) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -575,6 +576,7 @@ Description available for every problem in its Readme file.
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1502-construct-k-palindrome-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -818,6 +820,7 @@ Description available for every problem in its Readme file.
 | [1304-longest-happy-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1304-longest-happy-string) |
 | [1329-minimum-cost-to-move-chips-to-the-same-position](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1329-minimum-cost-to-move-chips-to-the-same-position) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1502-construct-k-palindrome-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2089-maximum-matrix-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
@@ -888,6 +891,7 @@ Description available for every problem in its Readme file.
 | [0920-uncommon-words-from-two-sentences](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1034-subarrays-with-k-different-integers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
+| [1502-construct-k-palindrome-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1534-minimum-number-of-frogs-croaking](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1534-minimum-number-of-frogs-croaking) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1777-determine-if-two-strings-are-close](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1777-determine-if-two-strings-are-close) |
