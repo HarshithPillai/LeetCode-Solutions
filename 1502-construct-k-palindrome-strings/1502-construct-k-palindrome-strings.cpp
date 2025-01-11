@@ -6,14 +6,13 @@ public:
         if(n < k) return false;
 
         int mp[26] = {0};
-        for(int i=0; i<n; i++) {
-            mp[s[i]-'a']++;
+        for(char& c : s) {
+            mp[c-'a']++;
         }
         for(int i=0; i<26; i++) {
             if(mp[i] & 1 == 1) {
                 count++;
             }
-
         }
         if(count > k) return false;
         return true;
