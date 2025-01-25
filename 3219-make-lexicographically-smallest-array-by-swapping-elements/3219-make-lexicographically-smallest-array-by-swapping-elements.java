@@ -1,12 +1,15 @@
 class Solution {
     public int[] lexicographicallySmallestArray(int[] val, int limit) {
+        int ind = 0, n = val.length;
         List<Queue<Integer>> list = new ArrayList<>();
-        list.add(new LinkedList<>());
-        int[] nums = new int[val.length];
+        Map<Integer, Integer> index = new HashMap<>();
+
+        int[] nums = new int[n];
         for(int i=0; i<val.length; i++) nums[i] = val[i];
         Arrays.sort(nums);
-        int ind = 0, n = nums.length;
-        Map<Integer, Integer> index = new HashMap<>();
+        
+        list.add(new LinkedList<>());
+        
         for(int i=0; i<n; i++) {
             Queue<Integer> q = list.get(ind);
             if(!q.isEmpty() && Math.abs(nums[i] - nums[i-1]) > limit) {
@@ -17,10 +20,9 @@ class Solution {
             q.add(nums[i]);
             index.put(nums[i], ind);
         }
-        int[] ans = new int[n];
         for(int i=0; i<n; i++) {
-            ans[i] = list.get(index.get(val[i])).poll();
+            val[i] = list.get(index.get(val[i])).poll();
         }
-        return ans;
+        return val;
     }
 }
