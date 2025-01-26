@@ -1,6 +1,6 @@
 class Solution {
     public int maximumInvitations(int[] favorite) {
-        int n = favorite.length;
+        int n = favorite.length, longestCycle = 0, twoLengthCycle = 0;
         int[] indegree = new int[n], depth = new int[n];
         Arrays.fill(depth, 1);
         Queue<Integer> q = new LinkedList<>();
@@ -21,7 +21,6 @@ class Solution {
                 q.add(next);
             }
         }
-        int longestCycle = 0, twoLengthCycle = 0;
         for(int i=0; i<n; i++) {
             if(indegree[i] == 0) continue;
             int curr = i, cycleLength = 0;
