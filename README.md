@@ -686,6 +686,7 @@ Description available for every problem in its Readme file.
 | [0501-find-mode-in-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
 | [0669-trim-a-binary-search-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0669-trim-a-binary-search-tree) |
+| [0684-redundant-connection](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0687-longest-univalue-path](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0690-employee-importance) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
@@ -727,6 +728,7 @@ Description available for every problem in its Readme file.
 | [0210-course-schedule-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0690-employee-importance) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0787-sliding-puzzle](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0787-sliding-puzzle) |
@@ -759,6 +761,7 @@ Description available for every problem in its Readme file.
 | [0207-course-schedule](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -783,6 +786,7 @@ Description available for every problem in its Readme file.
 | ------- |
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
