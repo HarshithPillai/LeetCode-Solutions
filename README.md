@@ -387,6 +387,7 @@ Description available for every problem in its Readme file.
 | [3235-minimum-cost-to-convert-string-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3291-find-if-array-can-be-sorted](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
 | [3429-special-array-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3429-special-array-i) |
