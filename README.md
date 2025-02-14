@@ -247,6 +247,7 @@ Description available for every problem in its Readme file.
 | [2645-pass-the-pillow](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2846-robot-collisions) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Array
 |  |
 | ------- |
@@ -395,6 +396,7 @@ Description available for every problem in its Readme file.
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
 | [3429-special-array-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3429-special-array-i) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -620,6 +622,7 @@ Description available for every problem in its Readme file.
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Tree
