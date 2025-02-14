@@ -339,6 +339,7 @@ Description available for every problem in its Readme file.
 | [1833-find-the-highest-altitude](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1833-find-the-highest-altitude) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1923-sentence-similarity-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1940-maximum-xor-for-each-query](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1972-rotating-the-box](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1972-rotating-the-box) |
