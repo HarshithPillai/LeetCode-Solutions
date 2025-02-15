@@ -13,8 +13,7 @@ class Solution {
         */
         int ans = 0;
         for(int i=1; i<=n; i++) {
-            boolean punishment = helper(i * i, 1, i);
-            if(punishment) ans += i*i;
+            if(helper(i * i, 1, i)) ans += i*i;
         }
         return ans;
     }
