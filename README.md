@@ -481,6 +481,7 @@ Description available for every problem in its Readme file.
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2580-circular-sentence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2580-circular-sentence) |
@@ -527,6 +528,7 @@ Description available for every problem in its Readme file.
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2227-sum-of-subarray-ranges](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2227-sum-of-subarray-ranges) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2846-robot-collisions) |
@@ -873,6 +875,7 @@ Description available for every problem in its Readme file.
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2089-maximum-matrix-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2509-minimize-xor](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2509-minimize-xor) |
@@ -1258,6 +1261,7 @@ Description available for every problem in its Readme file.
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Interactive
 |  |
