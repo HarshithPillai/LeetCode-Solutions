@@ -355,6 +355,7 @@ Description available for every problem in its Readme file.
 | [2067-maximum-number-of-points-with-cost](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2089-maximum-matrix-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2102-find-the-middle-index-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2102-find-the-middle-index-in-array) |
+| [2107-find-unique-binary-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -478,6 +479,7 @@ Description available for every problem in its Readme file.
 | [1923-sentence-similarity-iii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2107-find-unique-binary-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -620,6 +622,7 @@ Description available for every problem in its Readme file.
 | [1786-count-the-number-of-consistent-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2107-find-unique-binary-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -1262,6 +1265,7 @@ Description available for every problem in its Readme file.
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [2107-find-unique-binary-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
