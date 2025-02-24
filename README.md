@@ -384,6 +384,7 @@ Description available for every problem in its Readme file.
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2554-minimum-total-distance-traveled](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2554-minimum-total-distance-traveled) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -676,6 +677,7 @@ Description available for every problem in its Readme file.
 | [2306-create-binary-tree-from-descriptions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -753,6 +755,7 @@ Description available for every problem in its Readme file.
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
@@ -790,6 +793,7 @@ Description available for every problem in its Readme file.
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -815,6 +819,7 @@ Description available for every problem in its Readme file.
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2472-build-a-matrix-with-conditions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2793-count-the-number-of-complete-components](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [2803-modify-graph-edge-weights](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
