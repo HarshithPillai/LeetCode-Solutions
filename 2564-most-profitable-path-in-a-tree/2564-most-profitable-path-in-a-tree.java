@@ -11,16 +11,11 @@ class Solution {
         }
         return false;
     }
-    // dfs(bobPath, 0, 0, -1, vis, adj)
+
     public void dfs(List<Integer> bobPath, int bobIndex, int alice, int aliceParent, int[] visAlice, int[] visBob, List<List<Integer>> adj, int[] amount, int val) {
         int res = ((visAlice[alice] == 0 && visBob[alice] == 0) ? amount[alice] : 0);
         int bob = ((bobIndex < m) ? bobPath.get(bobIndex) : -1);
         if (bob == alice) {
-            // System.out.println("MIDPOINT -> " + bob + " res -> " + res + " vis[] -> ");
-            // for(int i:vis) {
-            //     System.out.print(i + " ,");
-            // }
-            // System.out.println("");
             res /= 2;
         }
 
@@ -28,7 +23,6 @@ class Solution {
         
         if(adj.get(alice).size() == 1 && adj.get(alice).get(0) == aliceParent) {
             ans = Math.max(ans, val + res);
-            // System.out.println("ans -> "+ans +" alice node -> "+alice);
             return;
         }
         int next = -(int)1e8;
@@ -43,6 +37,7 @@ class Solution {
         visAlice[alice] = 0;
         if (bob != -1) visBob[bob] = 0;
     }
+    
     public int mostProfitablePath(int[][] edges, int bob, int[] amount) {
         List<List<Integer>> adj = new ArrayList<>();
         n = amount.length;
