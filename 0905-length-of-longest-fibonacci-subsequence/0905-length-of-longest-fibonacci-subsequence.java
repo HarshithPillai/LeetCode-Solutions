@@ -11,7 +11,7 @@ class Solution {
         for(int i=0; i<n; i++) {
             for(int j=0; j<i; j++) {
                 int prevVal = arr[i] - arr[j];
-                if(index.containsKey(prevVal) && index.get(prevVal) < j) {
+                if(index.containsKey(prevVal) && prevVal < arr[j]) {
                     int prevIndex = index.get(prevVal);
                     dp[i][j] = Math.max(dp[i][j], 1 + dp[j][prevIndex]);
                     ans = Math.max(ans, dp[i][j] + 1);
