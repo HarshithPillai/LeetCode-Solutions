@@ -463,6 +463,7 @@ Description available for every problem in its Readme file.
 | [0812-rotate-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1170-shortest-common-supersequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1170-shortest-common-supersequence) |
 | [1197-parsing-a-boolean-expression](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1302-delete-characters-to-make-fancy-string) |
@@ -1007,6 +1008,7 @@ Description available for every problem in its Readme file.
 | [0943-sum-of-subarray-minimums](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [1063-best-sightseeing-pair](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1063-best-sightseeing-pair) |
 | [1117-as-far-from-land-as-possible](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1117-as-far-from-land-as-possible) |
+| [1170-shortest-common-supersequence](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1170-shortest-common-supersequence) |
 | [1196-filling-bookcase-shelves](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
