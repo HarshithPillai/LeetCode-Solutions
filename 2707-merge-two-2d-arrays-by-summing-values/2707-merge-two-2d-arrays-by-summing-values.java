@@ -11,6 +11,8 @@ class Solution {
                 j++;
             } else {
                 nums1[i][1] += nums2[j][1];
+                lt.add(nums1[i]);
+                i++;
                 j++;
             }
         }
