@@ -27,12 +27,6 @@ class Solution {
             j++;
         }
 
-        int[][] ans = new int[lt.size()][2];
-        for(int k = 0; k < lt.size(); k++) {
-            ans[k][0] = lt.get(k)[0];
-            ans[k][1] = lt.get(k)[1];
-        }
-        
-        return ans;
+        return lt.toArray(new int[lt.size()][2]);
     }
 }
