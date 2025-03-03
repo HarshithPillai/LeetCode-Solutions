@@ -1,25 +1,26 @@
 class Solution {
     public int[] pivotArray(int[] nums, int pivot) {
-        List<Integer> lt = new ArrayList<>();
-        List<Integer> gt = new ArrayList<>();
-        int count = 0;
+        int n = nums.length, count = 0, ltInd = 0, gtInd = 0;
+        int[] lt = new int[n], gt = new int[n];
         for (int i : nums) {
             if (i > pivot) {
-                gt.add(i);
+                gt[gtInd] = i;
+                gtInd++;
             } else if (i < pivot) {
-                lt.add(i);
+                lt[ltInd] = i;
+                ltInd++;
             } else {
                 count++;
             }
         }
-        int n = lt.size() + gt.size() + count;
+        
         while (count > 0) {
             count--;
-            lt.add(pivot);
+            lt[ltInd++] = pivot;
         }
-        for(int i : gt) {
-            lt.add(i);
+        for(int i = 0; i < gtInd; i++) {
+            lt[ltInd++] = gt[i];
         }
-        return lt.stream().mapToInt(i -> i).toArray();
+        return lt;
     }
 }
