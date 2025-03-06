@@ -13,12 +13,15 @@ class Solution {
                 (y^2 - x^2) / (y - x) = y + x
         */
 
-        long n = grid.length, sqValid = (n*n) * (n*n+1) * (2*n*n + 1)/6, sqMatrix = 0, valid = (n*n) * (n*n + 1)/2, matrix = 0;
+        long n = grid.length, sqValid = 0, sqMatrix = 0, valid = (n*n) * (n*n + 1)/2, matrix = 0;
 
         for (int i = 0; i < n; i++) {
+            long ind = 1;
             for (int val : grid[i]) {
                 sqMatrix += val*val;
                 matrix += val;
+                sqValid += (i*n+ind)*(i*n+ind);
+                ind++;
             }
         }
 
