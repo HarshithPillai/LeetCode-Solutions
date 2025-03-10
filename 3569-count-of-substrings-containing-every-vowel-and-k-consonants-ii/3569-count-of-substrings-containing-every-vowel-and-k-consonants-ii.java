@@ -1,4 +1,7 @@
 class Solution {
+    Set<Character> set = Set.of('a', 'e', 'i', 'o', 'u');
+    char[] arr;
+    int n;
     public long helper(String word, int k) {
         /**
             k is non-negative integer 'k'
@@ -6,10 +9,8 @@ class Solution {
             at least once and exactly k consonents
         */
 
-        char[] arr = word.toCharArray();
-        int n = arr.length, l = 0, r = 0, vowels = 0, consonents = 0;
         long ans = 0;
-        Set<Character> set = Set.of('a', 'e', 'i', 'o', 'u');
+        int l = 0, r = 0, consonents = 0;
         Map<Character, Integer> map = new HashMap<>();
         while (r < n) {
             char ch = arr[r];
@@ -38,6 +39,8 @@ class Solution {
         return ans;
     }
     public long countOfSubstrings(String word, int k) {
+        n = word.length();
+        arr = word.toCharArray();
         return helper(word, k) - helper(word, k+1);
     }
 }
