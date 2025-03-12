@@ -399,6 +399,7 @@ Description available for every problem in its Readme file.
 | [2564-most-profitable-path-in-a-tree](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -1009,6 +1010,7 @@ Description available for every problem in its Readme file.
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -1174,6 +1176,7 @@ Description available for every problem in its Readme file.
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
