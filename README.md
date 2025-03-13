@@ -424,6 +424,7 @@ Description available for every problem in its Readme file.
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3643-zero-array-transformation-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3643-zero-array-transformation-ii) |
 ## Recursion
 |  |
 | ------- |
@@ -1180,6 +1181,7 @@ Description available for every problem in its Readme file.
 | [2699-count-the-number-of-fair-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3643-zero-array-transformation-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3643-zero-array-transformation-ii) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -1239,6 +1241,7 @@ Description available for every problem in its Readme file.
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2102-find-the-middle-index-in-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2102-find-the-middle-index-in-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [3643-zero-array-transformation-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/3643-zero-array-transformation-ii) |
 ## Biconnected Component
 |  |
 | ------- |
