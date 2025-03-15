@@ -1,11 +1,10 @@
 class Solution {
     int n;
     public boolean helper(int[] nums, int k, int mid) {
-        int last = -2;
         for (int i = 0; i < n; i++) {
-            if (nums[i] <= mid && last < i-1) {
+            if (nums[i] <= mid) {
                 k--;
-                last = i;
+                i++;
             }
         }
         return k <= 0;
