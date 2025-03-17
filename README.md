@@ -188,6 +188,7 @@ Description available for every problem in its Readme file.
 | [0083-remove-duplicates-from-sorted-list](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0143-reorder-list](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
+| [0203-remove-linked-list-elements](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0203-remove-linked-list-elements) |
 | [0432-all-oone-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
@@ -435,6 +436,7 @@ Description available for every problem in its Readme file.
 | [0010-regular-expression-matching](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0010-regular-expression-matching) |
 | [0024-swap-nodes-in-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0143-reorder-list](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0143-reorder-list) |
+| [0203-remove-linked-list-elements](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0203-remove-linked-list-elements) |
 | [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0394-decode-string) |
