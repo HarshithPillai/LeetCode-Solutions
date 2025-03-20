@@ -1,33 +1,33 @@
 class Solution {
     public class DisjointSet {
-        List<Integer> parent, size, cost;
+        int[] parent, size, cost;
 
         public DisjointSet(int n) {
-            parent = new ArrayList();
-            size = new ArrayList<>();
-            cost = new ArrayList<>();
+            parent = new int[n];
+            size = new int[n];
+            cost = new int[n];
 
             for (int i = 0; i < n; i++) {
-                parent.add(i);
-                size.add(1);
-                cost.add(-1);
+                parent[i] = i;
+                size[i] = 1;
+                cost[i] = -1;
             }
         }
 
         public int findUPar(int node) {
-            int par = parent.get(node);
+            int par = parent[node];
             if (par != node) {
                 par = findUPar(par);
-                parent.set(node, par);
+                parent[node] = par;
             }
             return par;
         }
 
         public boolean unionBySize(int u, int v, int w) {
-            int uPar = findUPar(u), vPar = findUPar(v), sizeU = size.get(uPar), sizeV = size.get(vPar);
-            parent.set(vPar, uPar);
-            size.set(uPar, sizeU + sizeV);
-            cost.set(uPar, cost.get(uPar) & cost.get(vPar) & w);
+            int uPar = findUPar(u), vPar = findUPar(v), sizeU = size[uPar], sizeV = size[vPar];
+            parent[vPar] = uPar;
+            size[uPar] = sizeU + sizeV;
+            cost[uPar] = cost[uPar] & cost[vPar] & w;
             return true;
         }
     }
@@ -41,7 +41,7 @@ class Solution {
         for (int i = 0; i < m; i++) {
             int u = query[i][0], v = query[i][1], uPar = ds.findUPar(u), vPar = ds.findUPar(v);
             if (uPar == vPar) {
-                ans[i] = ds.cost.get(uPar);
+                ans[i] = ds.cost[uPar];
             } else {
                 ans[i] = -1;
             }
