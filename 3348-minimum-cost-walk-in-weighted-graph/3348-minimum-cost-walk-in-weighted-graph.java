@@ -1,15 +1,13 @@
 class Solution {
     public class DisjointSet {
-        int[] parent, size, cost;
+        int[] parent, cost;
 
         public DisjointSet(int n) {
             parent = new int[n];
-            size = new int[n];
             cost = new int[n];
 
             for (int i = 0; i < n; i++) {
                 parent[i] = i;
-                size[i] = 1;
                 cost[i] = -1;
             }
         }
@@ -24,9 +22,8 @@ class Solution {
         }
 
         public boolean unionBySize(int u, int v, int w) {
-            int uPar = findUPar(u), vPar = findUPar(v), sizeU = size[uPar], sizeV = size[vPar];
+            int uPar = findUPar(u), vPar = findUPar(v);
             parent[vPar] = uPar;
-            size[uPar] = sizeU + sizeV;
             cost[uPar] = cost[uPar] & cost[vPar] & w;
             return true;
         }
