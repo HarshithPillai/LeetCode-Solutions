@@ -30,11 +30,18 @@ class Solution {
     }
     public int[] minimumCost(int n, int[][] edges, int[][] query) {
         DisjointSet ds = new DisjointSet(n);
+        for (int[] edge : edges) {
+            int u = edge[0], v = edge[1], w = edge[2];
+            ds.unionBySize(u, v, w);
+        }
         int m = query.length, ans[] = new int[m];
-        for (int[] edge : edges) ds.unionBySize(edge[0], edge[1], edge[2]);
         for (int i = 0; i < m; i++) {
-            int uPar = ds.findUPar(query[i][0]), vPar = ds.findUPar(query[i][1]);
-            ans[i] = (uPar == vPar) ? ds.cost[uPar] : -1;
+            int u = query[i][0], v = query[i][1], uPar = ds.findUPar(u), vPar = ds.findUPar(v);
+            if (uPar == vPar) {
+                ans[i] = ds.cost[uPar];
+            } else {
+                ans[i] = -1;
+            }
         }
         return ans;
     }
