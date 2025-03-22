@@ -275,6 +275,7 @@ Description available for every problem in its Readme file.
 | [0200-number-of-islands](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0212-word-search-ii) |
 | [0217-contains-duplicate](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
+| [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
 | [0229-majority-element-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0407-trapping-rain-water-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
@@ -967,6 +968,7 @@ Description available for every problem in its Readme file.
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
 | [0239-sliding-window-maximum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
@@ -1003,6 +1005,7 @@ Description available for every problem in its Readme file.
 ## Divide and Conquer
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 ## Merge Sort
@@ -1083,6 +1086,7 @@ Description available for every problem in its Readme file.
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
 | [1511-count-number-of-teams](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 ## Sliding Window
 |  |
@@ -1347,11 +1351,13 @@ Description available for every problem in its Readme file.
 ## Segment Tree
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 ## Ordered Set
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
 | [0729-my-calendar-i](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 | [2413-smallest-number-in-infinite-set](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2413-smallest-number-in-infinite-set) |
@@ -1381,4 +1387,8 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [2201-valid-arrangement-of-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
+## Line Sweep
+|  |
+| ------- |
+| [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
 <!---LeetCode Topics End-->
