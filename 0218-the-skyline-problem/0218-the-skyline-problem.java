@@ -41,10 +41,14 @@ class Solution {
             if (map.isEmpty()) {
                 currHeight = 0;
                 ans.add(List.of(x, 0));
+                last = 0;
             } else {
                 int newHeight = -map.firstEntry().getKey();
                 if (newHeight != currHeight) {
-                    if (ans.size() == 0 || newHeight != ans.get(ans.size()-1).get(1)) ans.add(List.of(x, newHeight));
+                    if (newHeight != last) {
+                        ans.add(List.of(x, newHeight));
+                        last = newHeight;
+                    }
                     newHeight = currHeight;
                 }
             }
