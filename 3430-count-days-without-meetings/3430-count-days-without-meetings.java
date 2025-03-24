@@ -16,7 +16,6 @@ class Solution {
         int last = 0, ans = 0;
         for (int[] meet : meetings) {
             int s = meet[0], e = meet[1];
-            // System.out.println(s + " : " + e);
             if (s > last) {
                 ans += s - last - 1;
             }
