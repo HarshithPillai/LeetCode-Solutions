@@ -222,6 +222,7 @@ Description available for every problem in its Readme file.
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2155-find-missing-observations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2155-find-missing-observations) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2610-closest-prime-numbers-in-range](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2610-closest-prime-numbers-in-range) |
 | [2645-pass-the-pillow](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [2649-count-total-number-of-colored-cells](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2649-count-total-number-of-colored-cells) |
@@ -373,6 +374,7 @@ Description available for every problem in its Readme file.
 | [2107-find-unique-binary-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2155-find-missing-observations) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -600,6 +602,7 @@ Description available for every problem in its Readme file.
 | [1741-sort-array-by-increasing-frequency](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -923,6 +926,7 @@ Description available for every problem in its Readme file.
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2089-maximum-matrix-sum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
