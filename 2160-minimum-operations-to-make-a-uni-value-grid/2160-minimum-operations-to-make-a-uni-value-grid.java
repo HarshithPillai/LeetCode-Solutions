@@ -26,9 +26,8 @@ class Solution {
 
         int min = (int) 1e9;
         for (int i = 0; i < n; i++) {
-            int leftreq = (i > 0) ? i * arr[i] : 0, op = 0;
+            int leftreq = i * arr[i], op = 0, rightreq = (n - i - 1) * arr[i];
             if (leftreq > 0) op = (leftreq - prefix[i - 1]) / x;
-            int rightreq = (i < n - 1) ? (n - i - 1) * arr[i] : 0;
             if (rightreq > 0) op += (prefix[n-1] - prefix[i] - rightreq) / x;
             min = Math.min(min, op);
         }
