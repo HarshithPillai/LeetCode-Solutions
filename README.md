@@ -206,6 +206,7 @@ Description available for every problem in its Readme file.
 | [0263-ugly-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
+| [0396-rotate-function](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0396-rotate-function) |
 | [0564-find-the-closest-palindrome](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
@@ -279,6 +280,7 @@ Description available for every problem in its Readme file.
 | [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
 | [0229-majority-element-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0396-rotate-function](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0396-rotate-function) |
 | [0407-trapping-rain-water-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0455-assign-cookies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0455-assign-cookies) |
@@ -1068,6 +1070,7 @@ Description available for every problem in its Readme file.
 | [0241-different-ways-to-add-parentheses](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0338-counting-bits](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0338-counting-bits) |
+| [0396-rotate-function](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0396-rotate-function) |
 | [0650-2-keys-keyboard](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0664-strange-printer) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
