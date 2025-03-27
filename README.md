@@ -189,6 +189,7 @@ Description available for every problem in its Readme file.
 | [0143-reorder-list](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0203-remove-linked-list-elements](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0203-remove-linked-list-elements) |
+| [0382-linked-list-random-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0382-linked-list-random-node) |
 | [0432-all-oone-data-structure](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
@@ -206,6 +207,7 @@ Description available for every problem in its Readme file.
 | [0263-ugly-number](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
+| [0382-linked-list-random-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0382-linked-list-random-node) |
 | [0396-rotate-function](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0396-rotate-function) |
 | [0564-find-the-closest-palindrome](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
@@ -1405,4 +1407,12 @@ Description available for every problem in its Readme file.
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0218-the-skyline-problem) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0382-linked-list-random-node) |
+## Randomized
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/0382-linked-list-random-node) |
 <!---LeetCode Topics End-->
