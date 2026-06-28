@@ -253,6 +253,7 @@ Description available for every problem in its Readme file.
 | [2155-find-missing-observations](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2155-find-missing-observations) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2380-time-needed-to-rearrange-a-binary-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2380-time-needed-to-rearrange-a-binary-string) |
 | [2411-spiral-matrix-iv](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
@@ -529,6 +530,7 @@ Description available for every problem in its Readme file.
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2380-time-needed-to-rearrange-a-binary-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2380-time-needed-to-rearrange-a-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2470-removing-stars-from-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
@@ -1095,6 +1097,7 @@ Description available for every problem in its Readme file.
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2380-time-needed-to-rearrange-a-binary-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2380-time-needed-to-rearrange-a-binary-string) |
 | [2554-minimum-total-distance-traveled](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/HarshithPillai/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
